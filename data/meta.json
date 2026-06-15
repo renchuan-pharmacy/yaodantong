@@ -1,7 +1,7 @@
 {
   "total": 224404,
-  "updatedAt": "2026-06-15T00:35:58Z",
-  "source": "衛生福利部中央健康保險署",
-  "resourceId": "A21030000I-E41001-001",
-  "sizeMb": 53.4
+  "groups": 4434,
+  "pharmacyDrugs": 188,
+  "updatedAt": "2026-06-15T14:35:13Z",
+  "source": "衛生福利部中央健康保險署 + 藥局自建資料"
 }
