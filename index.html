@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         .sticker-box {
-            background-image: url('螢幕擷取畫面 2026-06-15 234321.jpg');
+            background-image: url('stickers.jpg');
             background-repeat: no-repeat;
             display: inline-block;
         }
-        /* 這裡幫你把整張貼圖切割成單獨顯示的區塊（CSS Sprite 技術） */
+        /* 貼圖精準切割定位 */
         .sticker-hi { width: 110px; height: 110px; background-position: -720px -240px; background-size: 960px auto; }
         .sticker-prescription { width: 120px; height: 120px; background-position: -240px -0px; background-size: 960px auto; }
         .sticker-solve { width: 110px; height: 110px; background-position: -480px -480px; background-size: 960px auto; }
@@ -57,7 +57,7 @@
                 </div>
             </label>
 
-            <!-- 照片預覽區域（拍完照會顯示在這裡） -->
+            <!-- 照片預覽區域 -->
             <div id="preview-container" class="hidden mt-4 pt-4 border-t border-slate-100 animate-fadeIn">
                 <p class="text-xs font-medium text-emerald-600 mb-2"><i class="fa-solid fa-circle-check"></i> 照片上傳成功！</p>
                 <img id="image-preview" src="#" alt="藥單預覽" class="max-h-60 mx-auto rounded-xl shadow-inner border">
@@ -79,7 +79,7 @@
                 </button>
             </div>
 
-            <!-- 查詢結果範例模板（預設顯示，方便小彌測試，後續可結合您現有的資料庫） -->
+            <!-- 查詢結果範例模板 -->
             <div class="mt-6 bg-gradient-to-br from-blue-50/50 to-indigo-50/30 rounded-2xl p-4 border border-blue-100/50">
                 <div class="flex justify-between items-start">
                     <h3 class="font-bold text-blue-900 text-base">💊 脈優錠 (Amlodipine)</h3>
@@ -114,12 +114,10 @@
 
     <!-- 底部固定行動呼籲區 (Sticky CTA) -->
     <div class="fixed bottom-0 left-0 right-0 max-w-md mx-auto bg-white/90 backdrop-blur-md shadow-lg border-t border-slate-100 p-3 flex space-x-2 z-50">
-        <!-- LINE 諮詢按鈕（已完美串接小彌藥師 LINE ID: @179ewiti） -->
         <a href="https://line.me/R/ti/p/%40179ewiti" target="_blank" class="flex-1 bg-[#06C755] hover:bg-[#05b04b] text-white rounded-xl py-3 px-4 flex items-center justify-center space-x-2 shadow-md font-bold text-sm transition-all active:scale-95">
             <i class="fa-brands fa-line text-lg"></i>
             <span>LINE問小彌藥師 (@179ewiti)</span>
         </a>
-        <!-- 付費專業解析按鈕 -->
         <a href="#" class="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white rounded-xl py-3 px-4 flex items-center justify-center space-x-2 shadow-md font-bold text-sm transition-all active:scale-95">
             <i class="fa-solid fa-credit-card"></i>
             <span>付費深度解析</span>
