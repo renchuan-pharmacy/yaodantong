@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>藥單通｜仁川藥局專業藥師服務</title>
+<title>小彌藥師｜專業藥師服務</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;}
 body{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC","Microsoft JhengHei",sans-serif;background:#f0f2f5;color:#1a1a2e;min-height:100vh;}
@@ -12,6 +12,7 @@ header h1{font-size:17px;font-weight:700;color:#1a6b4a;}
 header span{font-size:12px;color:#aaa;margin-left:auto;}
 .container{max-width:560px;margin:0 auto;padding:16px 14px 80px;}
 .hero{text-align:center;padding:20px 0 16px;}
+.hero-img{width:90px;height:90px;border-radius:50%;margin:0 auto 10px;display:block;object-fit:cover;}
 .hero h2{font-size:24px;font-weight:700;margin-bottom:4px;}
 .hero p{font-size:13px;color:#666;}
 .badge{display:inline-block;background:#e8f5ee;color:#1a6b4a;font-size:12px;padding:4px 14px;border-radius:20px;margin-top:8px;font-weight:600;}
@@ -29,12 +30,16 @@ header span{font-size:12px;color:#aaa;margin-left:auto;}
 .drug-hero h3{font-size:22px;font-weight:800;line-height:1.3;margin-bottom:4px;}
 .drug-hero .en{font-size:13px;opacity:0.85;}
 .drug-hero .cat{display:inline-block;background:rgba(255,255,255,0.2);font-size:12px;padding:3px 10px;border-radius:20px;margin-top:6px;}
+.drug-hero .nhi-code{font-size:11px;opacity:0.7;margin-top:6px;}
 .section-card{background:#fff;border-radius:16px;padding:18px;margin-bottom:12px;box-shadow:0 1px 6px rgba(0,0,0,0.05);}
 .section-label{font-size:13px;font-weight:700;color:#1a6b4a;margin-bottom:10px;}
 .section-content{font-size:15px;color:#222;line-height:1.8;}
 .dose-box{background:#e8f5ee;border-radius:12px;padding:12px 16px;display:flex;align-items:center;gap:12px;margin-top:10px;}
 .dose-box .text{font-size:15px;font-weight:700;color:#1a6b4a;}
 .dose-count{font-size:18px;font-weight:800;color:#1a6b4a;margin-top:8px;}
+.how-to-box{background:#fff8e1;border-radius:12px;padding:14px 16px;margin-top:10px;border-left:4px solid #f9a825;}
+.how-to-title{font-size:13px;font-weight:700;color:#f57f17;margin-bottom:6px;}
+.how-to-content{font-size:14px;color:#444;line-height:1.8;}
 .red-header{background:#c0392b;border-radius:16px 16px 0 0;padding:14px 18px;}
 .red-header span{font-size:15px;font-weight:700;color:#fff;}
 .red-body{background:#fff;border-radius:0 0 16px 16px;padding:16px 18px;margin-bottom:12px;box-shadow:0 1px 6px rgba(0,0,0,0.05);}
@@ -81,41 +86,43 @@ header span{font-size:12px;color:#aaa;margin-left:auto;}
 .api-tag-gray{background:#f0f2f5;color:#666;}
 .loading{text-align:center;padding:24px;color:#888;font-size:14px;}
 .loading-icon{font-size:32px;display:block;margin-bottom:8px;}
-.ai-badge{display:inline-block;background:#e8f5ee;color:#1a6b4a;font-size:11px;padding:2px 8px;border-radius:10px;font-weight:600;margin-left:8px;}
+.ai-badge{display:inline-block;background:rgba(255,255,255,0.2);font-size:11px;padding:2px 8px;border-radius:10px;font-weight:600;margin-left:8px;}
+.dosage-type-badge{display:inline-block;background:rgba(255,255,255,0.15);font-size:11px;padding:2px 10px;border-radius:20px;margin-top:4px;margin-right:6px;}
 </style>
 </head>
 <body>
 <header>
   <span style="font-size:22px;">💊</span>
-  <h1>藥單通｜專業藥師服務</h1>
-  <span>仁川藥局</span>
+  <h1>小彌藥師｜藥品查詢</h1>
+  <span>專業藥師服務</span>
 </header>
 <div class="container">
   <div class="hero">
+    <img class="hero-img" src="https://i.imgur.com/placeholder.png" onerror="this.style.display='none'" alt="小彌藥師">
     <h2>健保藥品查詢</h2>
-    <p>輸入藥名，立即查看完整說明</p>
+    <p>小彌藥師 · 輸入藥名立即查看完整說明</p>
     <span class="badge">✅ 完全免費 · 22萬筆健保藥品</span>
   </div>
   <div class="search-card">
     <label>📋 請輸入藥品名稱（中文或英文均可）</label>
     <div class="search-row">
-      <input type="text" id="drugInput" placeholder="例：脈優、冠脂妥、克流感..." />
+      <input type="text" id="drugInput" placeholder="例：脈優、克流感、猛健樂..." />
       <button onclick="searchDrug()">查詢</button>
     </div>
     <div class="quick-tags">
       <span class="tag" onclick="qs('脈優')">脈優</span>
       <span class="tag" onclick="qs('冠脂妥')">冠脂妥</span>
-      <span class="tag" onclick="qs('立普妥')">立普妥</span>
+      <span class="tag" onclick="qs('克流感')">克流感</span>
       <span class="tag" onclick="qs('耐適恩')">耐適恩</span>
       <span class="tag" onclick="qs('普拿疼')">普拿疼</span>
+      <span class="tag" onclick="qs('猛健樂')">猛健樂💉</span>
       <span class="tag" onclick="qs('福適佳')">福適佳</span>
-      <span class="tag" onclick="qs('克流感')">克流感</span>
       <span class="tag" onclick="qs('阿斯匹靈')">阿斯匹靈</span>
       <span class="tag" onclick="qs('使蒂諾斯')">使蒂諾斯</span>
       <span class="tag" onclick="qs('活路利淨')">活路利淨</span>
       <span class="tag" onclick="qs('心得靜')">心得靜</span>
       <span class="tag" onclick="qs('瑪爾胰')">瑪爾胰</span>
-      <span class="tag" onclick="qs('諾和銳')">諾和銳</span>
+      <span class="tag" onclick="qs('諾和銳')">諾和銳💉</span>
       <span class="tag" onclick="qs('得安穩')">得安穩</span>
     </div>
   </div>
@@ -132,37 +139,6 @@ header span{font-size:12px;color:#aaa;margin-left:auto;}
 const API_URL = 'https://yaodantong-api.nezukopink0711.workers.dev';
 const DB_URL = 'https://raw.githubusercontent.com/renchuan-pharmacy/yaodantong/main/data/drug_db.json';
 
-// 內建精選藥品（有詳細說明）
-const DB = {
-  '脈優':{'name':'脈優（Norvasc）','en':'Amlodipine Besylate','icon':'❤️','cat':'鈣離子阻斷劑・降血壓藥','what':'這是一種降血壓藥，幫助放鬆血管、降低血壓，也可以預防心絞痛發作。血壓高的患者每天固定服用，可以減少中風和心臟病的風險。','when':'飯前或飯後均可','dose':'每天一次，每次1顆','warnings':['懷孕或哺乳中請告知醫師','不可突然自行停藥','服藥初期可能頭暈，起身要慢'],'emergency':['臉部、嘴唇、舌頭突然腫脹','嚴重頭痛或視力模糊','心跳突然很快或很慢'],'sideEffects':['腳踝水腫','臉部潮紅、發熱感','頭痛、頭暈'],'tips':['每天固定同一時間服藥效果最好','血壓計定期量測，記錄下來給醫師看','不可吃葡萄柚或喝葡萄柚汁'],'interactions':['葡萄柚汁會增強藥效，請避免','與其他降血壓藥合用需注意'],'supplements':[{'icon':'🐟','name':'魚油 Omega-3','reason':'幫助維護血管彈性，輔助心血管保健'},{'icon':'🌿','name':'輔酶Q10','reason':'維持心肌能量，改善血管功能'}]},
-  'norvasc':{'alias':'脈優'},'amlodipine':{'alias':'脈優'},
-  '冠脂妥':{'name':'冠脂妥（Crestor）','en':'Rosuvastatin','icon':'🩸','cat':'史他汀類・降血脂藥','what':'這是降膽固醇藥，幫助降低壞的膽固醇（LDL），預防心臟病和中風。每天晚上服用效果最好，因為膽固醇在夜間合成最旺盛。','when':'晚上睡前服用','dose':'每天一次，每次1顆','warnings':['懷孕或哺乳絕對不能吃','若出現不明原因肌肉痠痛請立即告知','不可自行停藥'],'emergency':['肌肉突然嚴重疼痛或無力','尿液變成深褐色（像可樂）','黃疸（皮膚或眼白變黃）'],'sideEffects':['肌肉痠痛','頭痛','腸胃不適'],'tips':['晚上固定時間服藥','定期回診抽血檢查肝功能和膽固醇','少吃油炸、高油脂食物配合效果更好'],'interactions':['葡萄柚汁會增強藥效，請避免','與某些抗生素合用需注意'],'supplements':[{'icon':'🌿','name':'輔酶Q10','reason':'史他汀類藥物可能降低Q10，補充有助於維持肌肉功能'},{'icon':'🐟','name':'魚油 Omega-3','reason':'進一步降低三酸甘油酯，全面保護心血管'}]},
-  'crestor':{'alias':'冠脂妥'},'rosuvastatin':{'alias':'冠脂妥'},
-  '立普妥':{'name':'立普妥（Lipitor）','en':'Atorvastatin','icon':'🩸','cat':'史他汀類・降血脂藥','what':'這是最常用的降膽固醇藥之一，幫助降低壞膽固醇和三酸甘油酯，預防心臟病發作和中風。','when':'任何時間均可，固定時間最好','dose':'每天一次，每次1顆','warnings':['懷孕或哺乳不能服用','肌肉痠痛要立即告知醫師','定期回診抽血檢查'],'emergency':['肌肉突然嚴重無力','尿液變深褐色','皮膚或眼白變黃'],'sideEffects':['肌肉痠痛','腸胃不適','頭痛'],'tips':['固定每天同一時間服藥','少吃油炸食物效果更好','每3-6個月回診抽血追蹤'],'interactions':['葡萄柚汁請避免','與某些藥物合用需調整劑量'],'supplements':[{'icon':'🌿','name':'輔酶Q10','reason':'補充因史他汀藥物可能耗損的Q10'},{'icon':'🫐','name':'植物固醇','reason':'輔助進一步降低膽固醇吸收'}]},
-  'lipitor':{'alias':'立普妥'},'atorvastatin':{'alias':'立普妥'},
-  '福適佳':{'name':'福適佳（Forxiga）','en':'Dapagliflozin','icon':'🍬','cat':'SGLT2抑制劑・糖尿病用藥','what':'這是糖尿病藥，透過讓腎臟把多餘的糖從尿液排出來降低血糖。除了控制血糖，也對心臟和腎臟有保護作用。','when':'早上，飯前或飯後均可','dose':'每天一次，每次1顆','warnings':['服藥後尿液含糖，注意私密處清潔避免感染','不可用於第一型糖尿病','腎功能不好者需調整或停用'],'emergency':['生殖器或會陰部紅腫疼痛','噁心嘔吐合併腹痛（可能酮酸中毒）','嚴重脫水症狀'],'sideEffects':['泌尿道感染','私密處黴菌感染','排尿增加'],'tips':['多喝水，每天至少8杯','注意私密處衛生','規律監測血糖'],'interactions':['與胰島素合用需注意低血糖','利尿劑合用可能加重脫水'],'supplements':[{'icon':'🌿','name':'苦瓜萃取','reason':'輔助血糖穩定，天然降糖成分'},{'icon':'💊','name':'鉻補充品','reason':'幫助胰島素發揮作用，穩定血糖'}]},
-  'forxiga':{'alias':'福適佳'},'dapagliflozin':{'alias':'福適佳'},
-  '耐適恩':{'name':'耐適恩（Nexium）','en':'Esomeprazole','icon':'🫃','cat':'氫離子幫浦抑制劑・胃藥','what':'這是強效胃藥，抑制胃酸分泌，用於治療胃食道逆流、胃潰瘍、十二指腸潰瘍。','when':'飯前30-60分鐘服用效果最好','dose':'每天一次，每次1顆','warnings':['長期服用需定期評估','可能影響鈣和鎂的吸收','不可自行長期服用超過8週'],'emergency':['吐血或大便變黑','嚴重腹痛','持續嘔吐無法進食'],'sideEffects':['頭痛','腹瀉或便秘','長期服用可能影響骨密度'],'tips':['飯前服用效果更好','少吃辛辣、咖啡、油炸食物','睡前2小時不要吃東西'],'interactions':['與某些抗生素合用可殺幽門螺旋桿菌','可能影響某些藥物的吸收'],'supplements':[{'icon':'🦠','name':'益生菌','reason':'維護腸道好菌平衡，改善腸胃不適'},{'icon':'🌿','name':'蘆薈萃取','reason':'舒緩胃黏膜，輔助消化道健康'}]},
-  'nexium':{'alias':'耐適恩'},'esomeprazole':{'alias':'耐適恩'},
-  '普拿疼':{'name':'普拿疼（Panadol）','en':'Acetaminophen','icon':'🤕','cat':'非鴉片類止痛退燒藥','what':'這是最常用的止痛退燒藥，對頭痛、牙痛、肌肉痠痛、感冒發燒都有效。胃不好的患者也可以服用，因為不傷胃。','when':'需要時服用，飯前飯後均可','dose':'每次1-2顆，每4-6小時可重複服用一次','warnings':['24小時內不超過8顆（成人）','不可與含酒精飲料同服','肝功能不好者需減量'],'emergency':['服用後皮膚起疹、呼吸困難','黃疸（皮膚或眼睛變黃）','服用過量請立即就醫'],'sideEffects':['過量可能傷肝','極少數過敏反應'],'tips':['注意其他感冒藥可能也含此成分，避免重複','退燒時多補充水分','高燒超過38.5度請就醫'],'interactions':['含acetaminophen的其他藥物不可同時服用'],'supplements':[{'icon':'🍊','name':'維生素C','reason':'增強免疫力，加速感冒恢復'}]},
-  'panadol':{'alias':'普拿疼'},'acetaminophen':{'alias':'普拿疼'},
-  '阿斯匹靈':{'name':'阿斯匹靈（Aspirin）','en':'Aspirin','icon':'❤️','cat':'抗血小板藥・止痛退燒藥','what':'低劑量阿斯匹靈用於預防心臟病發作和中風。每天固定服用可以抑制血小板凝集，避免血栓形成。','when':'飯後服用','dose':'保心用：每天一次75-100mg','warnings':['胃潰瘍患者需謹慎','手術前需告知醫師','不可給16歲以下孩子服用'],'emergency':['吐血或大便變黑','嚴重胃痛','呼吸困難、起疹子'],'sideEffects':['胃部不適','容易瘀青','長期可能胃出血'],'tips':['飯後服用減少胃部刺激','固定時間每天服用','不可自行停藥'],'interactions':['與抗凝血藥合用需小心','布洛芬可能降低保心效果'],'supplements':[{'icon':'🐟','name':'魚油 Omega-3','reason':'協同保護心血管'}]},
-  'aspirin':{'alias':'阿斯匹靈'},
-  '使蒂諾斯':{'name':'使蒂諾斯（Stilnox）','en':'Zolpidem','icon':'😴','cat':'非苯二氮平類・安眠藥','what':'這是短效安眠藥，幫助入睡困難的患者快速入睡。只建議短期使用，通常不超過4週。','when':'睡前立即服用','dose':'每晚一次，每次1顆','warnings':['服用後必須馬上躺下','不可開車或操作機械','不可與酒精同服'],'emergency':['夢遊或睡眠行為異常','記憶喪失','嚴重過敏反應'],'sideEffects':['隔天頭暈','夢遊（罕見）','記憶力短暫影響'],'tips':['只在真的睡不著時服用','睡前關掉手機','不可突然停藥'],'interactions':['酒精絕對不可同服','鎮靜劑合用需注意'],'supplements':[{'icon':'🌙','name':'褪黑激素','reason':'天然調節睡眠節律'}]},
-  'stilnox':{'alias':'使蒂諾斯'},'zolpidem':{'alias':'使蒂諾斯'},
-  '活路利淨':{'name':'活路利淨（Jardiance）','en':'Empagliflozin','icon':'🍬','cat':'SGLT2抑制劑・糖尿病用藥','what':'這是糖尿病藥，幫助從尿液排出多餘的糖來降血糖。有大型研究證實可以減少糖尿病患者的心臟病死亡率。','when':'早上，飯前或飯後均可','dose':'每天一次，每次1顆','warnings':['注意私密處衛生','不適用於第一型糖尿病','腎功能不好者需評估'],'emergency':['私密處嚴重紅腫','噁心嘔吐合併腹痛','嚴重脫水'],'sideEffects':['泌尿道感染','黴菌感染','輕微低血壓'],'tips':['多補充水分','注意私密處清潔','定期監測血糖'],'interactions':['與胰島素合用注意低血糖'],'supplements':[{'icon':'🌿','name':'苦瓜萃取','reason':'天然輔助血糖控制'}]},
-  'jardiance':{'alias':'活路利淨'},
-  '心得靜':{'name':'心得靜（Inderal）','en':'Propranolol HCl','icon':'💓','cat':'乙型阻斷劑・心臟用藥','what':'這是心臟藥，幫助控制心跳速度、降低血壓，也用於預防偏頭痛。','when':'飯前服用','dose':'依醫師處方，通常每天2-3次','warnings':['絕對不可突然停藥','氣喘患者請告知醫師','糖尿病患者可能掩蓋低血糖'],'emergency':['心跳突然很慢','嚴重氣喘發作','四肢冰冷且發紫'],'sideEffects':['疲倦、手腳冰冷','頭暈','男性可能影響性功能'],'tips':['每天固定時間服藥','量脈搏，若低於60下告知藥師'],'interactions':['不可與某些氣喘藥同用'],'supplements':[{'icon':'🌿','name':'輔酶Q10','reason':'支持心肌能量代謝'}]},
-  'inderal':{'alias':'心得靜'},'propranolol':{'alias':'心得靜'},
-  '瑪爾胰':{'name':'瑪爾胰（Metformin）','en':'Metformin HCl','icon':'🍬','cat':'雙胍類・糖尿病第一線用藥','what':'這是最常用的糖尿病藥，幫助讓身體細胞對胰島素更敏感，降低血糖。不會讓血糖降太低，是第一線首選藥物。','when':'飯中或飯後服用','dose':'依醫師處方，通常每天2-3次','warnings':['腎功能不好者需減量','手術前請告知醫師'],'emergency':['持續噁心嘔吐腹痛','呼吸急促有異味','嚴重疲倦感'],'sideEffects':['腸胃不適、噁心','腹瀉','長期可能影響B12吸收'],'tips':['飯中服用減少腸胃副作用','長期服用補充維生素B12'],'interactions':['顯影劑注射前後需停藥'],'supplements':[{'icon':'💊','name':'維生素B12','reason':'長期服用可能降低B12吸收'}]},
-  'metformin':{'alias':'瑪爾胰'},
-  '諾和銳':{'name':'諾和銳（NovoRapid）','en':'Insulin Aspart','icon':'💉','cat':'速效胰島素','what':'這是速效胰島素，用於飯前注射來控制飯後血糖上升。注射後15分鐘內就開始作用。','when':'飯前15分鐘內注射','dose':'依醫師指示的單位數','warnings':['注射後必須馬上吃飯','低血糖時立即補充葡萄糖'],'emergency':['手抖冒冷汗心跳快（低血糖）','意識不清或昏迷'],'sideEffects':['注射部位紅腫','低血糖','體重增加'],'tips':['隨身攜帶葡萄糖錠','固定旋轉注射部位'],'interactions':['酒精會加重低血糖風險'],'supplements':[{'icon':'💊','name':'鉻補充品','reason':'改善胰島素敏感性'}]},
-  'novorapid':{'alias':'諾和銳'},
-  '得安穩':{'name':'得安穩（Domperidone）','en':'Domperidone','icon':'🫃','cat':'腸胃蠕動促進劑','what':'促進腸胃蠕動，改善噁心、嘔吐、胃脹氣等症狀。','when':'飯前15-30分鐘服用','dose':'每天3次，每次1顆','warnings':['心臟病患者使用需謹慎','不建議長期大量使用'],'emergency':['心跳不規則','嚴重腹痛'],'sideEffects':['口乾','頭痛'],'tips':['飯前服用效果最佳','少量多餐'],'interactions':['某些心臟藥合用需注意'],'supplements':[{'icon':'🦠','name':'益生菌','reason':'改善腸道菌叢'}]},
-  'domperidone':{'alias':'得安穩'},
-};
-
-// AI生成藥品快取
 let aiDrugDB = null;
 let aiDBLoaded = false;
 
@@ -170,15 +146,43 @@ async function loadAiDB() {
   if (aiDBLoaded) return aiDrugDB;
   try {
     const resp = await fetch(DB_URL + '?t=' + Date.now());
-    if (resp.ok) {
-      aiDrugDB = await resp.json();
-    }
-  } catch(e) {
-    aiDrugDB = {};
-  }
+    if (resp.ok) aiDrugDB = await resp.json();
+  } catch(e) { aiDrugDB = {}; }
   aiDBLoaded = true;
   return aiDrugDB;
 }
+
+// 內建精選藥品
+const DB = {
+  '脈優':{'name':'脈優（Norvasc）','en':'Amlodipine Besylate','icon':'❤️','cat':'鈣離子阻斷劑・降血壓藥','dosageType':'口服','nhiCode':'','what':'這是一種降血壓藥，幫助放鬆血管、降低血壓，也可以預防心絞痛發作。','when':'飯前或飯後均可','dose':'每天一次，每次1顆','howToUse':'','warnings':['懷孕或哺乳中請告知醫師','不可突然自行停藥','服藥初期可能頭暈，起身要慢'],'emergency':['臉部嘴唇舌頭突然腫脹','嚴重頭痛或視力模糊','心跳突然很快或很慢'],'sideEffects':['腳踝水腫','臉部潮紅發熱感','頭痛頭暈'],'tips':['每天固定同一時間服藥','血壓計定期量測記錄','不可吃葡萄柚或喝葡萄柚汁'],'interactions':['葡萄柚汁會增強藥效請避免','與其他降血壓藥合用需注意'],'supplements':[{'icon':'🐟','name':'魚油 Omega-3','reason':'幫助維護血管彈性'},{'icon':'🌿','name':'輔酶Q10','reason':'維持心肌能量'}]},
+  'norvasc':{'alias':'脈優'},'amlodipine':{'alias':'脈優'},
+  '得安穩':{'name':'得安穩（Norvasc 5mg）','en':'Amlodipine Besylate 5mg','icon':'❤️','cat':'鈣離子阻斷劑・降血壓藥','dosageType':'口服','nhiCode':'','what':'得安穩是降血壓藥（氨氯地平），幫助放鬆血管、降低血壓，預防心絞痛。每天固定服用可減少中風和心臟病風險。','when':'飯前或飯後均可，固定時間最好','dose':'每天一次，每次1顆（5mg）','howToUse':'','warnings':['不可突然自行停藥','懷孕或哺乳中請告知醫師','服藥初期起身要慢避免頭暈'],'emergency':['臉部嘴唇突然腫脹','嚴重頭痛視力模糊','心跳異常'],'sideEffects':['腳踝水腫','臉部潮紅','頭痛'],'tips':['每天固定時間服藥效果最好','定期量血壓並記錄','避免吃葡萄柚'],'interactions':['與其他降血壓藥合用需注意','葡萄柚汁可能增強藥效'],'supplements':[{'icon':'🐟','name':'魚油 Omega-3','reason':'輔助心血管保健'},{'icon':'🌿','name':'輔酶Q10','reason':'維持心肌能量'}]},
+  'domperidone':{'alias':'得安穩'},
+  '猛健樂':{'name':'猛健樂（Mounjaro）','en':'Tirzepatide','icon':'💉','cat':'GIP/GLP-1雙重受體促效劑・降血糖/減重針','dosageType':'針劑','nhiCode':'','what':'猛健樂是每週一次的皮下注射針劑，同時作用於GIP和GLP-1兩種受體，可降低血糖並有效減重。是目前最新一代的糖尿病和肥胖治療藥物。','when':'每週固定同一天注射，任何時間均可','dose':'從2.5mg起始，每4週增加2.5mg，最高15mg/週','howToUse':'1. 從冰箱取出後回溫至室溫（約30分鐘）\n2. 選擇腹部、大腿或上臂外側注射\n3. 每次換不同注射點，同一部位間隔至少3公分\n4. 捏起皮膚，以90度角注射\n5. 注射後按壓10秒，不要揉\n6. 未開封存於冰箱（2-8°C），開封後室溫可存放21天','warnings':['有甲狀腺髓樣癌病史或家族史禁用','胰臟炎病史患者需告知醫師','懷孕期間不建議使用','不可用於第一型糖尿病'],'emergency':['嚴重腹痛且持續（可能胰臟炎）','頸部腫塊或聲音嘶啞','嚴重過敏反應（呼吸困難、臉腫）','低血糖症狀（頭暈冒汗心跳快）'],'sideEffects':['噁心（最常見，通常數週後改善）','嘔吐、腹瀉','食慾下降','注射部位紅腫'],'tips':['從最低劑量開始，慢慢增加','注射前後可冷敷減少不適','噁心時少量多餐、避免油膩','固定每週同一天注射，方便記憶'],'interactions':['與胰島素合用需監測低血糖','口服避孕藥效果可能受影響，建議使用其他避孕方式'],'supplements':[{'icon':'🌿','name':'薑萃取物','reason':'幫助緩解噁心副作用'},{'icon':'💊','name':'維生素B12','reason':'體重減輕可能影響B12吸收'}]},
+  'mounjaro':{'alias':'猛健樂'},'tirzepatide':{'alias':'猛健樂'},
+  '冠脂妥':{'name':'冠脂妥（Crestor）','en':'Rosuvastatin','icon':'🩸','cat':'史他汀類・降血脂藥','dosageType':'口服','nhiCode':'','what':'降膽固醇藥，幫助降低壞的膽固醇（LDL），預防心臟病和中風。','when':'晚上睡前服用','dose':'每天一次，每次1顆','howToUse':'','warnings':['懷孕或哺乳絕對不能吃','肌肉痠痛要立即告知','不可自行停藥'],'emergency':['肌肉突然嚴重疼痛無力','尿液變深褐色','黃疸'],'sideEffects':['肌肉痠痛','頭痛','腸胃不適'],'tips':['晚上固定時間服藥','定期抽血追蹤','少吃油炸食物'],'interactions':['葡萄柚汁請避免'],'supplements':[{'icon':'🌿','name':'輔酶Q10','reason':'補充可能耗損的Q10'},{'icon':'🐟','name':'魚油 Omega-3','reason':'降低三酸甘油酯'}]},
+  'crestor':{'alias':'冠脂妥'},'rosuvastatin':{'alias':'冠脂妥'},
+  '立普妥':{'name':'立普妥（Lipitor）','en':'Atorvastatin','icon':'🩸','cat':'史他汀類・降血脂藥','dosageType':'口服','nhiCode':'','what':'最常用的降膽固醇藥之一，預防心臟病發作和中風。','when':'任何時間均可，固定時間最好','dose':'每天一次，每次1顆','howToUse':'','warnings':['懷孕不能服用','肌肉痠痛告知醫師'],'emergency':['肌肉突然無力','尿液變深'],'sideEffects':['肌肉痠痛','腸胃不適'],'tips':['固定時間服藥','少吃油炸'],'interactions':['葡萄柚汁請避免'],'supplements':[{'icon':'🌿','name':'輔酶Q10','reason':'補充耗損的Q10'}]},
+  'lipitor':{'alias':'立普妥'},'atorvastatin':{'alias':'立普妥'},
+  '福適佳':{'name':'福適佳（Forxiga）','en':'Dapagliflozin','icon':'🍬','cat':'SGLT2抑制劑・糖尿病用藥','dosageType':'口服','nhiCode':'','what':'糖尿病藥，透過腎臟把多餘的糖從尿液排出降低血糖，也對心臟和腎臟有保護作用。','when':'早上，飯前或飯後均可','dose':'每天一次，每次1顆','howToUse':'','warnings':['注意私密處清潔避免感染','不可用於第一型糖尿病'],'emergency':['私密處紅腫疼痛','噁心嘔吐腹痛'],'sideEffects':['泌尿道感染','黴菌感染'],'tips':['多喝水','注意私密處衛生'],'interactions':['與胰島素合用注意低血糖'],'supplements':[{'icon':'🌿','name':'苦瓜萃取','reason':'輔助血糖穩定'}]},
+  'forxiga':{'alias':'福適佳'},'dapagliflozin':{'alias':'福適佳'},
+  '耐適恩':{'name':'耐適恩（Nexium）','en':'Esomeprazole','icon':'🫃','cat':'氫離子幫浦抑制劑・胃藥','dosageType':'口服','nhiCode':'','what':'強效胃藥，抑制胃酸分泌，治療胃食道逆流、胃潰瘍。','when':'飯前30-60分鐘','dose':'每天一次，每次1顆','howToUse':'','warnings':['長期服用需定期評估','不可自行超過8週'],'emergency':['吐血或大便變黑','嚴重腹痛'],'sideEffects':['頭痛','腹瀉或便秘'],'tips':['飯前服用效果更好','少吃辛辣咖啡'],'interactions':['可能影響某些藥物吸收'],'supplements':[{'icon':'🦠','name':'益生菌','reason':'維護腸道好菌'}]},
+  'nexium':{'alias':'耐適恩'},'esomeprazole':{'alias':'耐適恩'},
+  '普拿疼':{'name':'普拿疼（Panadol）','en':'Acetaminophen','icon':'🤕','cat':'止痛退燒藥','dosageType':'口服','nhiCode':'','what':'最常用的止痛退燒藥，頭痛牙痛肌肉痠痛發燒都有效，不傷胃。','when':'需要時服用','dose':'每次1-2顆，每4-6小時一次','howToUse':'','warnings':['24小時不超過8顆','不可與酒精同服'],'emergency':['黃疸','服用過量立即就醫'],'sideEffects':['過量傷肝'],'tips':['注意其他感冒藥是否含同成分'],'interactions':['含acetaminophen藥物不可同時服用'],'supplements':[{'icon':'🍊','name':'維生素C','reason':'增強免疫力'}]},
+  'panadol':{'alias':'普拿疼'},'acetaminophen':{'alias':'普拿疼'},
+  '阿斯匹靈':{'name':'阿斯匹靈（Aspirin）','en':'Aspirin','icon':'❤️','cat':'抗血小板藥','dosageType':'口服','nhiCode':'','what':'低劑量用於預防心臟病和中風，抑制血小板凝集避免血栓。','when':'飯後服用','dose':'保心用：每天一次75-100mg','howToUse':'','warnings':['胃潰瘍患者謹慎','不可給16歲以下'],'emergency':['吐血或大便變黑'],'sideEffects':['胃部不適','容易瘀青'],'tips':['飯後服用減少胃刺激'],'interactions':['與抗凝血藥合用需小心'],'supplements':[{'icon':'🐟','name':'魚油 Omega-3','reason':'協同保護心血管'}]},
+  'aspirin':{'alias':'阿斯匹靈'},
+  '使蒂諾斯':{'name':'使蒂諾斯（Stilnox）','en':'Zolpidem','icon':'😴','cat':'安眠藥','dosageType':'口服','nhiCode':'','what':'短效安眠藥，幫助入睡，只建議短期使用不超過4週。','when':'睡前立即服用','dose':'每晚一次1顆','howToUse':'','warnings':['服用後必須馬上躺下','不可開車','不可與酒精同服'],'emergency':['夢遊','記憶喪失'],'sideEffects':['隔天頭暈'],'tips':['只在真的睡不著時服用','不可突然停藥'],'interactions':['酒精絕對不可同服'],'supplements':[{'icon':'🌙','name':'褪黑激素','reason':'天然調節睡眠'}]},
+  'stilnox':{'alias':'使蒂諾斯'},'zolpidem':{'alias':'使蒂諾斯'},
+  '活路利淨':{'name':'活路利淨（Jardiance）','en':'Empagliflozin','icon':'🍬','cat':'SGLT2抑制劑・糖尿病用藥','dosageType':'口服','nhiCode':'','what':'糖尿病藥，從尿液排出多餘的糖降低血糖，可減少心臟病死亡率。','when':'早上，飯前或飯後','dose':'每天一次1顆','howToUse':'','warnings':['注意私密處衛生','不適用第一型糖尿病'],'emergency':['私密處嚴重紅腫','噁心嘔吐腹痛'],'sideEffects':['泌尿道感染','黴菌感染'],'tips':['多補充水分'],'interactions':['與胰島素合用注意低血糖'],'supplements':[{'icon':'🌿','name':'苦瓜萃取','reason':'天然輔助血糖控制'}]},
+  'jardiance':{'alias':'活路利淨'},
+  '心得靜':{'name':'心得靜（Inderal）','en':'Propranolol HCl','icon':'💓','cat':'乙型阻斷劑・心臟用藥','dosageType':'口服','nhiCode':'','what':'心臟藥，控制心跳速度、降低血壓，也用於預防偏頭痛。','when':'飯前服用','dose':'依醫師處方，通常每天2-3次','howToUse':'','warnings':['絕對不可突然停藥','氣喘患者告知醫師'],'emergency':['心跳突然很慢','嚴重氣喘'],'sideEffects':['疲倦手腳冰冷','頭暈'],'tips':['每天固定時間','量脈搏若低於60下告知'],'interactions':['不可與某些氣喘藥同用'],'supplements':[{'icon':'🌿','name':'輔酶Q10','reason':'支持心肌能量'}]},
+  'inderal':{'alias':'心得靜'},'propranolol':{'alias':'心得靜'},
+  '瑪爾胰':{'name':'瑪爾胰（Metformin）','en':'Metformin HCl','icon':'🍬','cat':'雙胍類・糖尿病第一線用藥','dosageType':'口服','nhiCode':'','what':'最常用的糖尿病藥，讓身體對胰島素更敏感，不會讓血糖降太低。','when':'飯中或飯後','dose':'依醫師處方，通常每天2-3次','howToUse':'','warnings':['腎功能不好者需減量','手術前告知醫師'],'emergency':['持續噁心嘔吐腹痛','呼吸急促有異味'],'sideEffects':['腸胃不適','腹瀉'],'tips':['飯中服用減少副作用','長期補充B12'],'interactions':['顯影劑注射前後需停藥'],'supplements':[{'icon':'💊','name':'維生素B12','reason':'長期服用可能降低B12'}]},
+  'metformin':{'alias':'瑪爾胰'},
+  '諾和銳':{'name':'諾和銳（NovoRapid）','en':'Insulin Aspart','icon':'💉','cat':'速效胰島素','dosageType':'針劑','nhiCode':'','what':'速效胰島素，飯前注射控制飯後血糖，15分鐘內開始作用。','when':'飯前15分鐘內注射','dose':'依醫師指示的單位數','howToUse':'1. 注射前確認劑量\n2. 選擇腹部、大腿或上臂\n3. 每次旋轉注射點，避免同一點重複\n4. 捏起皮膚90度角注射\n5. 注射後計算10秒再拔出\n6. 開封後室溫可存放28天','warnings':['注射後必須馬上吃飯','低血糖時立即補充葡萄糖','旋轉注射部位'],'emergency':['手抖冒冷汗心跳快（低血糖）','意識不清昏迷'],'sideEffects':['注射部位紅腫','低血糖','體重增加'],'tips':['隨身攜帶葡萄糖錠','固定旋轉注射部位','開封後標記日期'],'interactions':['酒精加重低血糖風險'],'supplements':[{'icon':'💊','name':'鉻補充品','reason':'改善胰島素敏感性'}]},
+  'novorapid':{'alias':'諾和銳'},
+};
 
 const ALIAS={};
 Object.keys(DB).forEach(k=>{if(DB[k].alias)ALIAS[k.toLowerCase()]=DB[k].alias.toLowerCase();});
@@ -207,13 +211,9 @@ function findLocal(name){
 function findAiDrug(name, aiDB) {
   if (!aiDB) return null;
   const n = name.toLowerCase().trim();
-  // 直接比對 key
   for (const k of Object.keys(aiDB)) {
-    if (k.toLowerCase().includes(n) || n.includes(k.toLowerCase())) {
-      return aiDB[k];
-    }
+    if (k.toLowerCase().includes(n) || n.includes(k.toLowerCase())) return aiDB[k];
   }
-  // 比對藥品名稱
   for (const k of Object.keys(aiDB)) {
     const d = aiDB[k];
     if (d.name && d.name.includes(name)) return d;
@@ -228,31 +228,18 @@ async function searchDrug(){
   const name=document.getElementById('drugInput').value.trim();
   if(!name)return;
   const box=document.getElementById('resultBox');
-
-  // 1. 先查內建精選資料庫
   const local=findLocal(name);
-  if(local){renderResult(local, false);return;}
-
-  // 顯示載入中
+  if(local){renderResult(local,false);return;}
   box.innerHTML=`<div class="loading"><span class="loading-icon">🔍</span>查詢中...</div>`;
-
-  // 2. 查 AI 生成快取
-  const aiDB = await loadAiDB();
-  const aiDrug = findAiDrug(name, aiDB);
-  if(aiDrug){renderResult(aiDrug, true);return;}
-
-  // 3. 查健保API（基本資料）
+  const aiDB=await loadAiDB();
+  const aiDrug=findAiDrug(name,aiDB);
+  if(aiDrug){renderResult(aiDrug,true);return;}
   try{
     const resp=await fetch(`${API_URL}/?keyword=${encodeURIComponent(name)}&limit=10`);
     const json=await resp.json();
-    if(json.success&&json.data&&json.data.length>0){
-      renderApiResults(name,json);
-    } else {
-      renderNotFound(name);
-    }
-  } catch(e){
-    renderNotFound(name);
-  }
+    if(json.success&&json.data&&json.data.length>0){renderApiResults(name,json);}
+    else{renderNotFound(name);}
+  }catch(e){renderNotFound(name);}
 }
 
 function renderApiResults(keyword,json){
@@ -267,8 +254,7 @@ function renderApiResults(keyword,json){
         ${d.atcCode?`<span class="api-tag api-tag-gray">ATC: ${d.atcCode}</span>`:''}
       </div>
       ${d.manufacturer?`<div style="font-size:11px;color:#aaa;margin-top:6px;">製造廠：${d.manufacturer}</div>`:''}
-    </div>
-  `).join('');
+    </div>`).join('');
   document.getElementById('resultBox').innerHTML=`
     <div class="section-card" style="margin-bottom:12px;">
       <div class="section-label">🔍 「${keyword}」健保查詢結果</div>
@@ -277,8 +263,8 @@ function renderApiResults(keyword,json){
     ${cards}
     <div style="font-size:11px;color:#aaa;text-align:right;margin-bottom:8px;">資料來源：衛生福利部中央健康保險署</div>
     <div class="contact-card">
-      <p>需要詳細用藥說明？歡迎詢問藥師</p>
-      <div class="line-id">💬 仁川藥局 @179ewiti</div>
+      <p>需要詳細用藥說明？歡迎詢問小彌藥師</p>
+      <div class="line-id">💬 小彌藥師 @179ewiti</div>
       <button class="line-big-btn" onclick="openLine()">立即聯繫藥師</button>
     </div>
     <button class="again-btn" onclick="resetSearch()">🔍 再查詢另一個藥品</button>`;
@@ -289,45 +275,51 @@ function renderNotFound(name){
     <div class="not-found">
       <span class="icon">🔍</span>
       <h3>找不到「${name}」</h3>
-      <p>請確認藥品名稱，或直接聯繫仁川藥局藥師</p>
+      <p>請確認藥品名稱，或直接聯繫小彌藥師</p>
     </div>
     <div class="contact-card">
-      <p>有任何藥品問題歡迎詢問專業藥師</p>
-      <div class="line-id">💬 仁川藥局 @179ewiti</div>
+      <p>有任何藥品問題歡迎詢問小彌藥師</p>
+      <div class="line-id">💬 小彌藥師 @179ewiti</div>
       <button class="line-big-btn" onclick="openLine()">立即聯繫藥師</button>
     </div>`;
 }
 
-function renderResult(d, isAi){
+function renderResult(d,isAi){
   const warnings=(d.warnings||[]).map(w=>`<div class="red-item">⚠️ &nbsp;${w}</div>`).join('');
   const emergency=(d.emergency||[]).map(e=>`<div class="emergency-item">🚨 &nbsp;${e}</div>`).join('');
   const sides=(d.sideEffects||[]).map(s=>`<div class="side-item">🔸 ${s}</div>`).join('');
   const tips=(d.tips||[]).map(t=>`<div class="tip-item">💡 &nbsp;${t}</div>`).join('');
   const interactions=(d.interactions||[]).map(i=>`<div class="red-item">🚫 &nbsp;${i}</div>`).join('');
   const supps=(d.supplements||[]).map(s=>`<div class="supp-item"><span class="s-icon">${s.icon}</span><div class="s-info"><div class="s-name">${s.name} <span class="discount-badge">首次75折</span></div><div class="s-desc">${s.reason}</div></div></div>`).join('');
-  const aiBadge = isAi ? '<span class="ai-badge">🤖 AI藥師</span>' : '';
+  const howToUse=d.howToUse&&d.howToUse.trim()?`<div class="how-to-box"><div class="how-to-title">📋 使用方式</div><div class="how-to-content">${d.howToUse.replace(/\n/g,'<br>')}</div></div>`:'';
+  const dosageTypeBadge=d.dosageType?`<span class="dosage-type-badge">${d.dosageType}</span>`:'';
+  const aiBadge=isAi?'<span class="ai-badge">🤖 AI藥師</span>':'';
+  const nhiCodeText=d.nhiCode?`<div class="nhi-code">健保碼：${d.nhiCode}</div>`:'';
+
   document.getElementById('resultBox').innerHTML=`
     <div class="drug-hero">
       <span class="pill-icon">${d.icon||'💊'}</span>
       <h3>${d.name}${aiBadge}</h3>
       <div class="en">${d.en||''}</div>
-      <span class="cat">${d.cat||''}</span>
+      <div style="margin-top:6px;">${dosageTypeBadge}<span class="cat">${d.cat||''}</span></div>
+      ${nhiCodeText}
     </div>
     <div class="section-card">
       <div class="section-label">這是什麼藥？</div>
       <div class="section-content">${d.what||''}</div>
       <div class="dose-box" style="margin-top:14px;"><span style="font-size:22px;">⏰</span><span class="text">${d.when||''}</span></div>
       <div class="dose-count">${d.dose||''}</div>
+      ${howToUse}
     </div>
     ${warnings?`<div><div class="red-header"><span>🚫 重要注意事項</span></div><div class="red-body">${warnings}</div></div>`:''}
     ${emergency?`<div><div class="emergency-header"><span>🚨 出現這些要馬上看醫生！</span></div><div class="emergency-body">${emergency}</div></div>`:''}
     ${sides?`<div><div class="orange-header"><span>⚡ 可能的副作用</span></div><div class="orange-body">${sides}</div></div>`:''}
     ${interactions?`<div><div class="red-header"><span>💊 注意交互作用</span></div><div class="red-body">${interactions}</div></div>`:''}
-    ${tips?`<div class="tips-card"><div class="tips-title">💙 藥師小叮嚀</div>${tips}</div>`:''}
-    ${supps?`<div class="supp-card"><div class="supp-title">🌿 藥師推薦保健品</div><div class="supp-sub">根據您的用藥，藥師建議搭配以下保健品</div>${supps}<button class="line-btn" onclick="openLine()">💬 聯繫藥師了解詳情</button></div>`:''}
+    ${tips?`<div class="tips-card"><div class="tips-title">💙 小彌藥師小叮嚀</div>${tips}</div>`:''}
+    ${supps?`<div class="supp-card"><div class="supp-title">🌿 小彌藥師推薦保健品</div><div class="supp-sub">根據您的用藥，小彌藥師建議搭配以下保健品</div>${supps}<button class="line-btn" onclick="openLine()">💬 聯繫小彌藥師了解詳情</button></div>`:''}
     <div class="contact-card">
-      <p>有任何問題歡迎詢問專業藥師</p>
-      <div class="line-id">💬 仁川藥局 @179ewiti</div>
+      <p>有任何問題歡迎詢問小彌藥師</p>
+      <div class="line-id">💬 小彌藥師 @179ewiti</div>
       <button class="line-big-btn" onclick="openLine()">立即聯繫藥師</button>
     </div>
     <button class="again-btn" onclick="resetSearch()">📷 再查詢另一個藥品</button>`;
