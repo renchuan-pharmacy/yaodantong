@@ -11,7 +11,7 @@
 
     <nav class="bg-white shadow-sm sticky top-0 z-50 px-6 py-4 flex items-center justify-between">
         <div class="flex items-center space-x-3">
-            <img src="channels4_profile.jpg" alt="小彌藥師" class="w-12 h-12 rounded-full border-2 border-blue-500 object-cover shadow-sm">
+            <img src="channels4_profile.jpg" alt="小彌藥師" class="w-12 h-12 rounded-full border-2 border-blue-500 object-cover shadow-sm" onerror="this.style.display='none'">
             <div>
                 <h1 class="text-xl font-bold text-slate-900 tracking-wide">藥單通</h1>
                 <p class="text-xs text-blue-500 font-medium">小彌藥師的智能健康助手</p>
@@ -22,24 +22,24 @@
         </div>
     </nav>
 
-    <div class="max-w-7xl mx-auto px-4 py-6 grid grid-cols-1 lg:grid-cols-12 gap-6">
+    <div class="max-w-xl mx-auto px-4 py-6 space-y-6">
         
-        <aside class="hidden lg:block lg:col-span-3 space-y-6">
-            <div class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/60 text-center sticky top-24">
-                <img src="channels4_profile.jpg" alt="小彌藥師" class="w-24 h-24 rounded-full mx-auto border-4 border-blue-100 shadow-md object-cover mb-4">
+        <aside class="space-y-6">
+            <div class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/60 text-center">
+                <img src="channels4_profile.jpg" alt="小彌藥師" class="w-24 h-24 rounded-full mx-auto border-4 border-blue-100 shadow-md object-cover mb-4" onerror="this.style.display='none'">
                 <h3 class="text-lg font-bold text-slate-900">我是小彌藥師 🧑‍⚕️</h3>
                 <p class="text-xs text-slate-400 mt-1">LINE 官方帳號: @179ewiti</p>
                 <div class="mt-4 border-t border-slate-100 pt-4 text-left space-y-3 text-sm text-slate-600">
-                    <p class="bg-blue-50 p-3 rounded-xl text-blue-800 text-xs font-medium">✨ 歡迎使用藥單通！此系統已導入完整大數據。不論是醫生、藥師或病人，輸入藥名、成分或報告數值，我都會幫您精準分析並給予保健建議！</p>
+                    <p class="bg-blue-50 p-3 rounded-xl text-blue-800 text-xs font-medium">✨ 歡迎使用藥單通！此系統已導入小彌藥師獨家大數據。</p>
                     <p><i class="fa-solid fa-square-check text-emerald-500 mr-2"></i>支援手機拍照/上傳藥單</p>
-                    <p><i class="fa-solid fa-square-check text-emerald-500 mr-2"></i>2000+ 健保常用藥品庫</p>
-                    <p><i class="fa-solid fa-square-check text-emerald-500 mr-2"></i>300 名市售保健品輔助指引</p>
-                    <p><i class="fa-solid fa-square-check text-emerald-500 mr-2"></i>各大醫學中心檢驗標準對照</p>
+                    <p><i class="fa-solid fa-square-check text-emerald-500 mr-2"></i>健保常用藥品庫</p>
+                    <p><i class="fa-solid fa-square-check text-emerald-500 mr-2"></i>市售保健品輔助指引</p>
+                    <p><i class="fa-solid fa-square-check text-emerald-500 mr-2"></i>醫學中心檢驗標準對照</p>
                 </div>
             </div>
         </aside>
 
-        <main class="col-span-1 lg:col-span-5 space-y-6 max-w-md mx-auto lg:max-w-none w-full">
+        <main class="space-y-6 w-full">
             
             <section class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/60 text-center relative overflow-hidden">
                 <div class="flex items-center justify-between mb-4">
@@ -59,11 +59,11 @@
                     </div>
                 </label>
 
-                <div id="preview-container" class="hidden mt-4 pt-4 border-t border-slate-100 animate-fadeIn">
+                <div id="preview-container" class="hidden mt-4 pt-4 border-t border-slate-100">
                     <p class="text-xs font-medium text-emerald-600 mb-2"><i class="fa-solid fa-circle-check"></i> 照片成功載入！</p>
                     <img id="image-preview" src="#" alt="藥單預覽" class="max-h-60 mx-auto rounded-xl shadow-inner border">
                     <p class="text-xs text-slate-500 mt-2 bg-slate-100 p-3 rounded-lg text-left leading-relaxed">
-                        💡 <strong>小彌提示：</strong>藥單影像已暫存。您可以同步在下方搜尋藥品，或是直接點擊最下方綠色按鈕加入我的 LINE (@179ewiti)，將這張照片傳給我，由我親自為您進行全方位的「人工一對一對藥」與衛教保養建議喔！
+                        💡 <strong>小彌提示：</strong>藥單已暫存。您可以點擊最下方按鈕加入我的 LINE (@179ewiti)，將這張照片傳給我，由我親自為您核對！
                     </p>
                 </div>
             </section>
@@ -73,10 +73,10 @@
                     <h2 class="text-xl font-bold text-slate-800">🔍 大數據智能快速查詢</h2>
                     <span class="text-2xl">💊</span>
                 </div>
-                <p class="text-sm text-slate-500 mb-4">輸入藥品商品名、英文學名或體檢指標（如：脈優、血糖、HbA1c）</p>
+                <p class="text-sm text-slate-500 mb-4">輸入藥品商品名、學名、健保碼或體檢指標</p>
                 
                 <div class="relative mb-6">
-                    <input type="text" id="search-input" oninput="doSmartSearch()" placeholder="嘗試輸入：脈優、Metformin、血糖、安素..." class="w-full bg-slate-50 border border-slate-300 rounded-xl py-3 pl-4 pr-12 text-sm focus:outline-none focus:border-blue-500 focus:bg-white transition-all shadow-inner">
+                    <input type="text" id="search-input" oninput="doSmartSearch()" placeholder="嘗試輸入：脈優、Metformin、非炎、GPT..." class="w-full bg-slate-50 border border-slate-300 rounded-xl py-3 pl-4 pr-12 text-sm focus:outline-none focus:border-blue-500 focus:bg-white transition-all shadow-inner">
                     <button class="absolute right-2 top-2 w-8 h-8 bg-blue-600 text-white rounded-lg flex items-center justify-center hover:bg-blue-700">
                         <i class="fa-solid fa-magnifying-glass text-xs"></i>
                     </button>
@@ -85,18 +85,18 @@
                 <div id="search-results-container" class="space-y-4">
                     <div class="text-center py-8 text-slate-400 text-sm bg-slate-50 rounded-2xl border border-dashed border-slate-200">
                         <i class="fa-solid fa-wand-magic-sparkles text-xl text-blue-400 mb-2 block"></i>
-                        請在上方輸入關鍵字，智能引擎將即時檢索數據
+                        <span id="load-status">資料庫載入中...</span>
                     </div>
                 </div>
             </section>
         </main>
 
-        <section class="hidden lg:block lg:col-span-4 bg-white rounded-3xl p-6 shadow-sm border border-slate-200/60 h-fit sticky top-24">
+        <section class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/60">
             <div class="flex items-center justify-between mb-2">
-                <h3 class="text-lg font-bold text-slate-900">📊 旗艦大數據檢索大盤</h3>
-                <span class="text-xs bg-slate-100 px-2 py-0.5 text-slate-500 rounded font-mono" id="table-count">展示中</span>
+                <h3 class="text-lg font-bold text-slate-900">📊 小彌獨家資料庫大盤</h3>
+                <span class="text-xs bg-slate-100 px-2 py-0.5 text-slate-500 rounded font-mono" id="table-count">載入中</span>
             </div>
-            <p class="text-xs text-slate-500 mb-4">全品項即時快搜大表。醫生與藥師可在此快速核對分類數據。</p>
+            <p class="text-xs text-slate-500 mb-4">資料來源：小彌藥師上傳之真實 Excel 數據</p>
             
             <div class="overflow-x-auto border border-slate-100 rounded-xl max-h-[550px] overflow-y-auto">
                 <table class="w-full text-left border-collapse text-xs">
@@ -104,11 +104,10 @@
                         <tr class="bg-slate-50 border-b border-slate-200 text-slate-600 font-semibold sticky top-0 z-10">
                             <th class="p-3 bg-slate-50">項目類型</th>
                             <th class="p-3 bg-slate-50">關鍵名稱</th>
-                            <th class="p-3 bg-slate-50">大數據臨床指引/建議</th>
                         </tr>
                     </thead>
                     <tbody class="divide-y divide-slate-100 text-slate-600" id="master-table-body">
-                        </tbody>
+                    </tbody>
                 </table>
             </div>
         </section>
@@ -119,203 +118,192 @@
             <i class="fa-brands fa-line text-lg"></i>
             <span>LINE問小彌藥師 (@179ewiti)</span>
         </a>
-        <a href="https://line.me/R/ti/p/%40179ewiti" target="_blank" class="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white rounded-xl py-3 px-4 flex items-center justify-center space-x-2 shadow-md font-bold text-sm transition-all active:scale-95">
-            <i class="fa-solid fa-credit-card"></i>
-            <span>預約付費深度解析</span>
-        </a>
     </div>
 
     <script>
-        // 1. 將小彌藥師上傳的超級大數據提煉打包成核心本地資料庫 (包含三高藥、熱銷保健品、檢驗報告指標)
-        const dbData = [
-            // --- 健保常用藥品大數據與保健品連動指引 ---
-            { type: '藥品', name: '脈優錠 (Norvasc / Amlodipine)', keywords: ['脈優', 'amlodipine', 'norvasc', '血壓'], category: '降血壓藥-CCB', usage: '每日一次，固定時間隨餐或空腹服用。', side_effect: '初期可能引發輕微頭痛、面部潮紅或下肢輕微水腫。', warning: '絕對避免與葡萄柚汁同時食用，以免降壓過度導致頭暈！', supplement: '精純高活性 CoQ10 膠囊 / 高純度魚油', reason: '長期服用 CCB 類降壓藥容易干擾細胞線粒體功能、造成輔酶 Q10 流失；適度補充 Q10 能協助維護心肌活力與循環順暢。' },
-            { type: '藥品', name: '庫魯化錠 (Glucophage / Metformin)', keywords: ['庫魯化', 'metformin', 'glucophage', '血糖', '糖尿病'], category: '降血糖藥-口服', usage: '每日1-3次，建議隨餐或餐後立即服用，以減少胃腸不適。', side_effect: '常見初期胃腸脹氣、輕微腹瀉、噁心感，通常數週後能耐受。', warning: '若有預計進行顯影劑檢查，需在檢查前暫停服用，請務必告知醫師。長期服用可能影響維生素 B12 吸收。', supplement: '高單位活性維生素 B 群 (含B12) / 苦瓜胜肽', reason: 'Metformin 會顯著阻礙腸道吸收維生素 B12，引發長期貧血或神經麻木。小彌強烈建議三高族群天天補充優質 B 群填補藥物消耗。' },
-            { type: '藥品', name: '立普妥膜衣錠 (Lipitor / Atorvastatin)', keywords: ['立普妥', 'lipitor', 'atorvastatin', '膽固醇', '血脂'], category: '降血脂藥-Statin', usage: '每日一次，可在一天中任何固定時間服用，餐前餐後皆可。', side_effect: '可能出現原因不明的肌肉酸痛、無力、或肝指數輕微橫向變動。', warning: '禁忌與大量紅麴保健品同時疊加吞服（會增加肌肉毒性與橫紋肌溶解症風險）！若有嚴重肌痛需立刻就醫。', supplement: '還原型 CoQ10 膠囊 / 高規高純度深海魚油', reason: 'Statin 類藥物在阻斷肝臟合成膽固醇的同時，會同步切斷體內 CoQ10 的合成路徑，導致肌肉細胞能量不足而酸痛。補充 Q10 可大幅緩解藥物副作用。' },
-            { type: '藥品', name: '得安穩膜衣錠 (Diovan / Valsartan)', keywords: ['得安穩', 'diovan', 'valsartan', '血壓'], category: '降血壓藥-ARB', usage: '每日一次，固定時間服用。', side_effect: '偶有頭暈、高血鉀、或輕微疲倦。較不易像傳統降壓藥那樣引發乾咳。', warning: '服藥期間應定期追蹤腎功能與血鉀數值，並避免過量食用市售高鉀低鈉鹽。', supplement: '精製高純度深海魚油 / 綜合維他命', reason: '血管緊張素受體阻斷劑能保護心腎，搭配魚油可協助調節發炎因子、維護血管彈性，達成相輔相成的血管日常保養。' },
-            { type: '藥品', name: '安滅菌膜衣錠 (Augmentin / Amoxicillin+Clavulanate)', keywords: ['安滅菌', 'augmentin', 'amoxicillin', '抗生素', '發炎', '牙科'], category: '廣效性抗生素-牙科內科常備', usage: '務必遵照醫囑完成整個抗生素療程（不可自行停藥），通常隨餐服用以減輕胃部不適。', side_effect: '常見胃腸不適、拉肚子、或是消化道菌相失衡引發的私密處不適。', warning: '若對青黴素 (Penicillin) 過敏者絕對禁用！必須確實吃完全程以防止病菌產生頑強抗藥性。', supplement: '頂級醫療級益生菌 (如 NTU 101/複合菌株)', reason: '抗生素在殺死致病菌的同時，也會將腸道內的數兆好菌全數殲滅，引發嚴重腹瀉或消化不良。小彌藥師建議在抗生素療程結束後，立即進行 1-2 週的好菌重建重建保養！' },
-            { type: '藥品', name: '使蒂諾斯斯膜衣錠 (Stilnox / Zolpidem)', keywords: ['使蒂諾斯', 'stilnox', 'zolpidem', '安眠藥', '失眠'], category: '鎮靜安眠劑 (管4)', usage: '睡前準備就寢時立刻服用，服藥後請直接躺床，勿再走動或看手機。', side_effect: '夢遊行為、短暫夜間記憶喪失、隔日晨起昏睡或暈眩。', warning: '屬於管制藥品，具成癮性與心理依賴。絕對禁止飲酒後服用！不可驟然停藥以免反彈性失眠。', supplement: '高純度芝麻素 (如芝麻明EX) / 緩釋型 Gaba 舒眠膠囊', reason: '長期倚賴安眠藥會使神經受體產生耐受性。小彌藥師建議在配合醫師逐步減量（Tapering）的過程中，可搭配芝麻素及玄米多酚來輔助穩定自主神經，提升天然睡眠品質。' },
-            
-            // --- 市售強勢熱銷保健食品大數據指引 ---
-            { type: '保健品', name: '三得利 固力伸 (Glucosamine+Chondroitin)', keywords: ['固力伸', '葡萄糖胺', '軟骨素', '三得利', '關節'], category: '退化性關節炎/關節磨損保養', usage: '每日固定補充，可隨餐服用。', side_effect: '一般極安全，極少數人可能出現輕微胃部脹氣。', warning: '含蝦蟹萃取物，對海鮮嚴重過敏者應謹慎服用。', supplement: '可搭配西藥：NSAIDs 止痛藥 (如 Voren、Mobic)', reason: '能在止痛西藥逐步減量停藥期間，適時提供關節軟骨基質修復原料，降低對消炎止痛西藥的長期依賴，維護關節健康。' },
-            { type: '保健品', name: '娘家 大紅麴 (升級配方)', keywords: ['大紅麴', '娘家', '紅麴', '莫那可林', '膽固醇'], category: '血脂高風險保養 / 膽固醇調節', usage: '建議於晚餐後或睡前服用（因肝臟合成膽固醇多在夜間進行）。', side_effect: '偶有肌肉酸痛、胃腸不適。', warning: '【絕對禁忌】不可與西藥 Statins 類降血脂藥（如立普妥、冠脂妥）同時疊加服用！會使血藥濃度過高，激發嚴重肌肉毒性與橫紋肌溶解風險。', supplement: '適用時機', reason: '最適合用於「健保未達開西藥標準」之輕度血脂偏高風險族群，或作為西藥停藥間期的血脂平穩維持首選。' },
-            { type: '保健品', name: '亞培 安素 (Ensure) 醫療級配方', keywords: ['安素', '亞培', '營養不良', '癌症', '洗腎'], category: '重度臨床營養支持 / 手術病後體質補給', usage: '可作為正餐部分取代或餐間點心補充，每日1-2罐。', side_effect: '一般無，少數長期未飲用者初期可能因乳糖耐受度出現微拉。', warning: '特殊疾病（如重度腎臟病洗腎者）應選擇安素專用限水低磷鈉鉀規格（如普寧勝）。', supplement: '可搭配西藥：各式化療藥、血液透析用藥', reason: '提供臨床醫學指引所必備的均衡底體性能源，防止化療惡病質或老年肌肉流失，與西藥協同維持基本生命徵象。' },
+    const DB_URL = 'https://raw.githubusercontent.com/renchuan-pharmacy/yaodantong/main/data/master_db.json';
+    let DRUGS=[], SUPPS=[], LABS=[], SUPP_INDEX={}, ready=false;
 
-            // --- 體檢報告與各大醫院檢驗數據標準值大數據 ---
-            { type: '報告項目', name: '糖化血色素 (HbA1c)', keywords: ['hba1c', '糖化血色素', '糖尿病', '血糖'], category: '代謝與血糖常規', usage: '正常標準值：4.0 - 5.6 % (老年人可寬鬆至 6.0%)。', side_effect: '【異常提示】：若數值 >= 6.5% 即可直接診斷為糖尿病；介於 5.7 - 6.4% 為糖尿病前期。', warning: '反映過去 2-3 個月的平均血糖控制狀態，不受當天抽血前空腹與否的影響。', supplement: '小彌藥師推薦保養：苦瓜胜肽膠囊 / 膳食纖維粉 / Metformin 健保藥', reason: '數值超標代表全身器官長期浸泡在高糖環境中。前期族群可透過高規苦瓜胜肽協同穩定胰島素敏感度；若已確診則必須遵照內分泌科醫師處方服藥。' },
-            { type: '報告項目', name: '空腹血糖 (Fasting Glucose)', keywords: ['空腹血糖', '飯前血糖', '血糖'], category: '代謝與血糖常規', usage: '正常標準值：70 - 99 mg/dL (孕婦基準需更嚴格於 92 以內)。', side_effect: '【異常提示】：數值 100 - 125 mg/dL 為血糖前期；若兩次不同天檢測 >= 126 mg/dL 則診斷為糖尿病。', warning: '抽血前必須嚴格禁食與禁糖水至少 8 小時以上。', supplement: '小彌藥師推薦保養：鉻(Chromium)補充劑 / 苦瓜胜肽', reason: '飯前血糖過高代表基礎胰島素分泌不足或有嚴重的胰島素阻抗。提早介入苦瓜胜肽及微量元素鉻，有助於阻斷前期惡化成二型糖尿病。' },
-            { type: '報告項目', name: '低密度脂蛋白膽固醇 (LDL-C / 壞膽固醇)', keywords: ['ldl', 'ldl-c', '壞膽固醇', '膽固醇', '血脂'], category: '血脂肪與心血管', usage: '正常一般人標準值：< 130 mg/dL (高風險心血管/糖尿病族群嚴格要求 < 100 甚至 < 70)。', side_effect: '【異常提示】：數值過高是導致血管硬化、心肌梗塞、中風的頭號隱形殺手。', warning: '數值異常時，應立即檢視飲食中飽和脂肪酸的攝取量。', supplement: '小彌藥師推薦保養：高純度 84% 以上深海魚油 / 娘家大紅麴 (未吃西藥時)', reason: '壞膽固醇極易在血管壁沉積引發發炎。高純度 EPA/DHA 魚油能協助清除血管清道夫，降低血液黏稠度與三酸甘油酯，保護心血管。' },
-            { type: '報告項目', name: '尿酸 (Uric Acid)', keywords: ['尿酸', 'uric acid', '痛風'], category: '肝腎與代謝功能', usage: '正常標準值：男 3.5 - 7.0 mg/dL / 女 2.5 - 6.0 mg/dL。', side_effect: '【異常提示】：數值超過 7.0 易形成尿酸鈉結晶沉積在關節，激發劇烈劇烈痛風關節炎，亦會損害腎功能。', warning: '避免飲用啤酒、高湯、海鮮等高普林食物，且天天必須補充足量水分（2000cc以上）。', supplement: '小彌藥師推薦保養：高活性酸櫻桃萃取物 / 益生菌 / 健保降尿酸藥 (如 Zyloric)', reason: '痛風發作期需遵醫囑服用消炎藥；平日高尿酸保養可補充酸櫻桃萃取物或幫助排泄的天然多酚，協助體內尿酸平衡。' }
-        ];
+    // 原廠判斷
+    function isOriginal(mfr){
+        return /默克|默沙東|諾華|輝瑞|拜耳|賽諾菲|武田|阿斯特|百靈佳|葛蘭素|諾和|禮來|羅氏|愛力根|參天|大塚|第一三共|楊森|必治妥|吉立亞|安進/.test(mfr||'');
+    }
+    // 成分主體
+    function ingBase(s){
+        if(!s)return '';
+        return s.replace(/\s*[\d.]+\s*(mg|mcg|g|gm|ml|U|%|iu)[^\s,+\/]*/gi,'').split(/[+\/&]/)[0].trim();
+    }
 
-        // 2. 頁面加載時自動渲染右側的「大數據檢索大盤」
-        window.onload = function() {
-            renderMasterTable(dbData);
-        };
-
-        function renderMasterTable(data) {
-            const tbody = document.getElementById('master-table-body');
-            const countSpan = document.getElementById('table-count');
-            tbody.innerHTML = '';
-            
-            data.forEach(item => {
-                let badgeColor = 'bg-blue-100 text-blue-700';
-                if(item.type === '保健品') badgeColor = 'bg-amber-100 text-amber-700';
-                if(item.type === '報告項目') badgeColor = 'bg-purple-100 text-purple-700';
-
-                const tr = document.createElement('tr');
-                tr.className = 'hover:bg-slate-50 transition-colors text-[11px]';
-                tr.innerHTML = `
-                    <td class="p-3 font-medium"><span class="${badgeColor} px-1.5 py-0.5 rounded text-[10px]">${item.type}</span></td>
-                    <td class="p-3 font-bold text-slate-800">${item.name}</td>
-                    <td class="p-3 text-slate-500">${item.type === '藥品' ? '💡 建議搭配: ' + item.supplement : item.reason}</td>
-                `;
-                tbody.appendChild(tr);
+    async function loadDB(){
+        try{
+            const r = await fetch(DB_URL + '?t=' + Date.now());
+            const d = await r.json();
+            DRUGS = d.drugs||[]; SUPPS = d.supplements||[]; LABS = d.labTests||[];
+            // 建保健品對應索引（用 relatedDrug 內的英文藥名關鍵字）
+            SUPPS.forEach(s=>{
+                const kws = (s.relatedDrug||'').match(/[A-Za-z]{4,}/g)||[];
+                kws.forEach(kw=>{
+                    const k = kw.toLowerCase();
+                    if(!SUPP_INDEX[k]) SUPP_INDEX[k]=[];
+                    const base = (s.productName||'').replace(/\s*\([^)]*\)/g,'').trim();
+                    if(!SUPP_INDEX[k].some(x=>x._base===base))
+                        SUPP_INDEX[k].push({_base:base, brand:(s.brand||'').replace(/\s*\([^)]*\)/g,'').trim(), name:base, ingredients:s.ingredients, principle:s.principle});
+                });
             });
-            countSpan.innerText = `共 ${data.length} 項精選數據`;
+            ready = true;
+            document.getElementById('load-status').innerHTML = '請在上方輸入關鍵字，智能引擎將即時檢索 '+(DRUGS.length+SUPPS.length+LABS.length)+' 筆數據';
+            renderMasterTable(buildTableRows());
+        }catch(e){
+            document.getElementById('load-status').innerHTML = '資料庫載入失敗，請重新整理頁面';
+        }
+    }
+
+    // 大盤表格資料（精選展示：保健品+體檢+部分藥品）
+    function buildTableRows(filterFn){
+        let rows=[];
+        SUPPS.forEach(s=>rows.push({type:'保健品', name:(s.productName||'').replace(/\s*\([^)]*\)/g,'').trim(), _raw:s}));
+        LABS.forEach(l=>rows.push({type:'報告項目', name:l.nameZh+' ('+l.abbr+')', _raw:l}));
+        DRUGS.forEach(d=>rows.push({type:'藥品', name:d.brandName, _raw:d}));
+        // 去重保健品同名
+        const seen=new Set(); rows=rows.filter(r=>{const k=r.type+r.name; if(seen.has(k))return false; seen.add(k); return true;});
+        if(filterFn) rows=rows.filter(filterFn);
+        return rows;
+    }
+
+    function renderMasterTable(rows){
+        const tbody=document.getElementById('master-table-body');
+        document.getElementById('table-count').innerText = '共 '+rows.length+' 項數據';
+        const show = rows.slice(0,200);
+        tbody.innerHTML = show.map(item=>{
+            const bc = item.type==='保健品'?'bg-amber-100 text-amber-700':(item.type==='報告項目'?'bg-purple-100 text-purple-700':'bg-blue-100 text-blue-700');
+            return '<tr class="hover:bg-slate-50 text-[11px]"><td class="p-3"><span class="'+bc+' px-1.5 py-0.5 rounded text-[10px]">'+item.type+'</span></td><td class="p-3 font-bold text-slate-800 break-all">'+item.name+'</td></tr>';
+        }).join('');
+        if(rows.length>200) tbody.innerHTML += '<tr><td colspan="2" class="p-3 text-center text-slate-400 text-[11px]">...另有 '+(rows.length-200)+' 筆，請用搜尋縮小範圍</td></tr>';
+    }
+
+    function findSupps(ingredient, brandName){
+        const hay = (ingredient+' '+brandName).toLowerCase();
+        const out=[]; const seen=new Set();
+        for(const kw in SUPP_INDEX){
+            if(hay.includes(kw)){
+                SUPP_INDEX[kw].forEach(s=>{ if(!seen.has(s._base)){seen.add(s._base); out.push(s);} });
+            }
+        }
+        return out.slice(0,3);
+    }
+
+    function doSmartSearch(){
+        if(!ready) return;
+        const q = document.getElementById('search-input').value.trim().toLowerCase();
+        const container = document.getElementById('search-results-container');
+        if(!q){
+            container.innerHTML = '<div class="text-center py-8 text-slate-400 text-sm bg-slate-50 rounded-2xl border border-dashed border-slate-200">請在上方輸入關鍵字</div>';
+            renderMasterTable(buildTableRows());
+            return;
         }
 
-        // 3. 中間搜尋框的「智能大數據即時交叉連動搜尋引擎」
-        function doSmartSearch() {
-            const query = document.getElementById('search-input').value.trim().toLowerCase();
-            const container = document.getElementById('search-results-container');
-            
-            if (!query) {
-                container.innerHTML = `
-                    <div class="text-center py-8 text-slate-400 text-sm bg-slate-50 rounded-2xl border border-dashed border-slate-200">
-                        <i class="fa-solid fa-wand-magic-sparkles text-xl text-blue-400 mb-2 block"></i>
-                        請在上方輸入關鍵字，智能引擎將即時檢索數據
-                    </div>
-                `;
-                renderMasterTable(dbData); // 右側表格還原
-                return;
-            }
+        // 搜尋三類
+        const drugHits = DRUGS.filter(d=>
+            (d.brandName||'').toLowerCase().includes(q) ||
+            (d.ingredient||'').toLowerCase().includes(q) ||
+            (d.nhiCode||'').toLowerCase().includes(q) ||
+            (d.subCategory||'').toLowerCase().includes(q)
+        );
+        const suppHits = SUPPS.filter(s=>
+            (s.productName||'').toLowerCase().includes(q) ||
+            (s.ingredients||'').toLowerCase().includes(q) ||
+            (s.indication||'').toLowerCase().includes(q)
+        );
+        const labHits = LABS.filter(l=>
+            (l.nameZh||'').toLowerCase().includes(q) ||
+            (l.abbr||'').toLowerCase().includes(q)
+        );
 
-            // 搜尋過濾條件：比對品名、學名、關鍵字、類別
-            const filtered = dbData.filter(item => {
-                return item.name.toLowerCase().includes(query) || 
-                       item.category.toLowerCase().includes(query) ||
-                       item.keywords.some(kw => kw.includes(query));
+        // 更新右側大盤
+        const allNames = new Set([...drugHits.map(d=>d.brandName), ...suppHits.map(s=>(s.productName||'').replace(/\s*\([^)]*\)/g,'').trim()), ...labHits.map(l=>l.nameZh+' ('+l.abbr+')')]);
+        renderMasterTable(buildTableRows(r=>allNames.has(r.name)));
+
+        if(drugHits.length===0 && suppHits.length===0 && labHits.length===0){
+            container.innerHTML = '<div class="text-center py-8 text-amber-600 text-sm bg-amber-50 rounded-2xl border border-dashed border-amber-200">沒找到對應的數據...<p class="text-xs text-slate-500 mt-2">請直接點擊下方綠色按鈕私訊小彌 LINE，我線上親自幫您查！</p></div>';
+            return;
+        }
+
+        let html='';
+
+        // 藥品：按成分+劑型分組
+        if(drugHits.length){
+            const groups={};
+            drugHits.forEach(d=>{
+                const gk = ingBase(d.ingredient)+'|'+(d.subCategory||d.category);
+                if(!groups[gk]) groups[gk]={base:ingBase(d.ingredient), cat:d.subCategory||d.category, items:[]};
+                groups[gk].items.push(d);
             });
-
-            // 同步過濾右側大表，讓電腦版體驗更驚艷
-            renderMasterTable(filtered);
-
-            if (filtered.length === 0) {
-                container.innerHTML = `
-                    <div class="text-center py-8 text-amber-600 text-sm bg-amber-50 rounded-2xl border border-dashed border-amber-200">
-                        <i class="fa-solid fa-circle-question text-xl mb-2 block"></i>
-                        沒找到對應的成分數據... 
-                        <p class="text-xs text-slate-500 mt-2 p-2 bg-white rounded-lg max-w-xs mx-auto">
-                            別擔心！小彌藥師有 2000 項完整名錄。請直接點擊下方<strong>綠色按鈕</strong>直接私訊小彌 LINE，我線上親自幫您查！
-                        </p>
-                    </div>
-                `;
-                return;
-            }
-
-            // 動態渲染中間的功能卡片
-            container.innerHTML = '';
-            filtered.forEach(item => {
-                let cardHtml = '';
-                
-                if (item.type === '藥品') {
-                    cardHtml = `
-                        <div class="bg-gradient-to-br from-blue-50 to-indigo-50/40 rounded-2xl p-4 border border-blue-100 shadow-sm animate-fadeIn">
-                            <div class="flex justify-between items-start border-b border-blue-100/50 pb-2">
-                                <div>
-                                    <span class="bg-blue-600 text-white text-[9px] font-bold px-1.5 py-0.5 rounded mr-1.5">健保西藥</span>
-                                    <h3 class="font-bold text-blue-900 text-base inline-block">${item.name}</h3>
-                                </div>
-                                <span class="bg-blue-100 text-blue-700 text-[10px] font-medium px-2 py-0.5 rounded-full">${item.category}</span>
-                            </div>
-                            <div class="mt-3 space-y-2 text-xs text-slate-600">
-                                <p><strong>💡 用法用量：</strong>${item.usage}</p>
-                                <p><strong>⚠️ 常見副作用：</strong>${item.side_effect}</p>
-                                <p class="text-red-700 bg-red-50 p-2 rounded-lg font-medium"><strong>❌ 小彌警語/交互作用：</strong>${item.warning}</p>
-                            </div>
-                            
-                            <div class="mt-4 pt-4 border-t border-blue-200/60 bg-white -mx-4 -mb-4 p-4 rounded-b-2xl">
-                                <h4 class="text-xs font-bold text-slate-800 flex items-center mb-2">
-                                    <span class="text-amber-500 mr-1">⭐</span> 小彌藥師強烈建議搭配流失保養：
-                                </h4>
-                                <div class="bg-amber-50/70 p-3 rounded-xl border border-amber-100 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 shadow-xs">
-                                    <div class="flex-1">
-                                        <p class="text-xs font-bold text-amber-900"><i class="fa-solid fa-heart-pulse mr-1 text-amber-600"></i>${item.supplement}</p>
-                                        <p class="text-[11px] text-amber-800/90 mt-1 leading-relaxed">${item.reason}</p>
-                                    </div>
-                                    <a href="https://line.me/R/ti/p/%40179ewiti" target="_blank" class="w-full sm:w-auto bg-amber-500 hover:bg-amber-600 text-white text-[10px] font-bold px-3 py-2 rounded-lg transition-colors shadow-sm text-center whitespace-nowrap">
-                                        諮詢小彌精選款
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    `;
-                } else if (item.type === '保健品') {
-                    cardHtml = `
-                        <div class="bg-gradient-to-br from-amber-50 to-orange-50/40 rounded-2xl p-4 border border-amber-200 shadow-sm animate-fadeIn">
-                            <div class="flex justify-between items-start border-b border-amber-200/50 pb-2">
-                                <div>
-                                    <span class="bg-amber-500 text-white text-[9px] font-bold px-1.5 py-0.5 rounded mr-1.5">熱銷明星保健品</span>
-                                    <h3 class="font-bold text-amber-900 text-base inline-block">${item.name}</h3>
-                                </div>
-                                <span class="bg-amber-100 text-amber-700 text-[10px] font-medium px-2 py-0.5 rounded-full">${item.category}</span>
-                            </div>
-                            <div class="mt-3 space-y-2 text-xs text-slate-600">
-                                <p><strong>📌 主要功能：</strong>${item.category}</p>
-                                <p><strong>💡 吃法建議：</strong>${item.usage}</p>
-                                <p class="text-amber-800 bg-amber-50 p-2 rounded-lg font-medium"><strong>⚠️ 藥師提醒/禁忌：</strong>${item.warning}</p>
-                                <p class="text-blue-800 font-medium mt-2"><i class="fa-solid fa-capsules mr-1"></i><strong>西醫藥物後輔助保養原理：</strong>${item.reason}</p>
-                            </div>
-                            <div class="mt-3 text-right">
-                                <a href="https://line.me/R/ti/p/%40179ewiti" target="_blank" class="inline-block bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold px-4 py-2 rounded-xl transition-all shadow-sm">
-                                    向小彌藥師預約訂購/諮詢
-                                </a>
-                            </div>
-                        </div>
-                    `;
-                } else if (item.type === '報告項目') {
-                    cardHtml = `
-                        <div class="bg-gradient-to-br from-purple-50 to-fuchsia-50/40 rounded-2xl p-4 border border-purple-100 shadow-sm animate-fadeIn">
-                            <div class="flex justify-between items-start border-b border-purple-100/50 pb-2">
-                                <div>
-                                    <span class="bg-purple-600 text-white text-[9px] font-bold px-1.5 py-0.5 rounded mr-1.5">醫學檢報指標</span>
-                                    <h3 class="font-bold text-purple-900 text-base inline-block">${item.name}</h3>
-                                </div>
-                                <span class="bg-purple-100 text-purple-700 text-[10px] font-medium px-2 py-0.5 rounded-full">${item.category}</span>
-                            </div>
-                            <div class="mt-3 space-y-2 text-xs text-slate-600">
-                                <p><strong>📊 大醫院常備標準值：</strong><span class="font-mono font-bold text-slate-700">${item.usage}</span></p>
-                                <p class="text-purple-900 font-medium"><strong>🚨 臨床意義與紅字提示：</strong>${item.side_effect}</p>
-                                <p class="bg-white p-2 rounded-lg border border-purple-100 leading-relaxed text-slate-700"><strong>🧑‍⚕️ 小彌藥師專業臨床建議：</strong>${item.reason}</p>
-                            </div>
-                            <div class="mt-4 pt-3 border-t border-purple-100 text-right">
-                                <a href="https://line.me/R/ti/p/%40179ewiti" target="_blank" class="inline-block bg-purple-600 hover:bg-purple-700 text-white text-xs font-bold px-4 py-2 rounded-xl transition-all shadow-sm">
-                                    傳報告照片給小彌解讀
-                                </a>
-                            </div>
-                        </div>
-                    `;
+            Object.values(groups).slice(0,8).forEach(g=>{
+                const brandNames = g.items.map(x=>x.brandName).join(' ');
+                const rows = g.items.slice(0,12).map(d=>{
+                    const orig = isOriginal(d.manufacturer);
+                    return '<div class="flex items-center justify-between py-1.5 border-b border-blue-100/50 last:border-0">'+
+                        '<div><span class="font-semibold text-slate-800 text-xs">'+d.brandName+'</span>'+
+                        (d.manufacturer?'<span class="text-[10px] text-slate-400 ml-1">'+d.manufacturer+'</span>':'')+'</div>'+
+                        '<div class="flex items-center gap-1 shrink-0">'+
+                        '<span class="bg-orange-50 text-orange-700 px-1.5 py-0.5 rounded text-[9px] font-mono">'+d.nhiCode+'</span>'+
+                        (orig?'<span class="bg-pink-50 text-pink-600 px-1.5 py-0.5 rounded text-[9px]">原廠</span>':'<span class="bg-slate-100 text-slate-500 px-1.5 py-0.5 rounded text-[9px]">台廠</span>')+
+                        '</div></div>';
+                }).join('');
+                const more = g.items.length>12?'<p class="text-[10px] text-slate-400 mt-1">...另有 '+(g.items.length-12)+' 個品項</p>':'';
+                const supps = findSupps(g.items[0].ingredient, brandNames);
+                let suppHtml='';
+                if(supps.length){
+                    suppHtml = '<div class="mt-3 pt-3 border-t border-blue-100"><p class="text-[11px] font-bold text-indigo-700 mb-1">🌿 小彌藥師保健建議</p>'+
+                        supps.map(s=>'<p class="text-[10px] text-slate-600 leading-relaxed">• <strong>'+s.name+'</strong>（'+s.brand+'）：'+s.principle+'</p>').join('')+'</div>';
                 }
-
-                container.innerHTML += cardHtml;
+                html += '<div class="bg-gradient-to-br from-blue-50 to-indigo-50/40 rounded-2xl p-4 border border-blue-100 shadow-sm">'+
+                    '<h3 class="font-bold text-blue-900 text-base mb-1">💊 '+g.base+'</h3>'+
+                    '<p class="text-[11px] text-slate-500 mb-2">'+g.cat+'</p>'+
+                    rows + more + suppHtml +
+                    '<p class="text-[10px] text-slate-400 mt-2 pt-2 border-t border-blue-100">⚠️ 副作用與用法請點下方 LINE 由小彌藥師親自解說</p>'+
+                    '</div>';
             });
         }
 
-        // 簡單的 JavaScript 控制拍照預覽
-        function previewImage(event) {
-            const input = event.target;
-            const reader = new FileReader();
-            reader.onload = function(){
-                const dataURL = reader.result;
-                const output = document.getElementById('image-preview');
-                output.src = dataURL;
-                document.getElementById('preview-container').classList.remove('hidden');
-            };
-            if(input.files && input.files[0]) {
-                reader.readAsDataURL(input.files[0]);
-            }
-        }
+        // 保健品
+        suppHits.slice(0,6).forEach(s=>{
+            html += '<div class="bg-gradient-to-br from-amber-50 to-orange-50/40 rounded-2xl p-4 border border-amber-200 shadow-sm">'+
+                '<h3 class="font-bold text-amber-900 text-base mb-2">⭐ '+(s.productName||'')+'</h3>'+
+                '<div class="space-y-1 text-xs text-slate-600">'+
+                '<p><strong>📌 適應症：</strong>'+(s.indication||'')+'</p>'+
+                '<p><strong>💊 成分：</strong>'+(s.ingredients||'')+'</p>'+
+                '<p><strong>💡 西藥搭配：</strong>'+(s.relatedDrug||'')+'</p>'+
+                '<p class="text-blue-800 font-medium">🧑‍⚕️ '+(s.principle||'')+'</p>'+
+                '</div></div>';
+        });
+
+        // 體檢
+        labHits.slice(0,6).forEach(l=>{
+            html += '<div class="bg-gradient-to-br from-purple-50 to-fuchsia-50/40 rounded-2xl p-4 border border-purple-100 shadow-sm">'+
+                '<h3 class="font-bold text-purple-900 text-base mb-2">📊 '+l.nameZh+' ('+l.abbr+')</h3>'+
+                '<div class="space-y-1 text-xs text-slate-600">'+
+                '<p><strong>📈 男性：</strong>'+l.male+' '+l.unit+'　<strong>女性：</strong>'+l.female+' '+l.unit+'</p>'+
+                '<p><strong>🤰 孕婦：</strong>'+l.pregnant+'　<strong>👶 兒童：</strong>'+l.pediatric+'</p>'+
+                '<p><strong>👴 老年：</strong>'+l.geriatric+'</p>'+
+                '<p class="text-red-600 font-medium">🚨 '+l.clinical+'</p>'+
+                '<p class="text-[10px] text-slate-400 pt-1">報告判讀請拍照傳 LINE 由小彌藥師為您說明</p>'+
+                '</div></div>';
+        });
+
+        container.innerHTML = html;
+    }
+
+    function previewImage(event){
+        const reader = new FileReader();
+        reader.onload = function(){
+            document.getElementById('image-preview').src = reader.result;
+            document.getElementById('preview-container').classList.remove('hidden');
+        };
+        if(event.target.files[0]) reader.readAsDataURL(event.target.files[0]);
+    }
+
+    window.onload = loadDB;
     </script>
 </body>
 </html>
