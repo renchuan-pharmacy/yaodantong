@@ -1,9 +1,9 @@
 name: 自動生成藥品說明
 
 on:
-  workflow_dispatch:  # 手動觸發
-  schedule:
-    - cron: '0 3 * * 2'  # 每週二早上 03:00 UTC（台灣時間 11:00）
+  # 舊流程會生成不適合直接對民眾發布的用藥與保健品文字。
+  # 已停用排程；保留手動入口只供歷史查核，新版公開頁不讀取其輸出。
+  workflow_dispatch:
 
 jobs:
   generate:
