@@ -1,0 +1,8 @@
+# Private pharmacy source files and generated medical-only data
+*.xls
+*.xlsx
+private/
+
+# Python
+__pycache__/
+*.pyc

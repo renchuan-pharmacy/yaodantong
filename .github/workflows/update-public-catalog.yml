@@ -1,0 +1,39 @@
+name: 每週更新藥單通公開資料
+
+on:
+  schedule:
+    - cron: "0 2 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-public-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 取出程式碼
+        uses: actions/checkout@v4
+
+      - name: 設定 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-import.txt
+
+      - name: 安裝套件
+        run: pip install -r requirements-import.txt
+
+      - name: 重新核對健保署公開資料
+        run: >-
+          python scripts/import_public_catalog.py
+          --codes-json data/public_catalog.json
+
+      - name: 提交有變動的公開資料
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add data/public_catalog.json data/public_catalog_meta.json
+          git diff --staged --quiet || git commit -m "更新健保署公開藥品資料 $(date '+%Y-%m-%d')"
+          git push

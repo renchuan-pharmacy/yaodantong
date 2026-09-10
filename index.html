@@ -1,309 +1,86 @@
-<!DOCTYPE html>
-<html lang="zh-TW">
+<!doctype html>
+<html lang="zh-Hant-TW">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>藥單通 ｜ 小彌藥師的智能健康助手</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="藥單通提供健保藥品名稱、成分、劑型與製造廠等公開資料查詢。">
+  <meta name="referrer" content="no-referrer">
+  <title>藥單通｜小彌藥師安心查藥</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
 </head>
-<body class="bg-slate-100 text-slate-800 font-sans antialiased pb-24 md:pb-6">
-
-    <nav class="bg-white shadow-sm sticky top-0 z-50 px-6 py-4 flex items-center justify-between">
-        <div class="flex items-center space-x-3">
-            <img src="channels4_profile.jpg" alt="小彌藥師" class="w-12 h-12 rounded-full border-2 border-blue-500 object-cover shadow-sm" onerror="this.style.display='none'">
-            <div>
-                <h1 class="text-xl font-bold text-slate-900 tracking-wide">藥單通</h1>
-                <p class="text-xs text-blue-500 font-medium">小彌藥師的智能健康助手</p>
-            </div>
-        </div>
-        <div class="hidden md:flex items-center space-x-4 text-sm font-medium text-slate-500">
-            <span class="bg-green-50 text-green-700 px-3 py-1 rounded-full text-xs font-semibold"><i class="fa-brands fa-line mr-1"></i>LINE諮詢: @179ewiti</span>
-        </div>
-    </nav>
-
-    <div class="max-w-xl mx-auto px-4 py-6 space-y-6">
-        
-        <aside class="space-y-6">
-            <div class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/60 text-center">
-                <img src="channels4_profile.jpg" alt="小彌藥師" class="w-24 h-24 rounded-full mx-auto border-4 border-blue-100 shadow-md object-cover mb-4" onerror="this.style.display='none'">
-                <h3 class="text-lg font-bold text-slate-900">我是小彌藥師 🧑‍⚕️</h3>
-                <p class="text-xs text-slate-400 mt-1">LINE 官方帳號: @179ewiti</p>
-                <div class="mt-4 border-t border-slate-100 pt-4 text-left space-y-3 text-sm text-slate-600">
-                    <p class="bg-blue-50 p-3 rounded-xl text-blue-800 text-xs font-medium">✨ 歡迎使用藥單通！此系統已導入小彌藥師獨家大數據。</p>
-                    <p><i class="fa-solid fa-square-check text-emerald-500 mr-2"></i>支援手機拍照/上傳藥單</p>
-                    <p><i class="fa-solid fa-square-check text-emerald-500 mr-2"></i>健保常用藥品庫</p>
-                    <p><i class="fa-solid fa-square-check text-emerald-500 mr-2"></i>市售保健品輔助指引</p>
-                    <p><i class="fa-solid fa-square-check text-emerald-500 mr-2"></i>醫學中心檢驗標準對照</p>
-                </div>
-            </div>
-        </aside>
-
-        <main class="space-y-6 w-full">
-            
-            <section class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/60 text-center relative overflow-hidden">
-                <div class="flex items-center justify-between mb-4">
-                    <h2 class="text-xl font-bold text-slate-800">📸 拍照/上傳處方箋</h2>
-                    <span class="text-2xl">📋</span>
-                </div>
-                <p class="text-sm text-slate-500 text-left mb-6">拍下您的藥單、藥袋或檢查報告，一鍵帶入</p>
-                
-                <label class="cursor-pointer group block border-2 border-dashed border-blue-200 hover:border-blue-400 bg-blue-50/50 rounded-2xl p-8 transition-all duration-200">
-                    <input type="file" accept="image/*" capture="environment" class="hidden" onchange="previewImage(event)">
-                    <div class="space-y-3">
-                        <div class="w-16 h-16 bg-blue-500 text-white rounded-full flex items-center justify-center mx-auto shadow-md group-hover:scale-105 transition-transform">
-                            <i class="fa-solid fa-camera text-2xl"></i>
-                        </div>
-                        <p class="text-base font-semibold text-blue-600">點擊此處 開啟相機拍照</p>
-                        <p class="text-xs text-slate-400">支援處方箋、藥袋、醫學檢查報告單</p>
-                    </div>
-                </label>
-
-                <div id="preview-container" class="hidden mt-4 pt-4 border-t border-slate-100">
-                    <p class="text-xs font-medium text-emerald-600 mb-2"><i class="fa-solid fa-circle-check"></i> 照片成功載入！</p>
-                    <img id="image-preview" src="#" alt="藥單預覽" class="max-h-60 mx-auto rounded-xl shadow-inner border">
-                    <p class="text-xs text-slate-500 mt-2 bg-slate-100 p-3 rounded-lg text-left leading-relaxed">
-                        💡 <strong>小彌提示：</strong>藥單已暫存。您可以點擊最下方按鈕加入我的 LINE (@179ewiti)，將這張照片傳給我，由我親自為您核對！
-                    </p>
-                </div>
-            </section>
-
-            <section class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/60">
-                <div class="flex items-center justify-between mb-2">
-                    <h2 class="text-xl font-bold text-slate-800">🔍 大數據智能快速查詢</h2>
-                    <span class="text-2xl">💊</span>
-                </div>
-                <p class="text-sm text-slate-500 mb-4">輸入藥品商品名、學名、健保碼或體檢指標</p>
-                
-                <div class="relative mb-6">
-                    <input type="text" id="search-input" oninput="doSmartSearch()" placeholder="嘗試輸入：脈優、Metformin、非炎、GPT..." class="w-full bg-slate-50 border border-slate-300 rounded-xl py-3 pl-4 pr-12 text-sm focus:outline-none focus:border-blue-500 focus:bg-white transition-all shadow-inner">
-                    <button class="absolute right-2 top-2 w-8 h-8 bg-blue-600 text-white rounded-lg flex items-center justify-center hover:bg-blue-700">
-                        <i class="fa-solid fa-magnifying-glass text-xs"></i>
-                    </button>
-                </div>
-
-                <div id="search-results-container" class="space-y-4">
-                    <div class="text-center py-8 text-slate-400 text-sm bg-slate-50 rounded-2xl border border-dashed border-slate-200">
-                        <i class="fa-solid fa-wand-magic-sparkles text-xl text-blue-400 mb-2 block"></i>
-                        <span id="load-status">資料庫載入中...</span>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <section class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/60">
-            <div class="flex items-center justify-between mb-2">
-                <h3 class="text-lg font-bold text-slate-900">📊 小彌獨家資料庫大盤</h3>
-                <span class="text-xs bg-slate-100 px-2 py-0.5 text-slate-500 rounded font-mono" id="table-count">載入中</span>
-            </div>
-            <p class="text-xs text-slate-500 mb-4">資料來源：小彌藥師上傳之真實 Excel 數據</p>
-            
-            <div class="overflow-x-auto border border-slate-100 rounded-xl max-h-[550px] overflow-y-auto">
-                <table class="w-full text-left border-collapse text-xs">
-                    <thead>
-                        <tr class="bg-slate-50 border-b border-slate-200 text-slate-600 font-semibold sticky top-0 z-10">
-                            <th class="p-3 bg-slate-50">項目類型</th>
-                            <th class="p-3 bg-slate-50">關鍵名稱</th>
-                        </tr>
-                    </thead>
-                    <tbody class="divide-y divide-slate-100 text-slate-600" id="master-table-body">
-                    </tbody>
-                </table>
-            </div>
-        </section>
+<body>
+  <a class="skip-link" href="#main">跳到主要內容</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="藥單通首頁">
+        <img src="channels4_profile.jpg" alt="小彌藥師" width="48" height="48">
+        <span><strong>藥單通</strong><small>小彌藥師安心查藥</small></span>
+      </a>
+      <span class="edition-badge">民眾版</span>
     </div>
+  </header>
 
-    <div class="fixed bottom-0 left-0 right-0 max-w-md mx-auto bg-white/95 backdrop-blur-md shadow-xl border-t border-slate-200/80 p-3 flex space-x-2 z-50 rounded-t-2xl md:bottom-4 md:rounded-2xl md:border">
-        <a href="https://line.me/R/ti/p/%40179ewiti" target="_blank" class="flex-1 bg-[#06C755] hover:bg-[#05b04b] text-white rounded-xl py-3 px-4 flex items-center justify-center space-x-2 shadow-md font-bold text-sm transition-all active:scale-95">
-            <i class="fa-brands fa-line text-lg"></i>
-            <span>LINE問小彌藥師 (@179ewiti)</span>
-        </a>
-    </div>
+  <main id="main" class="page-shell">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">官方資料核對・不公開店內庫存</p>
+        <h1 id="hero-title">看懂藥袋上的藥品名稱</h1>
+        <p>輸入中文名、英文名、成分或 10 碼健保藥碼，查詢藥品基本資料。是否有現貨與個人用法，請再由藥師確認。</p>
+      </div>
+      <form id="search-form" class="search-panel" role="search">
+        <label for="search-input">搜尋藥品</label>
+        <div class="search-row">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
+          <input id="search-input" name="q" type="search" autocomplete="off" enterkeyhint="search" placeholder="例如：脈優、Metformin、AC12345678">
+          <button type="submit">查詢</button>
+        </div>
+        <p class="search-help">資料只供辨識與一般資訊參考，不代替醫師診斷或藥師用藥指導。</p>
+      </form>
+    </section>
 
-    <script>
-    const DB_URL = 'https://raw.githubusercontent.com/renchuan-pharmacy/yaodantong/main/data/master_db.json';
-    let DRUGS=[], SUPPS=[], LABS=[], SUPP_INDEX={}, ready=false;
+    <section class="safety-grid" aria-label="使用提醒">
+      <article>
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3 4 6v5c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+        <div><h2>您的隱私</h2><p>本站不要求上傳處方箋、藥袋或檢驗報告，也不收集個人病歷。</p></div>
+      </article>
+      <article>
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 9v4m0 4h.01M10.3 3.7 2.8 17a2 2 0 0 0 1.7 3h15a2 2 0 0 0 1.7-3L13.7 3.7a2 2 0 0 0-3.4 0Z"/></svg>
+        <div><h2>緊急狀況</h2><p>若有呼吸困難、意識不清或嚴重過敏，請立即撥 119，不要等待線上回覆。</p></div>
+      </article>
+    </section>
 
-    // 原廠判斷
-    function isOriginal(mfr){
-        return /默克|默沙東|諾華|輝瑞|拜耳|賽諾菲|武田|阿斯特|百靈佳|葛蘭素|諾和|禮來|羅氏|愛力根|參天|大塚|第一三共|楊森|必治妥|吉立亞|安進/.test(mfr||'');
-    }
-    // 成分主體
-    function ingBase(s){
-        if(!s)return '';
-        return s.replace(/\s*[\d.]+\s*(mg|mcg|g|gm|ml|U|%|iu)[^\s,+\/]*/gi,'').split(/[+\/&]/)[0].trim();
-    }
+    <section class="results-section" aria-labelledby="results-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">搜尋結果</p><h2 id="results-title">健保藥品基本資料</h2></div>
+        <span id="catalog-status" class="status-pill">資料載入中</span>
+      </div>
+      <div id="message" class="message" role="status" aria-live="polite">請先輸入藥名、成分或健保碼。</div>
+      <div id="results" class="result-list" aria-live="polite"></div>
+      <button id="show-more" class="secondary-button" type="button" hidden>顯示更多結果</button>
+    </section>
 
-    async function loadDB(){
-        try{
-            const r = await fetch(DB_URL + '?t=' + Date.now());
-            const d = await r.json();
-            DRUGS = d.drugs||[]; SUPPS = d.supplements||[]; LABS = d.labTests||[];
-            // 建保健品對應索引（用 relatedDrug 內的英文藥名關鍵字）
-            SUPPS.forEach(s=>{
-                const kws = (s.relatedDrug||'').match(/[A-Za-z]{4,}/g)||[];
-                kws.forEach(kw=>{
-                    const k = kw.toLowerCase();
-                    if(!SUPP_INDEX[k]) SUPP_INDEX[k]=[];
-                    const base = (s.productName||'').replace(/\s*\([^)]*\)/g,'').trim();
-                    if(!SUPP_INDEX[k].some(x=>x._base===base))
-                        SUPP_INDEX[k].push({_base:base, brand:(s.brand||'').replace(/\s*\([^)]*\)/g,'').trim(), name:base, ingredients:s.ingredients, principle:s.principle});
-                });
-            });
-            ready = true;
-            document.getElementById('load-status').innerHTML = '請在上方輸入關鍵字，智能引擎將即時檢索 '+(DRUGS.length+SUPPS.length+LABS.length)+' 筆數據';
-            renderMasterTable(buildTableRows());
-        }catch(e){
-            document.getElementById('load-status').innerHTML = '資料庫載入失敗，請重新整理頁面';
-        }
-    }
+    <section class="source-card" aria-labelledby="source-title">
+      <div>
+        <p class="eyebrow">資料來源</p>
+        <h2 id="source-title">衛生福利部中央健康保險署</h2>
+        <p id="source-meta">正在讀取資料更新時間。</p>
+      </div>
+      <a href="https://info.nhi.gov.tw/INAE3000" target="_blank" rel="noopener noreferrer">前往健保署查詢</a>
+    </section>
 
-    // 大盤表格資料（精選展示：保健品+體檢+部分藥品）
-    function buildTableRows(filterFn){
-        let rows=[];
-        SUPPS.forEach(s=>rows.push({type:'保健品', name:(s.productName||'').replace(/\s*\([^)]*\)/g,'').trim(), _raw:s}));
-        LABS.forEach(l=>rows.push({type:'報告項目', name:l.nameZh+' ('+l.abbr+')', _raw:l}));
-        DRUGS.forEach(d=>rows.push({type:'藥品', name:d.brandName, _raw:d}));
-        // 去重保健品同名
-        const seen=new Set(); rows=rows.filter(r=>{const k=r.type+r.name; if(seen.has(k))return false; seen.add(k); return true;});
-        if(filterFn) rows=rows.filter(filterFn);
-        return rows;
-    }
+    <section class="medical-card" aria-labelledby="medical-title">
+      <div>
+        <span class="edition-badge muted">規劃中</span>
+        <h2 id="medical-title">藥單通醫護版</h2>
+        <p>醫護版將採登入與權限控管，才可查看店內藥碼、即時庫存與更新時間；不會放在這個公開網站。</p>
+      </div>
+    </section>
+  </main>
 
-    function renderMasterTable(rows){
-        const tbody=document.getElementById('master-table-body');
-        document.getElementById('table-count').innerText = '共 '+rows.length+' 項數據';
-        const show = rows.slice(0,200);
-        tbody.innerHTML = show.map(item=>{
-            const bc = item.type==='保健品'?'bg-amber-100 text-amber-700':(item.type==='報告項目'?'bg-purple-100 text-purple-700':'bg-blue-100 text-blue-700');
-            return '<tr class="hover:bg-slate-50 text-[11px]"><td class="p-3"><span class="'+bc+' px-1.5 py-0.5 rounded text-[10px]">'+item.type+'</span></td><td class="p-3 font-bold text-slate-800 break-all">'+item.name+'</td></tr>';
-        }).join('');
-        if(rows.length>200) tbody.innerHTML += '<tr><td colspan="2" class="p-3 text-center text-slate-400 text-[11px]">...另有 '+(rows.length-200)+' 筆，請用搜尋縮小範圍</td></tr>';
-    }
-
-    function findSupps(ingredient, brandName){
-        const hay = (ingredient+' '+brandName).toLowerCase();
-        const out=[]; const seen=new Set();
-        for(const kw in SUPP_INDEX){
-            if(hay.includes(kw)){
-                SUPP_INDEX[kw].forEach(s=>{ if(!seen.has(s._base)){seen.add(s._base); out.push(s);} });
-            }
-        }
-        return out.slice(0,3);
-    }
-
-    function doSmartSearch(){
-        if(!ready) return;
-        const q = document.getElementById('search-input').value.trim().toLowerCase();
-        const container = document.getElementById('search-results-container');
-        if(!q){
-            container.innerHTML = '<div class="text-center py-8 text-slate-400 text-sm bg-slate-50 rounded-2xl border border-dashed border-slate-200">請在上方輸入關鍵字</div>';
-            renderMasterTable(buildTableRows());
-            return;
-        }
-
-        // 搜尋三類
-        const drugHits = DRUGS.filter(d=>
-            (d.brandName||'').toLowerCase().includes(q) ||
-            (d.ingredient||'').toLowerCase().includes(q) ||
-            (d.nhiCode||'').toLowerCase().includes(q) ||
-            (d.subCategory||'').toLowerCase().includes(q)
-        );
-        const suppHits = SUPPS.filter(s=>
-            (s.productName||'').toLowerCase().includes(q) ||
-            (s.ingredients||'').toLowerCase().includes(q) ||
-            (s.indication||'').toLowerCase().includes(q)
-        );
-        const labHits = LABS.filter(l=>
-            (l.nameZh||'').toLowerCase().includes(q) ||
-            (l.abbr||'').toLowerCase().includes(q)
-        );
-
-        // 更新右側大盤
-        const allNames = new Set([...drugHits.map(d=>d.brandName), ...suppHits.map(s=>(s.productName||'').replace(/\s*\([^)]*\)/g,'').trim()), ...labHits.map(l=>l.nameZh+' ('+l.abbr+')')]);
-        renderMasterTable(buildTableRows(r=>allNames.has(r.name)));
-
-        if(drugHits.length===0 && suppHits.length===0 && labHits.length===0){
-            container.innerHTML = '<div class="text-center py-8 text-amber-600 text-sm bg-amber-50 rounded-2xl border border-dashed border-amber-200">沒找到對應的數據...<p class="text-xs text-slate-500 mt-2">請直接點擊下方綠色按鈕私訊小彌 LINE，我線上親自幫您查！</p></div>';
-            return;
-        }
-
-        let html='';
-
-        // 藥品：按成分+劑型分組
-        if(drugHits.length){
-            const groups={};
-            drugHits.forEach(d=>{
-                const gk = ingBase(d.ingredient)+'|'+(d.subCategory||d.category);
-                if(!groups[gk]) groups[gk]={base:ingBase(d.ingredient), cat:d.subCategory||d.category, items:[]};
-                groups[gk].items.push(d);
-            });
-            Object.values(groups).slice(0,8).forEach(g=>{
-                const brandNames = g.items.map(x=>x.brandName).join(' ');
-                const rows = g.items.slice(0,12).map(d=>{
-                    const orig = isOriginal(d.manufacturer);
-                    return '<div class="flex items-center justify-between py-1.5 border-b border-blue-100/50 last:border-0">'+
-                        '<div><span class="font-semibold text-slate-800 text-xs">'+d.brandName+'</span>'+
-                        (d.manufacturer?'<span class="text-[10px] text-slate-400 ml-1">'+d.manufacturer+'</span>':'')+'</div>'+
-                        '<div class="flex items-center gap-1 shrink-0">'+
-                        '<span class="bg-orange-50 text-orange-700 px-1.5 py-0.5 rounded text-[9px] font-mono">'+d.nhiCode+'</span>'+
-                        (orig?'<span class="bg-pink-50 text-pink-600 px-1.5 py-0.5 rounded text-[9px]">原廠</span>':'<span class="bg-slate-100 text-slate-500 px-1.5 py-0.5 rounded text-[9px]">台廠</span>')+
-                        '</div></div>';
-                }).join('');
-                const more = g.items.length>12?'<p class="text-[10px] text-slate-400 mt-1">...另有 '+(g.items.length-12)+' 個品項</p>':'';
-                const supps = findSupps(g.items[0].ingredient, brandNames);
-                let suppHtml='';
-                if(supps.length){
-                    suppHtml = '<div class="mt-3 pt-3 border-t border-blue-100"><p class="text-[11px] font-bold text-indigo-700 mb-1">🌿 小彌藥師保健建議</p>'+
-                        supps.map(s=>'<p class="text-[10px] text-slate-600 leading-relaxed">• <strong>'+s.name+'</strong>（'+s.brand+'）：'+s.principle+'</p>').join('')+'</div>';
-                }
-                html += '<div class="bg-gradient-to-br from-blue-50 to-indigo-50/40 rounded-2xl p-4 border border-blue-100 shadow-sm">'+
-                    '<h3 class="font-bold text-blue-900 text-base mb-1">💊 '+g.base+'</h3>'+
-                    '<p class="text-[11px] text-slate-500 mb-2">'+g.cat+'</p>'+
-                    rows + more + suppHtml +
-                    '<p class="text-[10px] text-slate-400 mt-2 pt-2 border-t border-blue-100">⚠️ 副作用與用法請點下方 LINE 由小彌藥師親自解說</p>'+
-                    '</div>';
-            });
-        }
-
-        // 保健品
-        suppHits.slice(0,6).forEach(s=>{
-            html += '<div class="bg-gradient-to-br from-amber-50 to-orange-50/40 rounded-2xl p-4 border border-amber-200 shadow-sm">'+
-                '<h3 class="font-bold text-amber-900 text-base mb-2">⭐ '+(s.productName||'')+'</h3>'+
-                '<div class="space-y-1 text-xs text-slate-600">'+
-                '<p><strong>📌 適應症：</strong>'+(s.indication||'')+'</p>'+
-                '<p><strong>💊 成分：</strong>'+(s.ingredients||'')+'</p>'+
-                '<p><strong>💡 西藥搭配：</strong>'+(s.relatedDrug||'')+'</p>'+
-                '<p class="text-blue-800 font-medium">🧑‍⚕️ '+(s.principle||'')+'</p>'+
-                '</div></div>';
-        });
-
-        // 體檢
-        labHits.slice(0,6).forEach(l=>{
-            html += '<div class="bg-gradient-to-br from-purple-50 to-fuchsia-50/40 rounded-2xl p-4 border border-purple-100 shadow-sm">'+
-                '<h3 class="font-bold text-purple-900 text-base mb-2">📊 '+l.nameZh+' ('+l.abbr+')</h3>'+
-                '<div class="space-y-1 text-xs text-slate-600">'+
-                '<p><strong>📈 男性：</strong>'+l.male+' '+l.unit+'　<strong>女性：</strong>'+l.female+' '+l.unit+'</p>'+
-                '<p><strong>🤰 孕婦：</strong>'+l.pregnant+'　<strong>👶 兒童：</strong>'+l.pediatric+'</p>'+
-                '<p><strong>👴 老年：</strong>'+l.geriatric+'</p>'+
-                '<p class="text-red-600 font-medium">🚨 '+l.clinical+'</p>'+
-                '<p class="text-[10px] text-slate-400 pt-1">報告判讀請拍照傳 LINE 由小彌藥師為您說明</p>'+
-                '</div></div>';
-        });
-
-        container.innerHTML = html;
-    }
-
-    function previewImage(event){
-        const reader = new FileReader();
-        reader.onload = function(){
-            document.getElementById('image-preview').src = reader.result;
-            document.getElementById('preview-container').classList.remove('hidden');
-        };
-        if(event.target.files[0]) reader.readAsDataURL(event.target.files[0]);
-    }
-
-    window.onload = loadDB;
-    </script>
+  <footer>
+    <div><strong>藥單通｜小彌藥師</strong><p>查詢結果不代表現貨、處方或治療建議。</p></div>
+    <a class="line-button" href="https://line.me/R/ti/p/%40179ewiti" target="_blank" rel="noopener noreferrer">LINE 詢問藥師 @179ewiti</a>
+  </footer>
 </body>
 </html>
