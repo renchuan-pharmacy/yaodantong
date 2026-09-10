@@ -1,0 +1,30 @@
+name: 每週更新藥品資料庫
+
+on:
+  schedule:
+    - cron: '0 2 * * 1'  # 每週一早上 02:00 UTC（台灣時間 10:00）
+  workflow_dispatch:       # 允許手動觸發
+
+jobs:
+  update-drugs:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 取出程式碼
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 安裝 Python 套件
+        run: pip install requests chardet
+
+      - name: 下載並轉換健保署藥品資料
+        run: python scripts/fetch_drugs.py
+
+      - name: 提交更新
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add data/drugs.json data/meta.json
+          git diff --staged --quiet || git commit -m "自動更新藥品資料庫 $(date '+%Y-%m-%d')"
+          git push

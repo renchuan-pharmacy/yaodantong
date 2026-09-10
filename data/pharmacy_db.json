@@ -1,0 +1,3986 @@
+{
+  "drugs": [
+    {
+      "nhiCode": "AC29172100",
+      "brandName": "Cephanmycin 500mg",
+      "ingredient": "Cephalexin 500mg",
+      "nameZh": "適汎黴素",
+      "manufacturer": "永信",
+      "category": "抗生素",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC25866100",
+      "brandName": "Amoxillin 500mg",
+      "ingredient": "Amoxicillin 500mg",
+      "nameZh": "安莫西林",
+      "manufacturer": "永信",
+      "category": "抗生素",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC12051100",
+      "brandName": "Amoxicillin 250mg",
+      "ingredient": "Amoxicillin 250mg",
+      "nameZh": "安蒙西林",
+      "manufacturer": "中化",
+      "category": "抗生素",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC356921G0",
+      "brandName": "Doxymycin 100mg",
+      "ingredient": "Doxycylline 100mg",
+      "nameZh": "多喜黴素",
+      "manufacturer": "永信",
+      "category": "抗生素",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC03775100",
+      "brandName": "Erythromycin 250mg",
+      "ingredient": "Erythromycin 250mg",
+      "nameZh": "紅黴素",
+      "manufacturer": "永信",
+      "category": "抗生素",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC38089100",
+      "brandName": "Suxen 250mg",
+      "ingredient": "Ciprofloxacin 250mg",
+      "nameZh": "司淨",
+      "manufacturer": "永信",
+      "category": "抗生素",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC38528100",
+      "brandName": "Ciflodal 500mg",
+      "ingredient": "Ciprofloxacin 500mg",
+      "nameZh": "優淨",
+      "manufacturer": "中化",
+      "category": "抗生素",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC45699100",
+      "brandName": "Cefixmycin 100mg",
+      "ingredient": "Cefixime 100mg",
+      "nameZh": "喜復黴素",
+      "manufacturer": "永信",
+      "category": "抗生素",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC42752100",
+      "brandName": "Oflodal 200mg",
+      "ingredient": "Ofloxacin 200mg",
+      "nameZh": "優淨菌",
+      "manufacturer": "中化",
+      "category": "抗生素",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "NC00102100",
+      "brandName": "Uroprin 100mg",
+      "ingredient": "Phenylazodiaminopridine 100mg",
+      "nameZh": "攸汝琳路必淨",
+      "manufacturer": "永信",
+      "category": "抗生素",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AB47516100",
+      "brandName": "Cravit 500mg",
+      "ingredient": "Levofloxacin 500mg",
+      "nameZh": "可樂必妥",
+      "manufacturer": "第一三共",
+      "category": "抗生素",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "BC23257100",
+      "brandName": "Zithromax 250mg",
+      "ingredient": "Azithromycin 250mg",
+      "nameZh": "日舒",
+      "manufacturer": "輝瑞",
+      "category": "抗生素",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC58949100",
+      "brandName": "Aziciin 250mg",
+      "ingredient": "Azithromycin 250mg",
+      "nameZh": "侒舒芯亞",
+      "manufacturer": "中化",
+      "category": "抗生素",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC57842100",
+      "brandName": "Zirocin 250mg",
+      "ingredient": "Azithromycin 250mg",
+      "nameZh": "美妥欣",
+      "manufacturer": "南光",
+      "category": "抗生素",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC24490100",
+      "brandName": "Piperan 250mg",
+      "ingredient": "Pipemidic acid 250mg",
+      "nameZh": "平利腎",
+      "manufacturer": "優生",
+      "category": "抗生素",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC42660100",
+      "brandName": "Anbicyn 625mg",
+      "ingredient": "Amoxicillin 500mg+Clavulanic acid 125mg",
+      "nameZh": "必百欣",
+      "manufacturer": "中化",
+      "category": "抗生素",
+      "subCategory": "複方",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "BB24808100",
+      "brandName": "Curan 1000mg",
+      "ingredient": "Amoxicillin 875mg+Clavulanic acid 125mg",
+      "nameZh": "諾快寧",
+      "manufacturer": "諾華",
+      "category": "抗生素",
+      "subCategory": "複方",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "BC22612100",
+      "brandName": "Augmentin 1000mg",
+      "ingredient": "Amoxicillin 875mg+Clavulanic acid 125mg",
+      "nameZh": "安滅菌",
+      "manufacturer": "葛蘭素",
+      "category": "抗生素",
+      "subCategory": "複方",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC049191G0",
+      "brandName": "Baktar 400mg",
+      "ingredient": "Sulfamethoxazole 400mg+Trimethoprim 80mg",
+      "nameZh": "撲菌特",
+      "manufacturer": "鹽野義",
+      "category": "抗生素",
+      "subCategory": "複方",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "BC18433114",
+      "brandName": "Augmentin 156mg/5ml",
+      "ingredient": "Amoxicillin 25mg/ml",
+      "nameZh": "安滅菌懸浮液",
+      "manufacturer": "葛蘭素",
+      "category": "抗生素",
+      "subCategory": "水劑",
+      "dosageType": "口服液劑"
+    },
+    {
+      "nhiCode": "BC21830180",
+      "brandName": "Zithromax 600mg/15ML",
+      "ingredient": "Azithromycin 40mg",
+      "nameZh": "日舒懸浮液",
+      "manufacturer": "輝瑞",
+      "category": "抗生素",
+      "subCategory": "水劑",
+      "dosageType": "口服液劑"
+    },
+    {
+      "nhiCode": "AC39315100",
+      "brandName": "Acylete 400mg",
+      "ingredient": "Acyclovir 400mg",
+      "nameZh": "敵皰",
+      "manufacturer": "中化",
+      "category": "抗病毒藥",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC49858100",
+      "brandName": "Vacyless 500mg",
+      "ingredient": "Valaciclovir 500mg",
+      "nameZh": "疱易剋",
+      "manufacturer": "永信",
+      "category": "抗病毒藥",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "A059653100",
+      "brandName": "Eraflu 75mg",
+      "ingredient": "Oseltamivir 75mg",
+      "nameZh": "易剋冒",
+      "manufacturer": "永信",
+      "category": "抗病毒藥",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "B025285100",
+      "brandName": "Oselta-Ful 75mg",
+      "ingredient": "Oseltamivir 75mg",
+      "nameZh": "流感苾靈",
+      "manufacturer": "中化",
+      "category": "抗病毒藥",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC52555421",
+      "brandName": "Tetracycline 5g",
+      "ingredient": "Tetracycline 10mg/gm",
+      "nameZh": "鹽酸四環素(紅)",
+      "manufacturer": "溫士頓",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "AC58129421",
+      "brandName": "Tetracycline 5g",
+      "ingredient": "Tetracycline 10mg/gm",
+      "nameZh": "鹽酸四環素(藍)",
+      "manufacturer": "人人",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "AC10478416",
+      "brandName": "Eye Betason-N 3g",
+      "ingredient": "Betamethasone. 2 mg +Neomycin Sulfate 5 mg",
+      "nameZh": "比達爽3G",
+      "manufacturer": "溫士頓",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "AC19915421",
+      "brandName": "Delone 5ml",
+      "ingredient": "Dexamethasone phosphate sodium 1mg/ml/ Neomycin 5ml",
+      "nameZh": "滴朗 5ml",
+      "manufacturer": "杏輝",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "AC44167421",
+      "brandName": "Foxone 0.1% 5ml",
+      "ingredient": "Fluorometholone 1mg/ml",
+      "nameZh": "好視多 5ml (粉紅)",
+      "manufacturer": "溫士頓",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "AC45145421",
+      "brandName": "Foxone 0.02% 5ml",
+      "ingredient": "Fluorometholone 0.2mg/ml",
+      "nameZh": "好視多 5ml (黃)",
+      "manufacturer": "溫士頓",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "AC45960435",
+      "brandName": "Sinomin 15ml",
+      "ingredient": "Sulfamethoxazole 40mg/ml",
+      "nameZh": "止膿敏 15ml",
+      "manufacturer": "杏輝",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "BC24398421",
+      "brandName": "Cravit 5ml",
+      "ingredient": "Levofloxacin 5mg/ml",
+      "nameZh": "可樂必妥 5ml",
+      "manufacturer": "參天",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "AC29343429",
+      "brandName": "Neostigmine 10ml",
+      "ingredient": "Neostigmine 0.1mg/ml",
+      "nameZh": "新斯狄明 10ml",
+      "manufacturer": "鹽野義",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "B00193421",
+      "brandName": "Sancoba",
+      "ingredient": "Cyanocpbalamin 0.2mg/ml",
+      "nameZh": "散克巴",
+      "manufacturer": "參天",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "BC21628421",
+      "brandName": "Kary Uni",
+      "ingredient": "Pirenoxine",
+      "nameZh": "柯寧優尼",
+      "manufacturer": "參天",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "A022473429",
+      "brandName": "Patear 10ml",
+      "ingredient": "Sodium Chloride 3.2mg +Potassium Chloride 1.4mg+Sodium Biphosphate 0.4mg",
+      "nameZh": "派滴兒",
+      "manufacturer": "派頓",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "AC48195421",
+      "brandName": "Timolol 0.25% 2.5mg/ml",
+      "ingredient": "Timolol 5 mg/ml",
+      "nameZh": "克壓5ml",
+      "manufacturer": "麥迪森",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "BC19259421",
+      "brandName": "Timolol 0.5% 5ml",
+      "ingredient": "Timolol 5 mg/ml",
+      "nameZh": "青眼露 (5ml)",
+      "manufacturer": "參天",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "BC21545414",
+      "brandName": "Timolol 0.5% XE",
+      "ingredient": "Timolol 5 mg/ml",
+      "nameZh": "青眼露長效 (5ml)",
+      "manufacturer": "參天",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "BC262604CR",
+      "brandName": "Lumigan PF 0.03%",
+      "ingredient": "Bimatoprost 0.3mg/ml",
+      "nameZh": "露明目(30支)",
+      "manufacturer": "愛力根",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "BC25294416",
+      "brandName": "Lumigan 0.01% 3ml",
+      "ingredient": "Bimatoprost 0.1mg/ml",
+      "nameZh": "露明目3ml",
+      "manufacturer": "愛力根",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "BC23695421",
+      "brandName": "Alphagan -P 0.15% 5ml",
+      "ingredient": "Brinzolamide 1.5mg/ml",
+      "nameZh": "艾弗目",
+      "manufacturer": "愛力根",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "BC24766414",
+      "brandName": "Duotrav 2.5ml",
+      "ingredient": "Travoprost 0.04mg/ml +Timolol 5 mg",
+      "nameZh": "舒壓坦(復方)",
+      "manufacturer": "愛爾康/諾華",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "BC24294421",
+      "brandName": "Combiganml 5ml",
+      "ingredient": "Brinzolamide HCl 2 mg/ml +Timolol 6.8 mg/ml",
+      "nameZh": "康皕庚",
+      "manufacturer": "愛力根",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "BC25115421",
+      "brandName": "Azarga",
+      "ingredient": "Brinzolamide HCl 10 mg +Timolol 5 mg",
+      "nameZh": "愛舒壓",
+      "manufacturer": "愛爾康/諾華",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "BC26946421",
+      "brandName": "Simbrinza",
+      "ingredient": "Brinzolamide 10mg/+Brimonidine Tartrate 2mg/mL",
+      "nameZh": "勝克壓",
+      "manufacturer": "愛爾康/諾華",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "BC23337421",
+      "brandName": "Cosopt",
+      "ingredient": "Dorzolamide HCl 20mg +Timolol Maleate 5mg",
+      "nameZh": "康舒目",
+      "manufacturer": "參天",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "BC22107421",
+      "brandName": "Trusopt 2% 5ml",
+      "ingredient": "Dorzolamide HCl 20mg",
+      "nameZh": "舒露瞳",
+      "manufacturer": "參天",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "BC24977414",
+      "brandName": "Mikelan LA 2%",
+      "ingredient": "Carteolol 20mg/ml",
+      "nameZh": "美特朗2.5ml(冰)",
+      "manufacturer": "大塚",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "BC22540414",
+      "brandName": "Xalatan 2.5ml",
+      "ingredient": "Latanoprost 50mcg/ml",
+      "nameZh": "舒而坦2.5ml(冰)",
+      "manufacturer": "暉致",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "BC27825414",
+      "brandName": "Vyzulta 0.024% 2.5ml",
+      "ingredient": "Latanoprost 240mcg/ml",
+      "nameZh": "凡視達2.5ml(冰)",
+      "manufacturer": "博士倫",
+      "category": "眼藥水耳滴",
+      "subCategory": "眼藥水+眼藥膏",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "AC47116421",
+      "brandName": "Earflo 5ml",
+      "ingredient": "Ofloxacin 3mg/ml",
+      "nameZh": "耳復欣耳滴劑",
+      "manufacturer": "瑞士",
+      "category": "眼藥水耳滴",
+      "subCategory": "耳滴劑",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "AC59069421",
+      "brandName": "Protectier 5ml",
+      "ingredient": "Nystatin 100000U+Triamcinolone 1mg+Neomycin 2.5mg+Gramicidin 0.2",
+      "nameZh": "寶耳康",
+      "manufacturer": "寶齡",
+      "category": "眼藥水耳滴",
+      "subCategory": "耳滴劑",
+      "dosageType": "眼用液劑"
+    },
+    {
+      "nhiCode": "AC49652338",
+      "brandName": "Trisec 20gm",
+      "ingredient": "Clotrimazole 10 mg/gm+Betamethasone 0.5mg/g+Gentamicin 1mg/g",
+      "nameZh": "倍克健(20)",
+      "manufacturer": "人人",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC49652329",
+      "brandName": "Trisec 10gm",
+      "ingredient": "Clotrimazole 10 mg/gm+Betamethasone 0.5mg/g+Gentamicin 1mg/g",
+      "nameZh": "倍克健(10)",
+      "manufacturer": "人人",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC21924323",
+      "brandName": "My comb 6gm",
+      "ingredient": "Nystatin 100000U/gm+Triamcinolone 1mg/gm+Neomycin 2.5mg/gm+Gramicidin 0.25mg/gm",
+      "nameZh": "美康(6)",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC21924329",
+      "brandName": "My comb 10gm",
+      "ingredient": "Nystatin 100000U/gm+Triamcinolone 1mg/gm+Neomycin 2.5mg/gm+Gramicidin 0.25mg/gm",
+      "nameZh": "美康(10)",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC21924336",
+      "brandName": "My comb 16gm",
+      "ingredient": "Nystatin 100000U/gm+Triamcinolone 1mg/gm+Neomycin 2.5mg/gm+Gramicidin 0.25mg/gm",
+      "nameZh": "美康(16)",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC21924338",
+      "brandName": "My comb 20gm",
+      "ingredient": "Nystatin 100000U/gm+Triamcinolone 1mg/gm+Neomycin 2.5mg/gm+Gramicidin 0.25mg/gm",
+      "nameZh": "美康(20)",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC34128321",
+      "brandName": "Clotrisone 5gm",
+      "ingredient": "Clotrimazole 10 mg/gm+Betamethasone 0.64mg/g",
+      "nameZh": "樂利康",
+      "manufacturer": "壽元",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC34124335",
+      "brandName": "Gentamycin 15gm",
+      "ingredient": "Gentamicin 1mg",
+      "nameZh": "紫菌素(15)",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC34124321",
+      "brandName": "Gentamycin 5gm",
+      "ingredient": "Gentamicin 1mg",
+      "nameZh": "紫菌素(5)",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC49339321",
+      "brandName": "Fusidic acid 5mg",
+      "ingredient": "Fusidic acid 20mg",
+      "nameZh": "褐黴素(5)",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC49339338",
+      "brandName": "Fusidic acid 20mg",
+      "ingredient": "Fusidic acid 20mg",
+      "nameZh": "褐黴素(20)",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC59711321",
+      "brandName": "Fusidine 5gm",
+      "ingredient": "Fusidic acid 20mg",
+      "nameZh": "膚喜定(5)",
+      "manufacturer": "中生",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC35183329",
+      "brandName": "ketoconazole 10gm",
+      "ingredient": "Ketoconazole cream 2% 20gm",
+      "nameZh": "必克多黴",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AB43847335",
+      "brandName": "Zalain 2% 15gm",
+      "ingredient": "Sertaconazole 20gm",
+      "nameZh": "達來",
+      "manufacturer": "科進",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC25567329",
+      "brandName": "Econalone 10gm",
+      "ingredient": "Econazole 10mg/gm +Triamcinolone 1mg/gm",
+      "nameZh": "欲克黴",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "A025136329",
+      "brandName": "Mycosten 10gm",
+      "ingredient": "Clotrimazole 10 mg/gm",
+      "nameZh": "黴克頓(10)",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "A025136321",
+      "brandName": "Mycosten 5gm",
+      "ingredient": "Clotrimazole 10 mg/gm",
+      "nameZh": "黴克頓(5)",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC25717321",
+      "brandName": "Econol-T 5gm",
+      "ingredient": "Econazole 10mg/gm",
+      "nameZh": "炎可治",
+      "manufacturer": "人人",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC48039329",
+      "brandName": "Naddin 10gm",
+      "ingredient": "Nadtifine 10gm",
+      "nameZh": "妮膚婷",
+      "manufacturer": "壽元",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC44012335",
+      "brandName": "Mentax 1% 15gm",
+      "ingredient": "Butenafine 10mg/gm",
+      "nameZh": "黴可舒",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC48032335",
+      "brandName": "Ankorme 15gm",
+      "ingredient": "Butenafine 10mg/gm",
+      "nameZh": "安可黴",
+      "manufacturer": "十全",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC44241336",
+      "brandName": "DR PI AF 16GM",
+      "ingredient": "Clotrimazole 10 mg/gm+Betamethasone 0.5mg/g+Gentamicin 1mg/g",
+      "nameZh": "皮大夫",
+      "manufacturer": "明德",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "A032419329",
+      "brandName": "Sinbeta 10gm",
+      "ingredient": "Betamethasone 1mg/g+Gentamicin 1mg/g",
+      "nameZh": "杏貝他健",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "A004973321",
+      "brandName": "Rinderon-VA 0.06%",
+      "ingredient": "Betamethasone 0.5mg/g+Neomycon 3.5 mg/g",
+      "nameZh": "臨得隆",
+      "manufacturer": "鹽野義",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC29789329",
+      "brandName": "Exelderm 10gm",
+      "ingredient": "Sulconazole 10mg/gm",
+      "nameZh": "優足達",
+      "manufacturer": "田邊",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC29790329",
+      "brandName": "Exelderm 10ml",
+      "ingredient": "Sulconazole 10mg/gm",
+      "nameZh": "優足達(水劑)",
+      "manufacturer": "田邊",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC46998340",
+      "brandName": "Genuvate 25gm",
+      "ingredient": "Clobetasol 0.5mg/gm",
+      "nameZh": "傑寧膚",
+      "manufacturer": "人人",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC36315324",
+      "brandName": "Clobetasol 7gm",
+      "ingredient": "Clobetasol 0.5mg/gm",
+      "nameZh": "可立舒(5)(清涼)",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC36315329",
+      "brandName": "Clobetasol 10gm",
+      "ingredient": "Clobetasol 0.5mg/gm",
+      "nameZh": "可立舒(10)(清涼)",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC18063321",
+      "brandName": "Topsym 5gm",
+      "ingredient": "Fluocinonide 0.5mg/gm",
+      "nameZh": "妥膚淨(5)",
+      "manufacturer": "田邊",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC18063329",
+      "brandName": "Topsym 10gm",
+      "ingredient": "Fluocinonide 0.5mg/gm",
+      "nameZh": "妥膚淨(10)",
+      "manufacturer": "田邊",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC18083338",
+      "brandName": "Topsym 20gm",
+      "ingredient": "Fluocinonide 0.5mg/gm",
+      "nameZh": "妥膚淨(20)",
+      "manufacturer": "田邊",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC19616329",
+      "brandName": "Bentamethasone 10gm",
+      "ingredient": "Betamethasone 0.5mg/gm",
+      "nameZh": "貝他美松(10)",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC48505321",
+      "brandName": "Fluticosone 5gm",
+      "ingredient": "Fluticasone 0.5mg",
+      "nameZh": "全佳膚",
+      "manufacturer": "十全",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "A035883329",
+      "brandName": "Hydrocortisone 10gm",
+      "ingredient": "Hydrocortisone 10mg/gm",
+      "nameZh": "吉舒",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC48391321",
+      "brandName": "Metsone 0.1% 5gm",
+      "ingredient": "Mometasone 1mg/gm",
+      "nameZh": "頓安膚",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC47625326",
+      "brandName": "Momesone 0.1% 8gm",
+      "ingredient": "Mometasone 1mg/gm",
+      "nameZh": "喜膚能",
+      "manufacturer": "寶齡富錦",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC45915335",
+      "brandName": "Antidoxe 15gm",
+      "ingredient": "Doxepin 50mg/gm",
+      "nameZh": "逗喜",
+      "manufacturer": "十全",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC37622323",
+      "brandName": "Dermalean 6gm",
+      "ingredient": "Clindamycin 10mg/gm",
+      "nameZh": "樂淨(6)",
+      "manufacturer": "寶齡富錦",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC37622329",
+      "brandName": "Dermalean 10gm",
+      "ingredient": "Clindamycin 10mg/gm",
+      "nameZh": "樂淨(10)",
+      "manufacturer": "寶齡富錦",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC32571338",
+      "brandName": "Siliverzine 20g",
+      "ingredient": "Sulfadiazine 10mg/gm",
+      "nameZh": "燙膚舒(20g)",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC26128348",
+      "brandName": "Sulfasil 50g",
+      "ingredient": "Sulfadiazine 10mg/gm",
+      "nameZh": "灼膚星(50g)",
+      "manufacturer": "榮民",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AB33541423",
+      "brandName": "Oralog 6gm",
+      "ingredient": "Triamcinolone 1mg/gm",
+      "nameZh": "口潰舒",
+      "manufacturer": "瑞安",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC45183421",
+      "brandName": "Zinc 0.1% 5gm",
+      "ingredient": "Dexamethasone 1mg/gm",
+      "nameZh": "親平(5)",
+      "manufacturer": "中生",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC45183412",
+      "brandName": "Zinc 0.1% 2gm",
+      "ingredient": "Dexamethasone 1mg/gm",
+      "nameZh": "親平(2)",
+      "manufacturer": "中生",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC42271421",
+      "brandName": "Dexa 0.1% 5gm",
+      "ingredient": "Dexamethasone 1mg/gm",
+      "nameZh": "得舒",
+      "manufacturer": "杏輝",
+      "category": "藥膏水劑貼布",
+      "subCategory": "",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AB31086329",
+      "brandName": "Septon 10g",
+      "ingredient": "Betamethasone 0.64mg/gm",
+      "nameZh": "舒膚通(水劑)",
+      "manufacturer": "鹽野義",
+      "category": "藥膏水劑貼布",
+      "subCategory": "水劑",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC30465340",
+      "brandName": "Episone 25ml",
+      "ingredient": "Betamethasone 1mg/ml",
+      "nameZh": "怡皮爽(水劑)",
+      "manufacturer": "寶齡富錦",
+      "category": "藥膏水劑貼布",
+      "subCategory": "水劑",
+      "dosageType": "口服液劑"
+    },
+    {
+      "nhiCode": "AC42798338",
+      "brandName": "Benovate 1mg/ml",
+      "ingredient": "Betamethasone 1mg/ml",
+      "nameZh": "貝若菲液",
+      "manufacturer": "美西",
+      "category": "藥膏水劑貼布",
+      "subCategory": "水劑",
+      "dosageType": "口服液劑"
+    },
+    {
+      "nhiCode": "AC29739329",
+      "brandName": "Topsym Lotion",
+      "ingredient": "Fluocinonide 0.5mg/gm",
+      "nameZh": "妥膚淨(洗劑)",
+      "manufacturer": "田邊",
+      "category": "藥膏水劑貼布",
+      "subCategory": "水劑",
+      "dosageType": "外用凝膠"
+    },
+    {
+      "nhiCode": "AC40358345",
+      "brandName": "FLUR DI FEN",
+      "ingredient": "Flurbiprofen 40mg",
+      "nameZh": "富帝芬",
+      "manufacturer": "得生",
+      "category": "藥膏水劑貼布",
+      "subCategory": "貼布",
+      "dosageType": "外用貼布"
+    },
+    {
+      "nhiCode": "AC43493345",
+      "brandName": "FLURBI",
+      "ingredient": "Flurbiprofen 40mg",
+      "nameZh": "菲比",
+      "manufacturer": "德山",
+      "category": "藥膏水劑貼布",
+      "subCategory": "貼布",
+      "dosageType": "外用貼布"
+    },
+    {
+      "nhiCode": "AC46451345",
+      "brandName": "DISPAIN",
+      "ingredient": "Flurbiprofen 40mg",
+      "nameZh": "祛痛貼",
+      "manufacturer": "得生",
+      "category": "藥膏水劑貼布",
+      "subCategory": "貼布",
+      "dosageType": "外用貼布"
+    },
+    {
+      "nhiCode": "A039349345",
+      "brandName": "Voren -G-gel 40mg",
+      "ingredient": "Diclofenac Sodium 10mg/gm",
+      "nameZh": "非炎",
+      "manufacturer": "永信",
+      "category": "藥膏水劑貼布",
+      "subCategory": "痠痛藥膏",
+      "dosageType": "外用凝膠"
+    },
+    {
+      "nhiCode": "AC43214325",
+      "brandName": "Focus 40mg",
+      "ingredient": "Piroxicam 10mg",
+      "nameZh": "伏加斯",
+      "manufacturer": "永信",
+      "category": "藥膏水劑貼布",
+      "subCategory": "痠痛藥膏",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC39429345",
+      "brandName": "Toricam 40mg",
+      "ingredient": "Piroxicam 10mg",
+      "nameZh": "完疲",
+      "manufacturer": "五洲",
+      "category": "藥膏水劑貼布",
+      "subCategory": "痠痛藥膏",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AA36015345",
+      "brandName": "Teiria",
+      "ingredient": "Etofenamate 100mg",
+      "nameZh": "思舒",
+      "manufacturer": "五洲",
+      "category": "藥膏水劑貼布",
+      "subCategory": "痠痛藥膏",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AB318961G0",
+      "brandName": "Musco 30mg",
+      "ingredient": "Ambroxol 30mg",
+      "nameZh": "美舒咳",
+      "manufacturer": "生達",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC463861G0",
+      "brandName": "Loxol SR 75 mg",
+      "ingredient": "Ambroxol 75mg",
+      "nameZh": "樂咳痰",
+      "manufacturer": "健亞",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "A028142100",
+      "brandName": "Kasteine 375mg",
+      "ingredient": "Carbocysteine 375mg",
+      "nameZh": "痰可出",
+      "manufacturer": "永信",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "A009038100",
+      "brandName": "Bisco 8mg",
+      "ingredient": "Bromhexine 8mg",
+      "nameZh": "必舒咳",
+      "manufacturer": "生達",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "A032323121",
+      "brandName": "Actein 40mg",
+      "ingredient": "Acetylcysteine 40mg/gm",
+      "nameZh": "愛克痰(小鳥藥)(紅)",
+      "manufacturer": "健喬信元",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "A037598116",
+      "brandName": "Actein 66.7mg",
+      "ingredient": "Acetylcysteine 66.7mg/gm",
+      "nameZh": "愛克痰(小鳥藥)(綠)",
+      "manufacturer": "健喬信元",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "外用乳膏"
+    },
+    {
+      "nhiCode": "AC59040111",
+      "brandName": "Actein 600mg",
+      "ingredient": "Acetylcysteine 600mg",
+      "nameZh": "愛克痰 顆粒",
+      "manufacturer": "健喬信元",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AB45993100",
+      "brandName": "Actein 600mg",
+      "ingredient": "Acetylcysteine 600mg",
+      "nameZh": "愛克痰發泡錠(泡水)",
+      "manufacturer": "健喬信元",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC426871G0",
+      "brandName": "Regrow 60mg",
+      "ingredient": "Dextromethophan 60mg",
+      "nameZh": "愛舒可羅",
+      "manufacturer": "東生華",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC217581G0",
+      "brandName": "Medicon-A 20mg",
+      "ingredient": "Dextromethophan 20mg+Lysozyme 20mg +Poyassium Cresolsufoneate 90mg",
+      "nameZh": "滅咳康",
+      "manufacturer": "鹽野義",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AB33544100",
+      "brandName": "Mephan 30mg",
+      "ingredient": "Dextromethophan 30mg",
+      "nameZh": "癒咳",
+      "manufacturer": "瑞安",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC275981G0",
+      "brandName": "Fucou",
+      "ingredient": "Dextromethophan 20mg+Lysozyme 20mg +Poyassium Cresolsufoneate 90mg",
+      "nameZh": "去咳",
+      "manufacturer": "華興",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC33962100",
+      "brandName": "Cotazym",
+      "ingredient": "Dextromethophan 20mg+Lysozyme 20mg +Poyassium Cresolsufoneate 90mg",
+      "nameZh": "咳炎淨",
+      "manufacturer": "永信",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC388191G0",
+      "brandName": "Romicon-A",
+      "ingredient": "Dextromethophan 20mg+Lysozyme 20mg +Poyassium Cresolsufoneate 90mg",
+      "nameZh": "樂滅咳",
+      "manufacturer": "健喬信元",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "A046273100",
+      "brandName": "Korfan 20mg",
+      "ingredient": "Noscapine 20mg",
+      "nameZh": "咳緩",
+      "manufacturer": "台裕",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AB44510100",
+      "brandName": "Eufan 10mg",
+      "ingredient": "Dimemorfan 10mg",
+      "nameZh": "優喉",
+      "manufacturer": "生達",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "A029226100",
+      "brandName": "Fucole Cold",
+      "ingredient": "Chlorpheniramine 2.1mg +Methylephrone 10mg+Caffeine 30mg +Ascorbic acid 21mg +Thiamine 4.5mg +Riboflavin 4mg",
+      "nameZh": "永克風",
+      "manufacturer": "永信",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "A032320100",
+      "brandName": "Acetal 500mg",
+      "ingredient": "Acetaminophen 500mg",
+      "nameZh": "愛舒疼",
+      "manufacturer": "瑞安",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "A034819100",
+      "brandName": "Anliton 500mg",
+      "ingredient": "Acetaminophen 500mg",
+      "nameZh": "安離痛",
+      "manufacturer": "永勝",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "A037249100",
+      "brandName": "Anliton  Extra",
+      "ingredient": "Acetaminophen 500mg +Caffeine 65mg",
+      "nameZh": "安離痛加強",
+      "manufacturer": "永勝",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC30466100",
+      "brandName": "Ibuprofen 400mg",
+      "ingredient": "Ibuprofen 400mg",
+      "nameZh": "伊普",
+      "manufacturer": "永信",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC48520100",
+      "brandName": "Ipu film",
+      "ingredient": "Ibuprofen 600mg",
+      "nameZh": "依普炎",
+      "manufacturer": "井田",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AB20333100",
+      "brandName": "Voren 25mg",
+      "ingredient": "Diclofenac Sodium 25mg",
+      "nameZh": "非炎腸溶(25)",
+      "manufacturer": "永信",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AB25524100",
+      "brandName": "Voren 50mg",
+      "ingredient": "Diclofenac Sodium 50mg",
+      "nameZh": "非炎腸溶(50)",
+      "manufacturer": "永信",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AB336991G0",
+      "brandName": "Voren  MR 50mg",
+      "ingredient": "Diclofenac Sodium 50mg",
+      "nameZh": "非炎腸溶微粒(50)",
+      "manufacturer": "永信",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AB444031G0",
+      "brandName": "Voren -K 50mg",
+      "ingredient": "Diclofenac Potassium 50mg",
+      "nameZh": "非炎鉀(50)",
+      "manufacturer": "永信",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AB38019100",
+      "brandName": "Voren  SR 100mg",
+      "ingredient": "Diclofenac Sodium 100mg",
+      "nameZh": "非炎腸溶100)",
+      "manufacturer": "永信",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AB28656500",
+      "brandName": "Voren  Suppositories 12.5mg",
+      "ingredient": "Diclofenac Sodium 12.5mg",
+      "nameZh": "非炎栓劑(12.5)",
+      "manufacturer": "永信",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "塞劑/栓劑"
+    },
+    {
+      "nhiCode": "AC45965100",
+      "brandName": "Keto 10mg",
+      "ingredient": "Ketorolac 10mg",
+      "nameZh": "克多炎",
+      "manufacturer": "永信",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "NC02531100",
+      "brandName": "Donison 5mg",
+      "ingredient": "Prednisolone 5mg",
+      "nameZh": "樂爾爽",
+      "manufacturer": "中化",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC02359100",
+      "brandName": "Prendisolone 5mg",
+      "ingredient": "Prednisolone 5mg",
+      "nameZh": "去氫羥化腎上腺皮質素錠",
+      "manufacturer": "優生",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC065431G0",
+      "brandName": "Prendisolone 5mg",
+      "ingredient": "Prednisolone 5mg",
+      "nameZh": "普列到寧",
+      "manufacturer": "成大",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC316761G0",
+      "brandName": "Compesolon 5mg",
+      "ingredient": "Prednisolone 5mg",
+      "nameZh": "康速龍",
+      "manufacturer": "柏理",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "NB007111G0",
+      "brandName": "Predonine 5mg",
+      "ingredient": "Prednisolone 5mg",
+      "nameZh": "普力多寧",
+      "manufacturer": "鹽野義",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC45923100",
+      "brandName": "Meticort 4mg",
+      "ingredient": "Methylprendisolone 4mg",
+      "nameZh": "美蒂舒",
+      "manufacturer": "健喬",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC10168100",
+      "brandName": "Decan",
+      "ingredient": "Dexamethasone 0.75 mg",
+      "nameZh": "特佳",
+      "manufacturer": "永信",
+      "category": "感冒藥",
+      "subCategory": "鎮咳化痰",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "A040164151",
+      "brandName": "Anti-phen 60ml",
+      "ingredient": "Acetaminophen 24mg/ml",
+      "nameZh": "安佳熱",
+      "manufacturer": "晟德",
+      "category": "感冒藥",
+      "subCategory": "水劑",
+      "dosageType": "口服液劑"
+    },
+    {
+      "nhiCode": "AC43152151",
+      "brandName": "Ibuprofen 60ml",
+      "ingredient": "Ibuprofen 20mg/ml",
+      "nameZh": "依普芬(草莓)",
+      "manufacturer": "晟德",
+      "category": "感冒藥",
+      "subCategory": "水劑",
+      "dosageType": "口服液劑"
+    },
+    {
+      "nhiCode": "AC45251151",
+      "brandName": "Scoton 60ml",
+      "ingredient": "Ibuprofen 20mg/ml",
+      "nameZh": "速克痛",
+      "manufacturer": "寶齡",
+      "category": "感冒藥",
+      "subCategory": "水劑",
+      "dosageType": "口服液劑"
+    },
+    {
+      "nhiCode": "AB45438151",
+      "brandName": "Idofen 60ml",
+      "ingredient": "Ibuprofen 20mg/ml",
+      "nameZh": "舒抑痛",
+      "manufacturer": "生達",
+      "category": "感冒藥",
+      "subCategory": "水劑",
+      "dosageType": "口服液劑"
+    },
+    {
+      "nhiCode": "A029634151",
+      "brandName": "Nocough syrup  60ml",
+      "ingredient": "Dextromethophan 1mg/ml+Chlorpheniramine 0.2mg/ml +Phenylephedrine 1mg/ml +Guaiacol Glycolate 5mg/ml",
+      "nameZh": "安咳糖漿",
+      "manufacturer": "杏輝",
+      "category": "感冒藥",
+      "subCategory": "水劑",
+      "dosageType": "口服液劑"
+    },
+    {
+      "nhiCode": "AC43588151",
+      "brandName": "Cypromin 60ml",
+      "ingredient": "Cyproheptadine 0.4mg/ml",
+      "nameZh": "希普利敏(香蕉)",
+      "manufacturer": "晟德",
+      "category": "感冒藥",
+      "subCategory": "水劑",
+      "dosageType": "口服液劑"
+    },
+    {
+      "nhiCode": "AC49029151",
+      "brandName": "Antimin 60ml",
+      "ingredient": "Cyproheptadine 0.4mg/ml",
+      "nameZh": "克敏息",
+      "manufacturer": "寶齡",
+      "category": "感冒藥",
+      "subCategory": "水劑",
+      "dosageType": "口服液劑"
+    },
+    {
+      "nhiCode": "A036094157",
+      "brandName": "Guaphen 120ml",
+      "ingredient": "Guaiacol Glycolate 20mg/ml",
+      "nameZh": "咳酚",
+      "manufacturer": "晟德",
+      "category": "感冒藥",
+      "subCategory": "水劑",
+      "dosageType": "口服液劑"
+    },
+    {
+      "nhiCode": "A040833157",
+      "brandName": "Secorine 120ml",
+      "ingredient": "Chlorpheniramine 0.1mg/ml +Methylephedrine 1mg/ml+Guaiacol Glycolate 5mg/ml",
+      "nameZh": "息咳寧",
+      "manufacturer": "晟德",
+      "category": "感冒藥",
+      "subCategory": "水劑",
+      "dosageType": "口服液劑"
+    },
+    {
+      "nhiCode": "AC40706157",
+      "brandName": "Sortuss 120ml",
+      "ingredient": "Dextromethophan 1mg/ml",
+      "nameZh": "息咳液",
+      "manufacturer": "晟德",
+      "category": "感冒藥",
+      "subCategory": "水劑",
+      "dosageType": "口服液劑"
+    },
+    {
+      "nhiCode": "AC43160151",
+      "brandName": "Soltan 60ml",
+      "ingredient": "Ambroxol 3mg/ml",
+      "nameZh": "舒痰(鳳梨)",
+      "manufacturer": "晟德",
+      "category": "感冒藥",
+      "subCategory": "水劑",
+      "dosageType": "口服液劑"
+    },
+    {
+      "nhiCode": "AC46614151",
+      "brandName": "Kidsolone 60ml",
+      "ingredient": "Prendisolone 1mg/ml",
+      "nameZh": "必爾生",
+      "manufacturer": "晟德",
+      "category": "感冒藥",
+      "subCategory": "水劑",
+      "dosageType": "口服液劑"
+    },
+    {
+      "nhiCode": "AC27144151",
+      "brandName": "Peace syrup 60ml",
+      "ingredient": "Triprolidine Hydrochloride 0.25mg. Pseudoephedrine Hydrochloride 6mg",
+      "nameZh": "鼻福(麻黃素)",
+      "manufacturer": "永信",
+      "category": "感冒藥",
+      "subCategory": "水劑",
+      "dosageType": "口服液劑"
+    },
+    {
+      "nhiCode": "AC444181G0",
+      "brandName": "Theolin SR 250mg",
+      "ingredient": "Theophylline 250mg",
+      "nameZh": "息寧緩釋錠",
+      "manufacturer": "培力",
+      "category": "氣喘治療劑",
+      "subCategory": "氣喘",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC449241G0",
+      "brandName": "Thoin SR 125 mg",
+      "ingredient": "Theophylline 125mg",
+      "nameZh": "喘克",
+      "manufacturer": "永勝",
+      "category": "氣喘治療劑",
+      "subCategory": "氣喘",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC455391G0",
+      "brandName": "Nosma 125mg",
+      "ingredient": "Theophylline 125mg",
+      "nameZh": "漠喘",
+      "manufacturer": "永勝",
+      "category": "氣喘治療劑",
+      "subCategory": "氣喘",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "BC19567100",
+      "brandName": "Xanthium 400mg",
+      "ingredient": "Theophylline 400mg",
+      "nameZh": "善寧400",
+      "manufacturer": "天義",
+      "category": "氣喘治療劑",
+      "subCategory": "氣喘",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "BC196241G0",
+      "brandName": "Xanthium 200mg",
+      "ingredient": "Theophylline 200mg",
+      "nameZh": "善寧200",
+      "manufacturer": "天義",
+      "category": "氣喘治療劑",
+      "subCategory": "氣喘",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC2698410",
+      "brandName": "Peace",
+      "ingredient": "Triprolidine Hydrochloride 2.5mg/Pseudoephedrine Hydrochloride 60mg",
+      "nameZh": "鼻福",
+      "manufacturer": "永信",
+      "category": "氣喘治療劑",
+      "subCategory": "抗組織胺",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "A032113100",
+      "brandName": "Tosumin",
+      "ingredient": "Triprolidine Hydrochloride 2.5mg/Pseudoephedrine Hydrochloride 60mg",
+      "nameZh": "得息敏",
+      "manufacturer": "衛達",
+      "category": "氣喘治療劑",
+      "subCategory": "抗組織胺",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "A015540100",
+      "brandName": "Norsecon",
+      "ingredient": "Chlorpheniramine Maleate 2mg/Phenylephrine HCl 10mg/Caffeine Anhydrous 30mg",
+      "nameZh": "鼻康速",
+      "manufacturer": "井田",
+      "category": "氣喘治療劑",
+      "subCategory": "抗組織胺",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "BC23010100",
+      "brandName": "Allegra 180mg",
+      "ingredient": "Fexofenadine HCl 180mg",
+      "nameZh": "艾來(180)",
+      "manufacturer": "大昌華嘉",
+      "category": "氣喘治療劑",
+      "subCategory": "抗組織胺",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "BC23016100",
+      "brandName": "Allegra 60mg",
+      "ingredient": "Fexofenadine HCl 60mg",
+      "nameZh": "艾來(60)",
+      "manufacturer": "大昌華嘉",
+      "category": "氣喘治療劑",
+      "subCategory": "抗組織胺",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC571271G0",
+      "brandName": "Fexofenadine 60mg",
+      "ingredient": "Fexofenadine HCl 60mg",
+      "nameZh": "飛敏耐",
+      "manufacturer": "中化",
+      "category": "氣喘治療劑",
+      "subCategory": "抗組織胺",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC45972100",
+      "brandName": "Denosin 5mg",
+      "ingredient": "Desloratadine 5mg",
+      "nameZh": "停敏",
+      "manufacturer": "美時",
+      "category": "氣喘治療劑",
+      "subCategory": "抗組織胺",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC51197100",
+      "brandName": "Desora 5mg",
+      "ingredient": "Desloratadine 5mg",
+      "nameZh": "治敏樂",
+      "manufacturer": "優生",
+      "category": "氣喘治療劑",
+      "subCategory": "抗組織胺",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC047371G0",
+      "brandName": "Pilian 4mg",
+      "ingredient": "Cyproheptadine HCl",
+      "nameZh": "佩你安",
+      "manufacturer": "永信",
+      "category": "氣喘治療劑",
+      "subCategory": "抗組織胺",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC44710100",
+      "brandName": "Cety 10mg",
+      "ingredient": "Cetirizine 10mg",
+      "nameZh": "協帝",
+      "manufacturer": "永信",
+      "category": "氣喘治療劑",
+      "subCategory": "抗組織胺",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "A027040100",
+      "brandName": "Dex CTM 2mg",
+      "ingredient": "Dexchlorpheniramine 2mg",
+      "nameZh": "特息敏",
+      "manufacturer": "健喬信元",
+      "category": "氣喘治療劑",
+      "subCategory": "抗組織胺",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "A026559100",
+      "brandName": "Delamin 2mg",
+      "ingredient": "Dexchlorpheniramine 2mg",
+      "nameZh": "力克敏",
+      "manufacturer": "生達",
+      "category": "氣喘治療劑",
+      "subCategory": "抗組織胺",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "BC23792100",
+      "brandName": "Xyzal 5mg",
+      "ingredient": "Levocetirizine 5 mg",
+      "nameZh": "驅異樂",
+      "manufacturer": "GSK",
+      "category": "氣喘治療劑",
+      "subCategory": "抗組織胺",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC50145100",
+      "brandName": "Xyzine 5mg",
+      "ingredient": "Levocetirizine 5 mg",
+      "nameZh": "萊欣",
+      "manufacturer": "中化",
+      "category": "氣喘治療劑",
+      "subCategory": "抗組織胺",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC49833100",
+      "brandName": "Levozine 5mg",
+      "ingredient": "Levocetirizine 5 mg",
+      "nameZh": "舒敏寧",
+      "manufacturer": "生達",
+      "category": "氣喘治療劑",
+      "subCategory": "抗組織胺",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC441151G0",
+      "brandName": "Mequitazine 5mg",
+      "ingredient": "Mequitazine 5mg",
+      "nameZh": "過敏美奎",
+      "manufacturer": "五洲",
+      "category": "氣喘治療劑",
+      "subCategory": "抗組織胺",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC40979100",
+      "brandName": "Meqazine 5mg",
+      "ingredient": "Mequitazine 5mg",
+      "nameZh": "得敏泰",
+      "manufacturer": "元宙",
+      "category": "氣喘治療劑",
+      "subCategory": "抗組織胺",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "A018559100",
+      "brandName": "Lonzumin 25mg",
+      "ingredient": "Buclizine 25mg",
+      "nameZh": "普治敏",
+      "manufacturer": "生達",
+      "category": "氣喘治療劑",
+      "subCategory": "抗組織胺",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC402061G0",
+      "brandName": "Voker 20mg",
+      "ingredient": "Famotidine 20mg",
+      "nameZh": "非潰",
+      "manufacturer": "永信",
+      "category": "胃腸藥",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC577911G0",
+      "brandName": "Famotidine 20mg",
+      "ingredient": "Famotidine 20mg",
+      "nameZh": "法瑪鎮",
+      "manufacturer": "中化",
+      "category": "胃腸藥",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "BC24273100",
+      "brandName": "Takepron -OD 30mg",
+      "ingredient": "Lansoprazole 30mg",
+      "nameZh": "泰克胃通",
+      "manufacturer": "武田",
+      "category": "胃腸藥",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC373441G0",
+      "brandName": "Bokey 100 mg",
+      "ingredient": "Aspirin 100mg",
+      "nameZh": "伯基",
+      "manufacturer": "永信",
+      "category": "心臟血管",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    },
+    {
+      "nhiCode": "AC436641G0",
+      "brandName": "Espin 100mg",
+      "ingredient": "Aspirin 100mg",
+      "nameZh": "安心平",
+      "manufacturer": "永勝",
+      "category": "心臟血管",
+      "subCategory": "",
+      "dosageType": "口服錠劑"
+    }
+  ],
+  "groups": [
+    {
+      "groupKey": "Cephalexin_口服錠劑",
+      "ingredient": "Cephalexin 500mg",
+      "dosageType": "口服錠劑",
+      "category": "抗生素",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC29172100",
+          "brandName": "Cephanmycin 500mg",
+          "nameZh": "適汎黴素",
+          "manufacturer": "永信"
+        }
+      ]
+    },
+    {
+      "groupKey": "Amoxicillin_口服錠劑",
+      "ingredient": "Amoxicillin 500mg",
+      "dosageType": "口服錠劑",
+      "category": "抗生素",
+      "count": 4,
+      "brands": [
+        {
+          "nhiCode": "AC25866100",
+          "brandName": "Amoxillin 500mg",
+          "nameZh": "安莫西林",
+          "manufacturer": "永信"
+        },
+        {
+          "nhiCode": "AC12051100",
+          "brandName": "Amoxicillin 250mg",
+          "nameZh": "安蒙西林",
+          "manufacturer": "中化"
+        },
+        {
+          "nhiCode": "AC42660100",
+          "brandName": "Anbicyn 625mg",
+          "nameZh": "必百欣",
+          "manufacturer": "中化"
+        },
+        {
+          "nhiCode": "BB24808100",
+          "brandName": "Curan 1000mg",
+          "nameZh": "諾快寧",
+          "manufacturer": "諾華"
+        }
+      ]
+    },
+    {
+      "groupKey": "Doxycylline_口服錠劑",
+      "ingredient": "Doxycylline 100mg",
+      "dosageType": "口服錠劑",
+      "category": "抗生素",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC356921G0",
+          "brandName": "Doxymycin 100mg",
+          "nameZh": "多喜黴素",
+          "manufacturer": "永信"
+        }
+      ]
+    },
+    {
+      "groupKey": "Erythromycin_口服錠劑",
+      "ingredient": "Erythromycin 250mg",
+      "dosageType": "口服錠劑",
+      "category": "抗生素",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC03775100",
+          "brandName": "Erythromycin 250mg",
+          "nameZh": "紅黴素",
+          "manufacturer": "永信"
+        }
+      ]
+    },
+    {
+      "groupKey": "Ciprofloxacin_口服錠劑",
+      "ingredient": "Ciprofloxacin 250mg",
+      "dosageType": "口服錠劑",
+      "category": "抗生素",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC38089100",
+          "brandName": "Suxen 250mg",
+          "nameZh": "司淨",
+          "manufacturer": "永信"
+        },
+        {
+          "nhiCode": "AC38528100",
+          "brandName": "Ciflodal 500mg",
+          "nameZh": "優淨",
+          "manufacturer": "中化"
+        }
+      ]
+    },
+    {
+      "groupKey": "Cefixime_口服錠劑",
+      "ingredient": "Cefixime 100mg",
+      "dosageType": "口服錠劑",
+      "category": "抗生素",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC45699100",
+          "brandName": "Cefixmycin 100mg",
+          "nameZh": "喜復黴素",
+          "manufacturer": "永信"
+        }
+      ]
+    },
+    {
+      "groupKey": "Ofloxacin_口服錠劑",
+      "ingredient": "Ofloxacin 200mg",
+      "dosageType": "口服錠劑",
+      "category": "抗生素",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC42752100",
+          "brandName": "Oflodal 200mg",
+          "nameZh": "優淨菌",
+          "manufacturer": "中化"
+        }
+      ]
+    },
+    {
+      "groupKey": "Phenylazodiaminopridine_口服錠劑",
+      "ingredient": "Phenylazodiaminopridine 100mg",
+      "dosageType": "口服錠劑",
+      "category": "抗生素",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "NC00102100",
+          "brandName": "Uroprin 100mg",
+          "nameZh": "攸汝琳路必淨",
+          "manufacturer": "永信"
+        }
+      ]
+    },
+    {
+      "groupKey": "Levofloxacin_口服錠劑",
+      "ingredient": "Levofloxacin 500mg",
+      "dosageType": "口服錠劑",
+      "category": "抗生素",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AB47516100",
+          "brandName": "Cravit 500mg",
+          "nameZh": "可樂必妥",
+          "manufacturer": "第一三共"
+        }
+      ]
+    },
+    {
+      "groupKey": "Azithromycin_口服錠劑",
+      "ingredient": "Azithromycin 250mg",
+      "dosageType": "口服錠劑",
+      "category": "抗生素",
+      "count": 3,
+      "brands": [
+        {
+          "nhiCode": "BC23257100",
+          "brandName": "Zithromax 250mg",
+          "nameZh": "日舒",
+          "manufacturer": "輝瑞"
+        },
+        {
+          "nhiCode": "AC58949100",
+          "brandName": "Aziciin 250mg",
+          "nameZh": "侒舒芯亞",
+          "manufacturer": "中化"
+        },
+        {
+          "nhiCode": "AC57842100",
+          "brandName": "Zirocin 250mg",
+          "nameZh": "美妥欣",
+          "manufacturer": "南光"
+        }
+      ]
+    },
+    {
+      "groupKey": "Pipemidic acid_口服錠劑",
+      "ingredient": "Pipemidic acid 250mg",
+      "dosageType": "口服錠劑",
+      "category": "抗生素",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC24490100",
+          "brandName": "Piperan 250mg",
+          "nameZh": "平利腎",
+          "manufacturer": "優生"
+        }
+      ]
+    },
+    {
+      "groupKey": "Amoxicillin_外用乳膏",
+      "ingredient": "Amoxicillin 875mg+Clavulanic acid 125mg",
+      "dosageType": "外用乳膏",
+      "category": "抗生素",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "BC22612100",
+          "brandName": "Augmentin 1000mg",
+          "nameZh": "安滅菌",
+          "manufacturer": "葛蘭素"
+        }
+      ]
+    },
+    {
+      "groupKey": "Sulfamethoxazole_口服錠劑",
+      "ingredient": "Sulfamethoxazole 400mg+Trimethoprim 80mg",
+      "dosageType": "口服錠劑",
+      "category": "抗生素",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC049191G0",
+          "brandName": "Baktar 400mg",
+          "nameZh": "撲菌特",
+          "manufacturer": "鹽野義"
+        }
+      ]
+    },
+    {
+      "groupKey": "Amoxicillin_口服液劑",
+      "ingredient": "Amoxicillin 25mg/ml",
+      "dosageType": "口服液劑",
+      "category": "抗生素",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "BC18433114",
+          "brandName": "Augmentin 156mg/5ml",
+          "nameZh": "安滅菌懸浮液",
+          "manufacturer": "葛蘭素"
+        }
+      ]
+    },
+    {
+      "groupKey": "Azithromycin_口服液劑",
+      "ingredient": "Azithromycin 40mg",
+      "dosageType": "口服液劑",
+      "category": "抗生素",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "BC21830180",
+          "brandName": "Zithromax 600mg/15ML",
+          "nameZh": "日舒懸浮液",
+          "manufacturer": "輝瑞"
+        }
+      ]
+    },
+    {
+      "groupKey": "Acyclovir_口服錠劑",
+      "ingredient": "Acyclovir 400mg",
+      "dosageType": "口服錠劑",
+      "category": "抗病毒藥",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC39315100",
+          "brandName": "Acylete 400mg",
+          "nameZh": "敵皰",
+          "manufacturer": "中化"
+        }
+      ]
+    },
+    {
+      "groupKey": "Valaciclovir_口服錠劑",
+      "ingredient": "Valaciclovir 500mg",
+      "dosageType": "口服錠劑",
+      "category": "抗病毒藥",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC49858100",
+          "brandName": "Vacyless 500mg",
+          "nameZh": "疱易剋",
+          "manufacturer": "永信"
+        }
+      ]
+    },
+    {
+      "groupKey": "Oseltamivir_口服錠劑",
+      "ingredient": "Oseltamivir 75mg",
+      "dosageType": "口服錠劑",
+      "category": "抗病毒藥",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "A059653100",
+          "brandName": "Eraflu 75mg",
+          "nameZh": "易剋冒",
+          "manufacturer": "永信"
+        },
+        {
+          "nhiCode": "B025285100",
+          "brandName": "Oselta-Ful 75mg",
+          "nameZh": "流感苾靈",
+          "manufacturer": "中化"
+        }
+      ]
+    },
+    {
+      "groupKey": "Tetracycline_眼用液劑",
+      "ingredient": "Tetracycline 10mg/gm",
+      "dosageType": "眼用液劑",
+      "category": "眼藥水耳滴",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC52555421",
+          "brandName": "Tetracycline 5g",
+          "nameZh": "鹽酸四環素(紅)",
+          "manufacturer": "溫士頓"
+        },
+        {
+          "nhiCode": "AC58129421",
+          "brandName": "Tetracycline 5g",
+          "nameZh": "鹽酸四環素(藍)",
+          "manufacturer": "人人"
+        }
+      ]
+    },
+    {
+      "groupKey": "Betamethasone._眼用液劑",
+      "ingredient": "Betamethasone. 2 mg +Neomycin Sulfate 5 mg",
+      "dosageType": "眼用液劑",
+      "category": "眼藥水耳滴",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC10478416",
+          "brandName": "Eye Betason-N 3g",
+          "nameZh": "比達爽3G",
+          "manufacturer": "溫士頓"
+        }
+      ]
+    },
+    {
+      "groupKey": "Dexamethasone phosphate sodium_眼用液劑",
+      "ingredient": "Dexamethasone phosphate sodium 1mg/ml/ Neomycin 5ml",
+      "dosageType": "眼用液劑",
+      "category": "眼藥水耳滴",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC19915421",
+          "brandName": "Delone 5ml",
+          "nameZh": "滴朗 5ml",
+          "manufacturer": "杏輝"
+        }
+      ]
+    },
+    {
+      "groupKey": "Fluorometholone_眼用液劑",
+      "ingredient": "Fluorometholone 1mg/ml",
+      "dosageType": "眼用液劑",
+      "category": "眼藥水耳滴",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC44167421",
+          "brandName": "Foxone 0.1% 5ml",
+          "nameZh": "好視多 5ml (粉紅)",
+          "manufacturer": "溫士頓"
+        },
+        {
+          "nhiCode": "AC45145421",
+          "brandName": "Foxone 0.02% 5ml",
+          "nameZh": "好視多 5ml (黃)",
+          "manufacturer": "溫士頓"
+        }
+      ]
+    },
+    {
+      "groupKey": "Sulfamethoxazole_眼用液劑",
+      "ingredient": "Sulfamethoxazole 40mg/ml",
+      "dosageType": "眼用液劑",
+      "category": "眼藥水耳滴",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC45960435",
+          "brandName": "Sinomin 15ml",
+          "nameZh": "止膿敏 15ml",
+          "manufacturer": "杏輝"
+        }
+      ]
+    },
+    {
+      "groupKey": "Levofloxacin_眼用液劑",
+      "ingredient": "Levofloxacin 5mg/ml",
+      "dosageType": "眼用液劑",
+      "category": "眼藥水耳滴",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "BC24398421",
+          "brandName": "Cravit 5ml",
+          "nameZh": "可樂必妥 5ml",
+          "manufacturer": "參天"
+        }
+      ]
+    },
+    {
+      "groupKey": "Neostigmine_眼用液劑",
+      "ingredient": "Neostigmine 0.1mg/ml",
+      "dosageType": "眼用液劑",
+      "category": "眼藥水耳滴",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC29343429",
+          "brandName": "Neostigmine 10ml",
+          "nameZh": "新斯狄明 10ml",
+          "manufacturer": "鹽野義"
+        }
+      ]
+    },
+    {
+      "groupKey": "Cyanocpbalamin_眼用液劑",
+      "ingredient": "Cyanocpbalamin 0.2mg/ml",
+      "dosageType": "眼用液劑",
+      "category": "眼藥水耳滴",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "B00193421",
+          "brandName": "Sancoba",
+          "nameZh": "散克巴",
+          "manufacturer": "參天"
+        }
+      ]
+    },
+    {
+      "groupKey": "Pirenoxine_眼用液劑",
+      "ingredient": "Pirenoxine",
+      "dosageType": "眼用液劑",
+      "category": "眼藥水耳滴",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "BC21628421",
+          "brandName": "Kary Uni",
+          "nameZh": "柯寧優尼",
+          "manufacturer": "參天"
+        }
+      ]
+    },
+    {
+      "groupKey": "Sodium Chloride_眼用液劑",
+      "ingredient": "Sodium Chloride 3.2mg +Potassium Chloride 1.4mg+Sodium Biphosphate 0.4mg",
+      "dosageType": "眼用液劑",
+      "category": "眼藥水耳滴",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "A022473429",
+          "brandName": "Patear 10ml",
+          "nameZh": "派滴兒",
+          "manufacturer": "派頓"
+        }
+      ]
+    },
+    {
+      "groupKey": "Timolol_眼用液劑",
+      "ingredient": "Timolol 5 mg/ml",
+      "dosageType": "眼用液劑",
+      "category": "眼藥水耳滴",
+      "count": 3,
+      "brands": [
+        {
+          "nhiCode": "AC48195421",
+          "brandName": "Timolol 0.25% 2.5mg/ml",
+          "nameZh": "克壓5ml",
+          "manufacturer": "麥迪森"
+        },
+        {
+          "nhiCode": "BC19259421",
+          "brandName": "Timolol 0.5% 5ml",
+          "nameZh": "青眼露 (5ml)",
+          "manufacturer": "參天"
+        },
+        {
+          "nhiCode": "BC21545414",
+          "brandName": "Timolol 0.5% XE",
+          "nameZh": "青眼露長效 (5ml)",
+          "manufacturer": "參天"
+        }
+      ]
+    },
+    {
+      "groupKey": "Bimatoprost_眼用液劑",
+      "ingredient": "Bimatoprost 0.3mg/ml",
+      "dosageType": "眼用液劑",
+      "category": "眼藥水耳滴",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "BC262604CR",
+          "brandName": "Lumigan PF 0.03%",
+          "nameZh": "露明目(30支)",
+          "manufacturer": "愛力根"
+        },
+        {
+          "nhiCode": "BC25294416",
+          "brandName": "Lumigan 0.01% 3ml",
+          "nameZh": "露明目3ml",
+          "manufacturer": "愛力根"
+        }
+      ]
+    },
+    {
+      "groupKey": "Brinzolamide_眼用液劑",
+      "ingredient": "Brinzolamide 1.5mg/ml",
+      "dosageType": "眼用液劑",
+      "category": "眼藥水耳滴",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "BC23695421",
+          "brandName": "Alphagan -P 0.15% 5ml",
+          "nameZh": "艾弗目",
+          "manufacturer": "愛力根"
+        },
+        {
+          "nhiCode": "BC26946421",
+          "brandName": "Simbrinza",
+          "nameZh": "勝克壓",
+          "manufacturer": "愛爾康/諾華"
+        }
+      ]
+    },
+    {
+      "groupKey": "Travoprost_眼用液劑",
+      "ingredient": "Travoprost 0.04mg/ml +Timolol 5 mg",
+      "dosageType": "眼用液劑",
+      "category": "眼藥水耳滴",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "BC24766414",
+          "brandName": "Duotrav 2.5ml",
+          "nameZh": "舒壓坦(復方)",
+          "manufacturer": "愛爾康/諾華"
+        }
+      ]
+    },
+    {
+      "groupKey": "Brinzolamide HCl_眼用液劑",
+      "ingredient": "Brinzolamide HCl 2 mg/ml +Timolol 6.8 mg/ml",
+      "dosageType": "眼用液劑",
+      "category": "眼藥水耳滴",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "BC24294421",
+          "brandName": "Combiganml 5ml",
+          "nameZh": "康皕庚",
+          "manufacturer": "愛力根"
+        },
+        {
+          "nhiCode": "BC25115421",
+          "brandName": "Azarga",
+          "nameZh": "愛舒壓",
+          "manufacturer": "愛爾康/諾華"
+        }
+      ]
+    },
+    {
+      "groupKey": "Dorzolamide HCl_眼用液劑",
+      "ingredient": "Dorzolamide HCl 20mg +Timolol Maleate 5mg",
+      "dosageType": "眼用液劑",
+      "category": "眼藥水耳滴",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "BC23337421",
+          "brandName": "Cosopt",
+          "nameZh": "康舒目",
+          "manufacturer": "參天"
+        },
+        {
+          "nhiCode": "BC22107421",
+          "brandName": "Trusopt 2% 5ml",
+          "nameZh": "舒露瞳",
+          "manufacturer": "參天"
+        }
+      ]
+    },
+    {
+      "groupKey": "Carteolol_眼用液劑",
+      "ingredient": "Carteolol 20mg/ml",
+      "dosageType": "眼用液劑",
+      "category": "眼藥水耳滴",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "BC24977414",
+          "brandName": "Mikelan LA 2%",
+          "nameZh": "美特朗2.5ml(冰)",
+          "manufacturer": "大塚"
+        }
+      ]
+    },
+    {
+      "groupKey": "Latanoprost_眼用液劑",
+      "ingredient": "Latanoprost 50mcg/ml",
+      "dosageType": "眼用液劑",
+      "category": "眼藥水耳滴",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "BC22540414",
+          "brandName": "Xalatan 2.5ml",
+          "nameZh": "舒而坦2.5ml(冰)",
+          "manufacturer": "暉致"
+        },
+        {
+          "nhiCode": "BC27825414",
+          "brandName": "Vyzulta 0.024% 2.5ml",
+          "nameZh": "凡視達2.5ml(冰)",
+          "manufacturer": "博士倫"
+        }
+      ]
+    },
+    {
+      "groupKey": "Ofloxacin_眼用液劑",
+      "ingredient": "Ofloxacin 3mg/ml",
+      "dosageType": "眼用液劑",
+      "category": "眼藥水耳滴",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC47116421",
+          "brandName": "Earflo 5ml",
+          "nameZh": "耳復欣耳滴劑",
+          "manufacturer": "瑞士"
+        }
+      ]
+    },
+    {
+      "groupKey": "Nystatin_眼用液劑",
+      "ingredient": "Nystatin 100000U+Triamcinolone 1mg+Neomycin 2.5mg+Gramicidin 0.2",
+      "dosageType": "眼用液劑",
+      "category": "眼藥水耳滴",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC59069421",
+          "brandName": "Protectier 5ml",
+          "nameZh": "寶耳康",
+          "manufacturer": "寶齡"
+        }
+      ]
+    },
+    {
+      "groupKey": "Clotrimazole_外用乳膏",
+      "ingredient": "Clotrimazole 10 mg/gm+Betamethasone 0.5mg/g+Gentamicin 1mg/g",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 6,
+      "brands": [
+        {
+          "nhiCode": "AC49652338",
+          "brandName": "Trisec 20gm",
+          "nameZh": "倍克健(20)",
+          "manufacturer": "人人"
+        },
+        {
+          "nhiCode": "AC49652329",
+          "brandName": "Trisec 10gm",
+          "nameZh": "倍克健(10)",
+          "manufacturer": "人人"
+        },
+        {
+          "nhiCode": "AC34128321",
+          "brandName": "Clotrisone 5gm",
+          "nameZh": "樂利康",
+          "manufacturer": "壽元"
+        },
+        {
+          "nhiCode": "A025136329",
+          "brandName": "Mycosten 10gm",
+          "nameZh": "黴克頓(10)",
+          "manufacturer": "杏輝"
+        },
+        {
+          "nhiCode": "A025136321",
+          "brandName": "Mycosten 5gm",
+          "nameZh": "黴克頓(5)",
+          "manufacturer": "杏輝"
+        },
+        {
+          "nhiCode": "AC44241336",
+          "brandName": "DR PI AF 16GM",
+          "nameZh": "皮大夫",
+          "manufacturer": "明德"
+        }
+      ]
+    },
+    {
+      "groupKey": "Nystatin_外用乳膏",
+      "ingredient": "Nystatin 100000U/gm+Triamcinolone 1mg/gm+Neomycin 2.5mg/gm+Gramicidin 0.25mg/gm",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 4,
+      "brands": [
+        {
+          "nhiCode": "AC21924323",
+          "brandName": "My comb 6gm",
+          "nameZh": "美康(6)",
+          "manufacturer": "杏輝"
+        },
+        {
+          "nhiCode": "AC21924329",
+          "brandName": "My comb 10gm",
+          "nameZh": "美康(10)",
+          "manufacturer": "杏輝"
+        },
+        {
+          "nhiCode": "AC21924336",
+          "brandName": "My comb 16gm",
+          "nameZh": "美康(16)",
+          "manufacturer": "杏輝"
+        },
+        {
+          "nhiCode": "AC21924338",
+          "brandName": "My comb 20gm",
+          "nameZh": "美康(20)",
+          "manufacturer": "杏輝"
+        }
+      ]
+    },
+    {
+      "groupKey": "Gentamicin_外用乳膏",
+      "ingredient": "Gentamicin 1mg",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC34124335",
+          "brandName": "Gentamycin 15gm",
+          "nameZh": "紫菌素(15)",
+          "manufacturer": "杏輝"
+        },
+        {
+          "nhiCode": "AC34124321",
+          "brandName": "Gentamycin 5gm",
+          "nameZh": "紫菌素(5)",
+          "manufacturer": "杏輝"
+        }
+      ]
+    },
+    {
+      "groupKey": "Fusidic acid_口服錠劑",
+      "ingredient": "Fusidic acid 20mg",
+      "dosageType": "口服錠劑",
+      "category": "藥膏水劑貼布",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC49339321",
+          "brandName": "Fusidic acid 5mg",
+          "nameZh": "褐黴素(5)",
+          "manufacturer": "杏輝"
+        },
+        {
+          "nhiCode": "AC49339338",
+          "brandName": "Fusidic acid 20mg",
+          "nameZh": "褐黴素(20)",
+          "manufacturer": "杏輝"
+        }
+      ]
+    },
+    {
+      "groupKey": "Fusidic acid_外用乳膏",
+      "ingredient": "Fusidic acid 20mg",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC59711321",
+          "brandName": "Fusidine 5gm",
+          "nameZh": "膚喜定(5)",
+          "manufacturer": "中生"
+        }
+      ]
+    },
+    {
+      "groupKey": "Ketoconazole cream_外用乳膏",
+      "ingredient": "Ketoconazole cream 2% 20gm",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC35183329",
+          "brandName": "ketoconazole 10gm",
+          "nameZh": "必克多黴",
+          "manufacturer": "杏輝"
+        }
+      ]
+    },
+    {
+      "groupKey": "Sertaconazole_外用乳膏",
+      "ingredient": "Sertaconazole 20gm",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AB43847335",
+          "brandName": "Zalain 2% 15gm",
+          "nameZh": "達來",
+          "manufacturer": "科進"
+        }
+      ]
+    },
+    {
+      "groupKey": "Econazole_外用乳膏",
+      "ingredient": "Econazole 10mg/gm +Triamcinolone 1mg/gm",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC25567329",
+          "brandName": "Econalone 10gm",
+          "nameZh": "欲克黴",
+          "manufacturer": "杏輝"
+        },
+        {
+          "nhiCode": "AC25717321",
+          "brandName": "Econol-T 5gm",
+          "nameZh": "炎可治",
+          "manufacturer": "人人"
+        }
+      ]
+    },
+    {
+      "groupKey": "Nadtifine_外用乳膏",
+      "ingredient": "Nadtifine 10gm",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC48039329",
+          "brandName": "Naddin 10gm",
+          "nameZh": "妮膚婷",
+          "manufacturer": "壽元"
+        }
+      ]
+    },
+    {
+      "groupKey": "Butenafine_外用乳膏",
+      "ingredient": "Butenafine 10mg/gm",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC44012335",
+          "brandName": "Mentax 1% 15gm",
+          "nameZh": "黴可舒",
+          "manufacturer": "杏輝"
+        },
+        {
+          "nhiCode": "AC48032335",
+          "brandName": "Ankorme 15gm",
+          "nameZh": "安可黴",
+          "manufacturer": "十全"
+        }
+      ]
+    },
+    {
+      "groupKey": "Betamethasone_外用乳膏",
+      "ingredient": "Betamethasone 1mg/g+Gentamicin 1mg/g",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 3,
+      "brands": [
+        {
+          "nhiCode": "A032419329",
+          "brandName": "Sinbeta 10gm",
+          "nameZh": "杏貝他健",
+          "manufacturer": "杏輝"
+        },
+        {
+          "nhiCode": "AC19616329",
+          "brandName": "Bentamethasone 10gm",
+          "nameZh": "貝他美松(10)",
+          "manufacturer": "杏輝"
+        },
+        {
+          "nhiCode": "AB31086329",
+          "brandName": "Septon 10g",
+          "nameZh": "舒膚通(水劑)",
+          "manufacturer": "鹽野義"
+        }
+      ]
+    },
+    {
+      "groupKey": "Betamethasone_口服錠劑",
+      "ingredient": "Betamethasone 0.5mg/g+Neomycon 3.5 mg/g",
+      "dosageType": "口服錠劑",
+      "category": "藥膏水劑貼布",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "A004973321",
+          "brandName": "Rinderon-VA 0.06%",
+          "nameZh": "臨得隆",
+          "manufacturer": "鹽野義"
+        }
+      ]
+    },
+    {
+      "groupKey": "Sulconazole_外用乳膏",
+      "ingredient": "Sulconazole 10mg/gm",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC29789329",
+          "brandName": "Exelderm 10gm",
+          "nameZh": "優足達",
+          "manufacturer": "田邊"
+        },
+        {
+          "nhiCode": "AC29790329",
+          "brandName": "Exelderm 10ml",
+          "nameZh": "優足達(水劑)",
+          "manufacturer": "田邊"
+        }
+      ]
+    },
+    {
+      "groupKey": "Clobetasol_外用乳膏",
+      "ingredient": "Clobetasol 0.5mg/gm",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 3,
+      "brands": [
+        {
+          "nhiCode": "AC46998340",
+          "brandName": "Genuvate 25gm",
+          "nameZh": "傑寧膚",
+          "manufacturer": "人人"
+        },
+        {
+          "nhiCode": "AC36315324",
+          "brandName": "Clobetasol 7gm",
+          "nameZh": "可立舒(5)(清涼)",
+          "manufacturer": "杏輝"
+        },
+        {
+          "nhiCode": "AC36315329",
+          "brandName": "Clobetasol 10gm",
+          "nameZh": "可立舒(10)(清涼)",
+          "manufacturer": "杏輝"
+        }
+      ]
+    },
+    {
+      "groupKey": "Fluocinonide_外用乳膏",
+      "ingredient": "Fluocinonide 0.5mg/gm",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 3,
+      "brands": [
+        {
+          "nhiCode": "AC18063321",
+          "brandName": "Topsym 5gm",
+          "nameZh": "妥膚淨(5)",
+          "manufacturer": "田邊"
+        },
+        {
+          "nhiCode": "AC18063329",
+          "brandName": "Topsym 10gm",
+          "nameZh": "妥膚淨(10)",
+          "manufacturer": "田邊"
+        },
+        {
+          "nhiCode": "AC18083338",
+          "brandName": "Topsym 20gm",
+          "nameZh": "妥膚淨(20)",
+          "manufacturer": "田邊"
+        }
+      ]
+    },
+    {
+      "groupKey": "Fluticasone_外用乳膏",
+      "ingredient": "Fluticasone 0.5mg",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC48505321",
+          "brandName": "Fluticosone 5gm",
+          "nameZh": "全佳膚",
+          "manufacturer": "十全"
+        }
+      ]
+    },
+    {
+      "groupKey": "Hydrocortisone_外用乳膏",
+      "ingredient": "Hydrocortisone 10mg/gm",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "A035883329",
+          "brandName": "Hydrocortisone 10gm",
+          "nameZh": "吉舒",
+          "manufacturer": "杏輝"
+        }
+      ]
+    },
+    {
+      "groupKey": "Mometasone_外用乳膏",
+      "ingredient": "Mometasone 1mg/gm",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC48391321",
+          "brandName": "Metsone 0.1% 5gm",
+          "nameZh": "頓安膚",
+          "manufacturer": "杏輝"
+        },
+        {
+          "nhiCode": "AC47625326",
+          "brandName": "Momesone 0.1% 8gm",
+          "nameZh": "喜膚能",
+          "manufacturer": "寶齡富錦"
+        }
+      ]
+    },
+    {
+      "groupKey": "Doxepin_外用乳膏",
+      "ingredient": "Doxepin 50mg/gm",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC45915335",
+          "brandName": "Antidoxe 15gm",
+          "nameZh": "逗喜",
+          "manufacturer": "十全"
+        }
+      ]
+    },
+    {
+      "groupKey": "Clindamycin_外用乳膏",
+      "ingredient": "Clindamycin 10mg/gm",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC37622323",
+          "brandName": "Dermalean 6gm",
+          "nameZh": "樂淨(6)",
+          "manufacturer": "寶齡富錦"
+        },
+        {
+          "nhiCode": "AC37622329",
+          "brandName": "Dermalean 10gm",
+          "nameZh": "樂淨(10)",
+          "manufacturer": "寶齡富錦"
+        }
+      ]
+    },
+    {
+      "groupKey": "Sulfadiazine_外用乳膏",
+      "ingredient": "Sulfadiazine 10mg/gm",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC32571338",
+          "brandName": "Siliverzine 20g",
+          "nameZh": "燙膚舒(20g)",
+          "manufacturer": "杏輝"
+        },
+        {
+          "nhiCode": "AC26128348",
+          "brandName": "Sulfasil 50g",
+          "nameZh": "灼膚星(50g)",
+          "manufacturer": "榮民"
+        }
+      ]
+    },
+    {
+      "groupKey": "Triamcinolone_外用乳膏",
+      "ingredient": "Triamcinolone 1mg/gm",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AB33541423",
+          "brandName": "Oralog 6gm",
+          "nameZh": "口潰舒",
+          "manufacturer": "瑞安"
+        }
+      ]
+    },
+    {
+      "groupKey": "Dexamethasone_外用乳膏",
+      "ingredient": "Dexamethasone 1mg/gm",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 3,
+      "brands": [
+        {
+          "nhiCode": "AC45183421",
+          "brandName": "Zinc 0.1% 5gm",
+          "nameZh": "親平(5)",
+          "manufacturer": "中生"
+        },
+        {
+          "nhiCode": "AC45183412",
+          "brandName": "Zinc 0.1% 2gm",
+          "nameZh": "親平(2)",
+          "manufacturer": "中生"
+        },
+        {
+          "nhiCode": "AC42271421",
+          "brandName": "Dexa 0.1% 5gm",
+          "nameZh": "得舒",
+          "manufacturer": "杏輝"
+        }
+      ]
+    },
+    {
+      "groupKey": "Betamethasone_口服液劑",
+      "ingredient": "Betamethasone 1mg/ml",
+      "dosageType": "口服液劑",
+      "category": "藥膏水劑貼布",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC30465340",
+          "brandName": "Episone 25ml",
+          "nameZh": "怡皮爽(水劑)",
+          "manufacturer": "寶齡富錦"
+        },
+        {
+          "nhiCode": "AC42798338",
+          "brandName": "Benovate 1mg/ml",
+          "nameZh": "貝若菲液",
+          "manufacturer": "美西"
+        }
+      ]
+    },
+    {
+      "groupKey": "Fluocinonide_外用凝膠",
+      "ingredient": "Fluocinonide 0.5mg/gm",
+      "dosageType": "外用凝膠",
+      "category": "藥膏水劑貼布",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC29739329",
+          "brandName": "Topsym Lotion",
+          "nameZh": "妥膚淨(洗劑)",
+          "manufacturer": "田邊"
+        }
+      ]
+    },
+    {
+      "groupKey": "Flurbiprofen_外用貼布",
+      "ingredient": "Flurbiprofen 40mg",
+      "dosageType": "外用貼布",
+      "category": "藥膏水劑貼布",
+      "count": 3,
+      "brands": [
+        {
+          "nhiCode": "AC40358345",
+          "brandName": "FLUR DI FEN",
+          "nameZh": "富帝芬",
+          "manufacturer": "得生"
+        },
+        {
+          "nhiCode": "AC43493345",
+          "brandName": "FLURBI",
+          "nameZh": "菲比",
+          "manufacturer": "德山"
+        },
+        {
+          "nhiCode": "AC46451345",
+          "brandName": "DISPAIN",
+          "nameZh": "祛痛貼",
+          "manufacturer": "得生"
+        }
+      ]
+    },
+    {
+      "groupKey": "Diclofenac Sodium_外用凝膠",
+      "ingredient": "Diclofenac Sodium 10mg/gm",
+      "dosageType": "外用凝膠",
+      "category": "藥膏水劑貼布",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "A039349345",
+          "brandName": "Voren -G-gel 40mg",
+          "nameZh": "非炎",
+          "manufacturer": "永信"
+        }
+      ]
+    },
+    {
+      "groupKey": "Piroxicam_外用乳膏",
+      "ingredient": "Piroxicam 10mg",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC43214325",
+          "brandName": "Focus 40mg",
+          "nameZh": "伏加斯",
+          "manufacturer": "永信"
+        },
+        {
+          "nhiCode": "AC39429345",
+          "brandName": "Toricam 40mg",
+          "nameZh": "完疲",
+          "manufacturer": "五洲"
+        }
+      ]
+    },
+    {
+      "groupKey": "Etofenamate_外用乳膏",
+      "ingredient": "Etofenamate 100mg",
+      "dosageType": "外用乳膏",
+      "category": "藥膏水劑貼布",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AA36015345",
+          "brandName": "Teiria",
+          "nameZh": "思舒",
+          "manufacturer": "五洲"
+        }
+      ]
+    },
+    {
+      "groupKey": "Ambroxol_口服錠劑",
+      "ingredient": "Ambroxol 30mg",
+      "dosageType": "口服錠劑",
+      "category": "感冒藥",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AB318961G0",
+          "brandName": "Musco 30mg",
+          "nameZh": "美舒咳",
+          "manufacturer": "生達"
+        },
+        {
+          "nhiCode": "AC463861G0",
+          "brandName": "Loxol SR 75 mg",
+          "nameZh": "樂咳痰",
+          "manufacturer": "健亞"
+        }
+      ]
+    },
+    {
+      "groupKey": "Carbocysteine_口服錠劑",
+      "ingredient": "Carbocysteine 375mg",
+      "dosageType": "口服錠劑",
+      "category": "感冒藥",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "A028142100",
+          "brandName": "Kasteine 375mg",
+          "nameZh": "痰可出",
+          "manufacturer": "永信"
+        }
+      ]
+    },
+    {
+      "groupKey": "Bromhexine_口服錠劑",
+      "ingredient": "Bromhexine 8mg",
+      "dosageType": "口服錠劑",
+      "category": "感冒藥",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "A009038100",
+          "brandName": "Bisco 8mg",
+          "nameZh": "必舒咳",
+          "manufacturer": "生達"
+        }
+      ]
+    },
+    {
+      "groupKey": "Acetylcysteine_外用乳膏",
+      "ingredient": "Acetylcysteine 40mg/gm",
+      "dosageType": "外用乳膏",
+      "category": "感冒藥",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "A032323121",
+          "brandName": "Actein 40mg",
+          "nameZh": "愛克痰(小鳥藥)(紅)",
+          "manufacturer": "健喬信元"
+        },
+        {
+          "nhiCode": "A037598116",
+          "brandName": "Actein 66.7mg",
+          "nameZh": "愛克痰(小鳥藥)(綠)",
+          "manufacturer": "健喬信元"
+        }
+      ]
+    },
+    {
+      "groupKey": "Acetylcysteine_口服錠劑",
+      "ingredient": "Acetylcysteine 600mg",
+      "dosageType": "口服錠劑",
+      "category": "感冒藥",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC59040111",
+          "brandName": "Actein 600mg",
+          "nameZh": "愛克痰 顆粒",
+          "manufacturer": "健喬信元"
+        },
+        {
+          "nhiCode": "AB45993100",
+          "brandName": "Actein 600mg",
+          "nameZh": "愛克痰發泡錠(泡水)",
+          "manufacturer": "健喬信元"
+        }
+      ]
+    },
+    {
+      "groupKey": "Dextromethophan_口服錠劑",
+      "ingredient": "Dextromethophan 60mg",
+      "dosageType": "口服錠劑",
+      "category": "感冒藥",
+      "count": 6,
+      "brands": [
+        {
+          "nhiCode": "AC426871G0",
+          "brandName": "Regrow 60mg",
+          "nameZh": "愛舒可羅",
+          "manufacturer": "東生華"
+        },
+        {
+          "nhiCode": "AC217581G0",
+          "brandName": "Medicon-A 20mg",
+          "nameZh": "滅咳康",
+          "manufacturer": "鹽野義"
+        },
+        {
+          "nhiCode": "AB33544100",
+          "brandName": "Mephan 30mg",
+          "nameZh": "癒咳",
+          "manufacturer": "瑞安"
+        },
+        {
+          "nhiCode": "AC275981G0",
+          "brandName": "Fucou",
+          "nameZh": "去咳",
+          "manufacturer": "華興"
+        },
+        {
+          "nhiCode": "AC33962100",
+          "brandName": "Cotazym",
+          "nameZh": "咳炎淨",
+          "manufacturer": "永信"
+        },
+        {
+          "nhiCode": "AC388191G0",
+          "brandName": "Romicon-A",
+          "nameZh": "樂滅咳",
+          "manufacturer": "健喬信元"
+        }
+      ]
+    },
+    {
+      "groupKey": "Noscapine_口服錠劑",
+      "ingredient": "Noscapine 20mg",
+      "dosageType": "口服錠劑",
+      "category": "感冒藥",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "A046273100",
+          "brandName": "Korfan 20mg",
+          "nameZh": "咳緩",
+          "manufacturer": "台裕"
+        }
+      ]
+    },
+    {
+      "groupKey": "Dimemorfan_口服錠劑",
+      "ingredient": "Dimemorfan 10mg",
+      "dosageType": "口服錠劑",
+      "category": "感冒藥",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AB44510100",
+          "brandName": "Eufan 10mg",
+          "nameZh": "優喉",
+          "manufacturer": "生達"
+        }
+      ]
+    },
+    {
+      "groupKey": "Chlorpheniramine_口服錠劑",
+      "ingredient": "Chlorpheniramine 2.1mg +Methylephrone 10mg+Caffeine 30mg +Ascorbic acid 21mg +Thiamine 4.5mg +Riboflavin 4mg",
+      "dosageType": "口服錠劑",
+      "category": "感冒藥",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "A029226100",
+          "brandName": "Fucole Cold",
+          "nameZh": "永克風",
+          "manufacturer": "永信"
+        }
+      ]
+    },
+    {
+      "groupKey": "Acetaminophen_口服錠劑",
+      "ingredient": "Acetaminophen 500mg",
+      "dosageType": "口服錠劑",
+      "category": "感冒藥",
+      "count": 3,
+      "brands": [
+        {
+          "nhiCode": "A032320100",
+          "brandName": "Acetal 500mg",
+          "nameZh": "愛舒疼",
+          "manufacturer": "瑞安"
+        },
+        {
+          "nhiCode": "A034819100",
+          "brandName": "Anliton 500mg",
+          "nameZh": "安離痛",
+          "manufacturer": "永勝"
+        },
+        {
+          "nhiCode": "A037249100",
+          "brandName": "Anliton  Extra",
+          "nameZh": "安離痛加強",
+          "manufacturer": "永勝"
+        }
+      ]
+    },
+    {
+      "groupKey": "Ibuprofen_口服錠劑",
+      "ingredient": "Ibuprofen 400mg",
+      "dosageType": "口服錠劑",
+      "category": "感冒藥",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC30466100",
+          "brandName": "Ibuprofen 400mg",
+          "nameZh": "伊普",
+          "manufacturer": "永信"
+        },
+        {
+          "nhiCode": "AC48520100",
+          "brandName": "Ipu film",
+          "nameZh": "依普炎",
+          "manufacturer": "井田"
+        }
+      ]
+    },
+    {
+      "groupKey": "Diclofenac Sodium_口服錠劑",
+      "ingredient": "Diclofenac Sodium 25mg",
+      "dosageType": "口服錠劑",
+      "category": "感冒藥",
+      "count": 4,
+      "brands": [
+        {
+          "nhiCode": "AB20333100",
+          "brandName": "Voren 25mg",
+          "nameZh": "非炎腸溶(25)",
+          "manufacturer": "永信"
+        },
+        {
+          "nhiCode": "AB25524100",
+          "brandName": "Voren 50mg",
+          "nameZh": "非炎腸溶(50)",
+          "manufacturer": "永信"
+        },
+        {
+          "nhiCode": "AB336991G0",
+          "brandName": "Voren  MR 50mg",
+          "nameZh": "非炎腸溶微粒(50)",
+          "manufacturer": "永信"
+        },
+        {
+          "nhiCode": "AB38019100",
+          "brandName": "Voren  SR 100mg",
+          "nameZh": "非炎腸溶100)",
+          "manufacturer": "永信"
+        }
+      ]
+    },
+    {
+      "groupKey": "Diclofenac Potassium_口服錠劑",
+      "ingredient": "Diclofenac Potassium 50mg",
+      "dosageType": "口服錠劑",
+      "category": "感冒藥",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AB444031G0",
+          "brandName": "Voren -K 50mg",
+          "nameZh": "非炎鉀(50)",
+          "manufacturer": "永信"
+        }
+      ]
+    },
+    {
+      "groupKey": "Diclofenac Sodium_塞劑/栓劑",
+      "ingredient": "Diclofenac Sodium 12.5mg",
+      "dosageType": "塞劑/栓劑",
+      "category": "感冒藥",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AB28656500",
+          "brandName": "Voren  Suppositories 12.5mg",
+          "nameZh": "非炎栓劑(12.5)",
+          "manufacturer": "永信"
+        }
+      ]
+    },
+    {
+      "groupKey": "Ketorolac_口服錠劑",
+      "ingredient": "Ketorolac 10mg",
+      "dosageType": "口服錠劑",
+      "category": "感冒藥",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC45965100",
+          "brandName": "Keto 10mg",
+          "nameZh": "克多炎",
+          "manufacturer": "永信"
+        }
+      ]
+    },
+    {
+      "groupKey": "Prednisolone_口服錠劑",
+      "ingredient": "Prednisolone 5mg",
+      "dosageType": "口服錠劑",
+      "category": "感冒藥",
+      "count": 5,
+      "brands": [
+        {
+          "nhiCode": "NC02531100",
+          "brandName": "Donison 5mg",
+          "nameZh": "樂爾爽",
+          "manufacturer": "中化"
+        },
+        {
+          "nhiCode": "AC02359100",
+          "brandName": "Prendisolone 5mg",
+          "nameZh": "去氫羥化腎上腺皮質素錠",
+          "manufacturer": "優生"
+        },
+        {
+          "nhiCode": "AC065431G0",
+          "brandName": "Prendisolone 5mg",
+          "nameZh": "普列到寧",
+          "manufacturer": "成大"
+        },
+        {
+          "nhiCode": "AC316761G0",
+          "brandName": "Compesolon 5mg",
+          "nameZh": "康速龍",
+          "manufacturer": "柏理"
+        },
+        {
+          "nhiCode": "NB007111G0",
+          "brandName": "Predonine 5mg",
+          "nameZh": "普力多寧",
+          "manufacturer": "鹽野義"
+        }
+      ]
+    },
+    {
+      "groupKey": "Methylprendisolone_口服錠劑",
+      "ingredient": "Methylprendisolone 4mg",
+      "dosageType": "口服錠劑",
+      "category": "感冒藥",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC45923100",
+          "brandName": "Meticort 4mg",
+          "nameZh": "美蒂舒",
+          "manufacturer": "健喬"
+        }
+      ]
+    },
+    {
+      "groupKey": "Dexamethasone_口服錠劑",
+      "ingredient": "Dexamethasone 0.75 mg",
+      "dosageType": "口服錠劑",
+      "category": "感冒藥",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC10168100",
+          "brandName": "Decan",
+          "nameZh": "特佳",
+          "manufacturer": "永信"
+        }
+      ]
+    },
+    {
+      "groupKey": "Acetaminophen_口服液劑",
+      "ingredient": "Acetaminophen 24mg/ml",
+      "dosageType": "口服液劑",
+      "category": "感冒藥",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "A040164151",
+          "brandName": "Anti-phen 60ml",
+          "nameZh": "安佳熱",
+          "manufacturer": "晟德"
+        }
+      ]
+    },
+    {
+      "groupKey": "Ibuprofen_口服液劑",
+      "ingredient": "Ibuprofen 20mg/ml",
+      "dosageType": "口服液劑",
+      "category": "感冒藥",
+      "count": 3,
+      "brands": [
+        {
+          "nhiCode": "AC43152151",
+          "brandName": "Ibuprofen 60ml",
+          "nameZh": "依普芬(草莓)",
+          "manufacturer": "晟德"
+        },
+        {
+          "nhiCode": "AC45251151",
+          "brandName": "Scoton 60ml",
+          "nameZh": "速克痛",
+          "manufacturer": "寶齡"
+        },
+        {
+          "nhiCode": "AB45438151",
+          "brandName": "Idofen 60ml",
+          "nameZh": "舒抑痛",
+          "manufacturer": "生達"
+        }
+      ]
+    },
+    {
+      "groupKey": "Dextromethophan_口服液劑",
+      "ingredient": "Dextromethophan 1mg/ml+Chlorpheniramine 0.2mg/ml +Phenylephedrine 1mg/ml +Guaiacol Glycolate 5mg/ml",
+      "dosageType": "口服液劑",
+      "category": "感冒藥",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "A029634151",
+          "brandName": "Nocough syrup  60ml",
+          "nameZh": "安咳糖漿",
+          "manufacturer": "杏輝"
+        },
+        {
+          "nhiCode": "AC40706157",
+          "brandName": "Sortuss 120ml",
+          "nameZh": "息咳液",
+          "manufacturer": "晟德"
+        }
+      ]
+    },
+    {
+      "groupKey": "Cyproheptadine_口服液劑",
+      "ingredient": "Cyproheptadine 0.4mg/ml",
+      "dosageType": "口服液劑",
+      "category": "感冒藥",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC43588151",
+          "brandName": "Cypromin 60ml",
+          "nameZh": "希普利敏(香蕉)",
+          "manufacturer": "晟德"
+        },
+        {
+          "nhiCode": "AC49029151",
+          "brandName": "Antimin 60ml",
+          "nameZh": "克敏息",
+          "manufacturer": "寶齡"
+        }
+      ]
+    },
+    {
+      "groupKey": "Guaiacol Glycolate_口服液劑",
+      "ingredient": "Guaiacol Glycolate 20mg/ml",
+      "dosageType": "口服液劑",
+      "category": "感冒藥",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "A036094157",
+          "brandName": "Guaphen 120ml",
+          "nameZh": "咳酚",
+          "manufacturer": "晟德"
+        }
+      ]
+    },
+    {
+      "groupKey": "Chlorpheniramine_口服液劑",
+      "ingredient": "Chlorpheniramine 0.1mg/ml +Methylephedrine 1mg/ml+Guaiacol Glycolate 5mg/ml",
+      "dosageType": "口服液劑",
+      "category": "感冒藥",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "A040833157",
+          "brandName": "Secorine 120ml",
+          "nameZh": "息咳寧",
+          "manufacturer": "晟德"
+        }
+      ]
+    },
+    {
+      "groupKey": "Ambroxol_口服液劑",
+      "ingredient": "Ambroxol 3mg/ml",
+      "dosageType": "口服液劑",
+      "category": "感冒藥",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC43160151",
+          "brandName": "Soltan 60ml",
+          "nameZh": "舒痰(鳳梨)",
+          "manufacturer": "晟德"
+        }
+      ]
+    },
+    {
+      "groupKey": "Prendisolone_口服液劑",
+      "ingredient": "Prendisolone 1mg/ml",
+      "dosageType": "口服液劑",
+      "category": "感冒藥",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC46614151",
+          "brandName": "Kidsolone 60ml",
+          "nameZh": "必爾生",
+          "manufacturer": "晟德"
+        }
+      ]
+    },
+    {
+      "groupKey": "Triprolidine Hydrochloride_口服液劑",
+      "ingredient": "Triprolidine Hydrochloride 0.25mg. Pseudoephedrine Hydrochloride 6mg",
+      "dosageType": "口服液劑",
+      "category": "感冒藥",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC27144151",
+          "brandName": "Peace syrup 60ml",
+          "nameZh": "鼻福(麻黃素)",
+          "manufacturer": "永信"
+        }
+      ]
+    },
+    {
+      "groupKey": "Theophylline_口服錠劑",
+      "ingredient": "Theophylline 250mg",
+      "dosageType": "口服錠劑",
+      "category": "氣喘治療劑",
+      "count": 5,
+      "brands": [
+        {
+          "nhiCode": "AC444181G0",
+          "brandName": "Theolin SR 250mg",
+          "nameZh": "息寧緩釋錠",
+          "manufacturer": "培力"
+        },
+        {
+          "nhiCode": "AC449241G0",
+          "brandName": "Thoin SR 125 mg",
+          "nameZh": "喘克",
+          "manufacturer": "永勝"
+        },
+        {
+          "nhiCode": "AC455391G0",
+          "brandName": "Nosma 125mg",
+          "nameZh": "漠喘",
+          "manufacturer": "永勝"
+        },
+        {
+          "nhiCode": "BC19567100",
+          "brandName": "Xanthium 400mg",
+          "nameZh": "善寧400",
+          "manufacturer": "天義"
+        },
+        {
+          "nhiCode": "BC196241G0",
+          "brandName": "Xanthium 200mg",
+          "nameZh": "善寧200",
+          "manufacturer": "天義"
+        }
+      ]
+    },
+    {
+      "groupKey": "Triprolidine Hydrochloride_口服錠劑",
+      "ingredient": "Triprolidine Hydrochloride 2.5mg/Pseudoephedrine Hydrochloride 60mg",
+      "dosageType": "口服錠劑",
+      "category": "氣喘治療劑",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC2698410",
+          "brandName": "Peace",
+          "nameZh": "鼻福",
+          "manufacturer": "永信"
+        },
+        {
+          "nhiCode": "A032113100",
+          "brandName": "Tosumin",
+          "nameZh": "得息敏",
+          "manufacturer": "衛達"
+        }
+      ]
+    },
+    {
+      "groupKey": "Chlorpheniramine Maleate_口服錠劑",
+      "ingredient": "Chlorpheniramine Maleate 2mg/Phenylephrine HCl 10mg/Caffeine Anhydrous 30mg",
+      "dosageType": "口服錠劑",
+      "category": "氣喘治療劑",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "A015540100",
+          "brandName": "Norsecon",
+          "nameZh": "鼻康速",
+          "manufacturer": "井田"
+        }
+      ]
+    },
+    {
+      "groupKey": "Fexofenadine HCl_口服錠劑",
+      "ingredient": "Fexofenadine HCl 180mg",
+      "dosageType": "口服錠劑",
+      "category": "氣喘治療劑",
+      "count": 3,
+      "brands": [
+        {
+          "nhiCode": "BC23010100",
+          "brandName": "Allegra 180mg",
+          "nameZh": "艾來(180)",
+          "manufacturer": "大昌華嘉"
+        },
+        {
+          "nhiCode": "BC23016100",
+          "brandName": "Allegra 60mg",
+          "nameZh": "艾來(60)",
+          "manufacturer": "大昌華嘉"
+        },
+        {
+          "nhiCode": "AC571271G0",
+          "brandName": "Fexofenadine 60mg",
+          "nameZh": "飛敏耐",
+          "manufacturer": "中化"
+        }
+      ]
+    },
+    {
+      "groupKey": "Desloratadine_口服錠劑",
+      "ingredient": "Desloratadine 5mg",
+      "dosageType": "口服錠劑",
+      "category": "氣喘治療劑",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC45972100",
+          "brandName": "Denosin 5mg",
+          "nameZh": "停敏",
+          "manufacturer": "美時"
+        },
+        {
+          "nhiCode": "AC51197100",
+          "brandName": "Desora 5mg",
+          "nameZh": "治敏樂",
+          "manufacturer": "優生"
+        }
+      ]
+    },
+    {
+      "groupKey": "Cyproheptadine HCl_口服錠劑",
+      "ingredient": "Cyproheptadine HCl",
+      "dosageType": "口服錠劑",
+      "category": "氣喘治療劑",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC047371G0",
+          "brandName": "Pilian 4mg",
+          "nameZh": "佩你安",
+          "manufacturer": "永信"
+        }
+      ]
+    },
+    {
+      "groupKey": "Cetirizine_口服錠劑",
+      "ingredient": "Cetirizine 10mg",
+      "dosageType": "口服錠劑",
+      "category": "氣喘治療劑",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "AC44710100",
+          "brandName": "Cety 10mg",
+          "nameZh": "協帝",
+          "manufacturer": "永信"
+        }
+      ]
+    },
+    {
+      "groupKey": "Dexchlorpheniramine_口服錠劑",
+      "ingredient": "Dexchlorpheniramine 2mg",
+      "dosageType": "口服錠劑",
+      "category": "氣喘治療劑",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "A027040100",
+          "brandName": "Dex CTM 2mg",
+          "nameZh": "特息敏",
+          "manufacturer": "健喬信元"
+        },
+        {
+          "nhiCode": "A026559100",
+          "brandName": "Delamin 2mg",
+          "nameZh": "力克敏",
+          "manufacturer": "生達"
+        }
+      ]
+    },
+    {
+      "groupKey": "Levocetirizine_口服錠劑",
+      "ingredient": "Levocetirizine 5 mg",
+      "dosageType": "口服錠劑",
+      "category": "氣喘治療劑",
+      "count": 3,
+      "brands": [
+        {
+          "nhiCode": "BC23792100",
+          "brandName": "Xyzal 5mg",
+          "nameZh": "驅異樂",
+          "manufacturer": "GSK"
+        },
+        {
+          "nhiCode": "AC50145100",
+          "brandName": "Xyzine 5mg",
+          "nameZh": "萊欣",
+          "manufacturer": "中化"
+        },
+        {
+          "nhiCode": "AC49833100",
+          "brandName": "Levozine 5mg",
+          "nameZh": "舒敏寧",
+          "manufacturer": "生達"
+        }
+      ]
+    },
+    {
+      "groupKey": "Mequitazine_口服錠劑",
+      "ingredient": "Mequitazine 5mg",
+      "dosageType": "口服錠劑",
+      "category": "氣喘治療劑",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC441151G0",
+          "brandName": "Mequitazine 5mg",
+          "nameZh": "過敏美奎",
+          "manufacturer": "五洲"
+        },
+        {
+          "nhiCode": "AC40979100",
+          "brandName": "Meqazine 5mg",
+          "nameZh": "得敏泰",
+          "manufacturer": "元宙"
+        }
+      ]
+    },
+    {
+      "groupKey": "Buclizine_口服錠劑",
+      "ingredient": "Buclizine 25mg",
+      "dosageType": "口服錠劑",
+      "category": "氣喘治療劑",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "A018559100",
+          "brandName": "Lonzumin 25mg",
+          "nameZh": "普治敏",
+          "manufacturer": "生達"
+        }
+      ]
+    },
+    {
+      "groupKey": "Famotidine_口服錠劑",
+      "ingredient": "Famotidine 20mg",
+      "dosageType": "口服錠劑",
+      "category": "胃腸藥",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC402061G0",
+          "brandName": "Voker 20mg",
+          "nameZh": "非潰",
+          "manufacturer": "永信"
+        },
+        {
+          "nhiCode": "AC577911G0",
+          "brandName": "Famotidine 20mg",
+          "nameZh": "法瑪鎮",
+          "manufacturer": "中化"
+        }
+      ]
+    },
+    {
+      "groupKey": "Lansoprazole_口服錠劑",
+      "ingredient": "Lansoprazole 30mg",
+      "dosageType": "口服錠劑",
+      "category": "胃腸藥",
+      "count": 1,
+      "brands": [
+        {
+          "nhiCode": "BC24273100",
+          "brandName": "Takepron -OD 30mg",
+          "nameZh": "泰克胃通",
+          "manufacturer": "武田"
+        }
+      ]
+    },
+    {
+      "groupKey": "Aspirin_口服錠劑",
+      "ingredient": "Aspirin 100mg",
+      "dosageType": "口服錠劑",
+      "category": "心臟血管",
+      "count": 2,
+      "brands": [
+        {
+          "nhiCode": "AC373441G0",
+          "brandName": "Bokey 100 mg",
+          "nameZh": "伯基",
+          "manufacturer": "永信"
+        },
+        {
+          "nhiCode": "AC436641G0",
+          "brandName": "Espin 100mg",
+          "nameZh": "安心平",
+          "manufacturer": "永勝"
+        }
+      ]
+    }
+  ]
+}

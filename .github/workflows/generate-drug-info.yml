@@ -1,0 +1,32 @@
+name: 自動生成藥品說明
+
+on:
+  workflow_dispatch:  # 手動觸發
+  schedule:
+    - cron: '0 3 * * 2'  # 每週二早上 03:00 UTC（台灣時間 11:00）
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 取出程式碼
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 安裝 Python 套件
+        run: pip install requests
+
+      - name: 生成藥品說明
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/generate_drug_info.py
+
+      - name: 提交更新
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add data/drug_info/ data/drug_db.json data/drug_list.json
+          git diff --staged --quiet || git commit -m "自動生成藥品說明 $(date '+%Y-%m-%d')"
+          git push
